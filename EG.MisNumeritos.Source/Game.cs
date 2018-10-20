@@ -91,7 +91,7 @@ namespace EG.MisNumeritos.Source
 
         private bool IsWinnerMove()
         {
-            return LastMove().getAssertedNumberAndIndex() == Game.NUMBERS_LENGTH;
+            return LastMove().GetAssertedNumberAndIndex() == Game.NUMBERS_LENGTH;
         }
 
         public Move LastMove()
