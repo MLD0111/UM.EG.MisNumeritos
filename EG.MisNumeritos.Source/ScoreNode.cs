@@ -1,23 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-using Android.App;
-using Android.Content;
-using Android.OS;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
-
-namespace EG.MisNumeritos.Source
+﻿namespace EG.MisNumeritos.Source
 {
     public class ScoreNode
     {
         private string key;
         private Score score;
-
-        public ScoreNode() { }
 
         public ScoreNode(string key, Score score)
         {
@@ -35,7 +21,7 @@ namespace EG.MisNumeritos.Source
             this.key = key;
         }
 
-        public Score getScore()
+        public Score GetScore()
         {
             return score;
         }
@@ -47,7 +33,7 @@ namespace EG.MisNumeritos.Source
 
         public override string ToString()
         {
-            String response = "En " + score.GetAttempts();
+            string response = "En " + score.GetAttempts();
             if (score.GetAttempts() == 1)
                 response += " intento!!! :D";
             else if (score.GetAttempts() <= 4)
