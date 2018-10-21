@@ -7,7 +7,7 @@ using Android.Content;
 
 namespace EG.MisNumeritos
 {
-    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
+    [Activity(Label = "MIS NUMERITOS", Theme = "@style/AppTheme", MainLauncher = true)]
     public class MainActivity : AppCompatActivity
     {
         protected override void OnCreate(Bundle savedInstanceState)
@@ -17,12 +17,12 @@ namespace EG.MisNumeritos
             SetContentView(Resource.Layout.activity_main);
 
             userNameTextView = FindViewById<TextView>(Resource.Id.nameTextView);
-            userIdTextView = FindViewById<TextView>(Resource.Id.idTextView);
+            //userIdTextView = FindViewById<TextView>(Resource.Id.idTextView);
 
-            playButton = FindViewById(Resource.Id.playButton);
-            scoresButton = FindViewById(Resource.Id.scoresButton);
-            instructionsButton = FindViewById(Resource.Id.instructionsButton);
-            aboutButton = FindViewById(Resource.Id.aboutButton);
+            playButton = (Button) FindViewById(Resource.Id.playButton);
+            scoresButton = (Button) FindViewById(Resource.Id.scoresButton);
+            //instructionsButton = FindViewById(Resource.Id.instructionsButton);
+            //aboutButton = FindViewById(Resource.Id.aboutButton);
             //logOutButton = FindViewById(Resource.Id.logOutButton);
             //revokeButton = FindViewById(Resource.Id.revokeButton);
 
@@ -33,13 +33,13 @@ namespace EG.MisNumeritos
         // UI
         private Button playButton;
         private Button scoresButton;
-        private Button instructionsButton;
-        private Button aboutButton;
+        //private Button instructionsButton;
+        //private Button aboutButton;
         //private Button logOutButton;
         //private Button revokeButton;
 
         private TextView userNameTextView;
-        private TextView userIdTextView;
+        //private TextView userIdTextView;
 
         private void AddListeners()
         {
@@ -60,7 +60,7 @@ namespace EG.MisNumeritos
         protected override void OnStart()
         {
             base.OnStart();
-            userIdTextView.Text = "0";
+            //userIdTextView.Text = "0";
         }
     }
 }

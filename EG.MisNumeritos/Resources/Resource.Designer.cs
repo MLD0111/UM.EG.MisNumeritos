@@ -26,6 +26,1528 @@ namespace EG.MisNumeritos
 		
 		public static void UpdateIdValues()
 		{
+			global::EG.MisNumeritos.Source.Resource.Animation.abc_fade_in = global::EG.MisNumeritos.Resource.Animation.abc_fade_in;
+			global::EG.MisNumeritos.Source.Resource.Animation.abc_fade_out = global::EG.MisNumeritos.Resource.Animation.abc_fade_out;
+			global::EG.MisNumeritos.Source.Resource.Animation.abc_grow_fade_in_from_bottom = global::EG.MisNumeritos.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::EG.MisNumeritos.Source.Resource.Animation.abc_popup_enter = global::EG.MisNumeritos.Resource.Animation.abc_popup_enter;
+			global::EG.MisNumeritos.Source.Resource.Animation.abc_popup_exit = global::EG.MisNumeritos.Resource.Animation.abc_popup_exit;
+			global::EG.MisNumeritos.Source.Resource.Animation.abc_shrink_fade_out_from_bottom = global::EG.MisNumeritos.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::EG.MisNumeritos.Source.Resource.Animation.abc_slide_in_bottom = global::EG.MisNumeritos.Resource.Animation.abc_slide_in_bottom;
+			global::EG.MisNumeritos.Source.Resource.Animation.abc_slide_in_top = global::EG.MisNumeritos.Resource.Animation.abc_slide_in_top;
+			global::EG.MisNumeritos.Source.Resource.Animation.abc_slide_out_bottom = global::EG.MisNumeritos.Resource.Animation.abc_slide_out_bottom;
+			global::EG.MisNumeritos.Source.Resource.Animation.abc_slide_out_top = global::EG.MisNumeritos.Resource.Animation.abc_slide_out_top;
+			global::EG.MisNumeritos.Source.Resource.Animation.tooltip_enter = global::EG.MisNumeritos.Resource.Animation.tooltip_enter;
+			global::EG.MisNumeritos.Source.Resource.Animation.tooltip_exit = global::EG.MisNumeritos.Resource.Animation.tooltip_exit;
+			global::EG.MisNumeritos.Source.Resource.Attribute.actionBarDivider = global::EG.MisNumeritos.Resource.Attribute.actionBarDivider;
+			global::EG.MisNumeritos.Source.Resource.Attribute.actionBarItemBackground = global::EG.MisNumeritos.Resource.Attribute.actionBarItemBackground;
+			global::EG.MisNumeritos.Source.Resource.Attribute.actionBarPopupTheme = global::EG.MisNumeritos.Resource.Attribute.actionBarPopupTheme;
+			global::EG.MisNumeritos.Source.Resource.Attribute.actionBarSize = global::EG.MisNumeritos.Resource.Attribute.actionBarSize;
+			global::EG.MisNumeritos.Source.Resource.Attribute.actionBarSplitStyle = global::EG.MisNumeritos.Resource.Attribute.actionBarSplitStyle;
+			global::EG.MisNumeritos.Source.Resource.Attribute.actionBarStyle = global::EG.MisNumeritos.Resource.Attribute.actionBarStyle;
+			global::EG.MisNumeritos.Source.Resource.Attribute.actionBarTabBarStyle = global::EG.MisNumeritos.Resource.Attribute.actionBarTabBarStyle;
+			global::EG.MisNumeritos.Source.Resource.Attribute.actionBarTabStyle = global::EG.MisNumeritos.Resource.Attribute.actionBarTabStyle;
+			global::EG.MisNumeritos.Source.Resource.Attribute.actionBarTabTextStyle = global::EG.MisNumeritos.Resource.Attribute.actionBarTabTextStyle;
+			global::EG.MisNumeritos.Source.Resource.Attribute.actionBarTheme = global::EG.MisNumeritos.Resource.Attribute.actionBarTheme;
+			global::EG.MisNumeritos.Source.Resource.Attribute.actionBarWidgetTheme = global::EG.MisNumeritos.Resource.Attribute.actionBarWidgetTheme;
+			global::EG.MisNumeritos.Source.Resource.Attribute.actionButtonStyle = global::EG.MisNumeritos.Resource.Attribute.actionButtonStyle;
+			global::EG.MisNumeritos.Source.Resource.Attribute.actionDropDownStyle = global::EG.MisNumeritos.Resource.Attribute.actionDropDownStyle;
+			global::EG.MisNumeritos.Source.Resource.Attribute.actionLayout = global::EG.MisNumeritos.Resource.Attribute.actionLayout;
+			global::EG.MisNumeritos.Source.Resource.Attribute.actionMenuTextAppearance = global::EG.MisNumeritos.Resource.Attribute.actionMenuTextAppearance;
+			global::EG.MisNumeritos.Source.Resource.Attribute.actionMenuTextColor = global::EG.MisNumeritos.Resource.Attribute.actionMenuTextColor;
+			global::EG.MisNumeritos.Source.Resource.Attribute.actionModeBackground = global::EG.MisNumeritos.Resource.Attribute.actionModeBackground;
+			global::EG.MisNumeritos.Source.Resource.Attribute.actionModeCloseButtonStyle = global::EG.MisNumeritos.Resource.Attribute.actionModeCloseButtonStyle;
+			global::EG.MisNumeritos.Source.Resource.Attribute.actionModeCloseDrawable = global::EG.MisNumeritos.Resource.Attribute.actionModeCloseDrawable;
+			global::EG.MisNumeritos.Source.Resource.Attribute.actionModeCopyDrawable = global::EG.MisNumeritos.Resource.Attribute.actionModeCopyDrawable;
+			global::EG.MisNumeritos.Source.Resource.Attribute.actionModeCutDrawable = global::EG.MisNumeritos.Resource.Attribute.actionModeCutDrawable;
+			global::EG.MisNumeritos.Source.Resource.Attribute.actionModeFindDrawable = global::EG.MisNumeritos.Resource.Attribute.actionModeFindDrawable;
+			global::EG.MisNumeritos.Source.Resource.Attribute.actionModePasteDrawable = global::EG.MisNumeritos.Resource.Attribute.actionModePasteDrawable;
+			global::EG.MisNumeritos.Source.Resource.Attribute.actionModePopupWindowStyle = global::EG.MisNumeritos.Resource.Attribute.actionModePopupWindowStyle;
+			global::EG.MisNumeritos.Source.Resource.Attribute.actionModeSelectAllDrawable = global::EG.MisNumeritos.Resource.Attribute.actionModeSelectAllDrawable;
+			global::EG.MisNumeritos.Source.Resource.Attribute.actionModeShareDrawable = global::EG.MisNumeritos.Resource.Attribute.actionModeShareDrawable;
+			global::EG.MisNumeritos.Source.Resource.Attribute.actionModeSplitBackground = global::EG.MisNumeritos.Resource.Attribute.actionModeSplitBackground;
+			global::EG.MisNumeritos.Source.Resource.Attribute.actionModeStyle = global::EG.MisNumeritos.Resource.Attribute.actionModeStyle;
+			global::EG.MisNumeritos.Source.Resource.Attribute.actionModeWebSearchDrawable = global::EG.MisNumeritos.Resource.Attribute.actionModeWebSearchDrawable;
+			global::EG.MisNumeritos.Source.Resource.Attribute.actionOverflowButtonStyle = global::EG.MisNumeritos.Resource.Attribute.actionOverflowButtonStyle;
+			global::EG.MisNumeritos.Source.Resource.Attribute.actionOverflowMenuStyle = global::EG.MisNumeritos.Resource.Attribute.actionOverflowMenuStyle;
+			global::EG.MisNumeritos.Source.Resource.Attribute.actionProviderClass = global::EG.MisNumeritos.Resource.Attribute.actionProviderClass;
+			global::EG.MisNumeritos.Source.Resource.Attribute.actionViewClass = global::EG.MisNumeritos.Resource.Attribute.actionViewClass;
+			global::EG.MisNumeritos.Source.Resource.Attribute.activityChooserViewStyle = global::EG.MisNumeritos.Resource.Attribute.activityChooserViewStyle;
+			global::EG.MisNumeritos.Source.Resource.Attribute.alertDialogButtonGroupStyle = global::EG.MisNumeritos.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::EG.MisNumeritos.Source.Resource.Attribute.alertDialogCenterButtons = global::EG.MisNumeritos.Resource.Attribute.alertDialogCenterButtons;
+			global::EG.MisNumeritos.Source.Resource.Attribute.alertDialogStyle = global::EG.MisNumeritos.Resource.Attribute.alertDialogStyle;
+			global::EG.MisNumeritos.Source.Resource.Attribute.alertDialogTheme = global::EG.MisNumeritos.Resource.Attribute.alertDialogTheme;
+			global::EG.MisNumeritos.Source.Resource.Attribute.allowStacking = global::EG.MisNumeritos.Resource.Attribute.allowStacking;
+			global::EG.MisNumeritos.Source.Resource.Attribute.alpha = global::EG.MisNumeritos.Resource.Attribute.alpha;
+			global::EG.MisNumeritos.Source.Resource.Attribute.alphabeticModifiers = global::EG.MisNumeritos.Resource.Attribute.alphabeticModifiers;
+			global::EG.MisNumeritos.Source.Resource.Attribute.arrowHeadLength = global::EG.MisNumeritos.Resource.Attribute.arrowHeadLength;
+			global::EG.MisNumeritos.Source.Resource.Attribute.arrowShaftLength = global::EG.MisNumeritos.Resource.Attribute.arrowShaftLength;
+			global::EG.MisNumeritos.Source.Resource.Attribute.autoCompleteTextViewStyle = global::EG.MisNumeritos.Resource.Attribute.autoCompleteTextViewStyle;
+			global::EG.MisNumeritos.Source.Resource.Attribute.autoSizeMaxTextSize = global::EG.MisNumeritos.Resource.Attribute.autoSizeMaxTextSize;
+			global::EG.MisNumeritos.Source.Resource.Attribute.autoSizeMinTextSize = global::EG.MisNumeritos.Resource.Attribute.autoSizeMinTextSize;
+			global::EG.MisNumeritos.Source.Resource.Attribute.autoSizePresetSizes = global::EG.MisNumeritos.Resource.Attribute.autoSizePresetSizes;
+			global::EG.MisNumeritos.Source.Resource.Attribute.autoSizeStepGranularity = global::EG.MisNumeritos.Resource.Attribute.autoSizeStepGranularity;
+			global::EG.MisNumeritos.Source.Resource.Attribute.autoSizeTextType = global::EG.MisNumeritos.Resource.Attribute.autoSizeTextType;
+			global::EG.MisNumeritos.Source.Resource.Attribute.background = global::EG.MisNumeritos.Resource.Attribute.background;
+			global::EG.MisNumeritos.Source.Resource.Attribute.backgroundSplit = global::EG.MisNumeritos.Resource.Attribute.backgroundSplit;
+			global::EG.MisNumeritos.Source.Resource.Attribute.backgroundStacked = global::EG.MisNumeritos.Resource.Attribute.backgroundStacked;
+			global::EG.MisNumeritos.Source.Resource.Attribute.backgroundTint = global::EG.MisNumeritos.Resource.Attribute.backgroundTint;
+			global::EG.MisNumeritos.Source.Resource.Attribute.backgroundTintMode = global::EG.MisNumeritos.Resource.Attribute.backgroundTintMode;
+			global::EG.MisNumeritos.Source.Resource.Attribute.barLength = global::EG.MisNumeritos.Resource.Attribute.barLength;
+			global::EG.MisNumeritos.Source.Resource.Attribute.borderlessButtonStyle = global::EG.MisNumeritos.Resource.Attribute.borderlessButtonStyle;
+			global::EG.MisNumeritos.Source.Resource.Attribute.buttonBarButtonStyle = global::EG.MisNumeritos.Resource.Attribute.buttonBarButtonStyle;
+			global::EG.MisNumeritos.Source.Resource.Attribute.buttonBarNegativeButtonStyle = global::EG.MisNumeritos.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::EG.MisNumeritos.Source.Resource.Attribute.buttonBarNeutralButtonStyle = global::EG.MisNumeritos.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::EG.MisNumeritos.Source.Resource.Attribute.buttonBarPositiveButtonStyle = global::EG.MisNumeritos.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::EG.MisNumeritos.Source.Resource.Attribute.buttonBarStyle = global::EG.MisNumeritos.Resource.Attribute.buttonBarStyle;
+			global::EG.MisNumeritos.Source.Resource.Attribute.buttonGravity = global::EG.MisNumeritos.Resource.Attribute.buttonGravity;
+			global::EG.MisNumeritos.Source.Resource.Attribute.buttonPanelSideLayout = global::EG.MisNumeritos.Resource.Attribute.buttonPanelSideLayout;
+			global::EG.MisNumeritos.Source.Resource.Attribute.buttonStyle = global::EG.MisNumeritos.Resource.Attribute.buttonStyle;
+			global::EG.MisNumeritos.Source.Resource.Attribute.buttonStyleSmall = global::EG.MisNumeritos.Resource.Attribute.buttonStyleSmall;
+			global::EG.MisNumeritos.Source.Resource.Attribute.buttonTint = global::EG.MisNumeritos.Resource.Attribute.buttonTint;
+			global::EG.MisNumeritos.Source.Resource.Attribute.buttonTintMode = global::EG.MisNumeritos.Resource.Attribute.buttonTintMode;
+			global::EG.MisNumeritos.Source.Resource.Attribute.checkboxStyle = global::EG.MisNumeritos.Resource.Attribute.checkboxStyle;
+			global::EG.MisNumeritos.Source.Resource.Attribute.checkedTextViewStyle = global::EG.MisNumeritos.Resource.Attribute.checkedTextViewStyle;
+			global::EG.MisNumeritos.Source.Resource.Attribute.closeIcon = global::EG.MisNumeritos.Resource.Attribute.closeIcon;
+			global::EG.MisNumeritos.Source.Resource.Attribute.closeItemLayout = global::EG.MisNumeritos.Resource.Attribute.closeItemLayout;
+			global::EG.MisNumeritos.Source.Resource.Attribute.collapseContentDescription = global::EG.MisNumeritos.Resource.Attribute.collapseContentDescription;
+			global::EG.MisNumeritos.Source.Resource.Attribute.collapseIcon = global::EG.MisNumeritos.Resource.Attribute.collapseIcon;
+			global::EG.MisNumeritos.Source.Resource.Attribute.color = global::EG.MisNumeritos.Resource.Attribute.color;
+			global::EG.MisNumeritos.Source.Resource.Attribute.colorAccent = global::EG.MisNumeritos.Resource.Attribute.colorAccent;
+			global::EG.MisNumeritos.Source.Resource.Attribute.colorBackgroundFloating = global::EG.MisNumeritos.Resource.Attribute.colorBackgroundFloating;
+			global::EG.MisNumeritos.Source.Resource.Attribute.colorButtonNormal = global::EG.MisNumeritos.Resource.Attribute.colorButtonNormal;
+			global::EG.MisNumeritos.Source.Resource.Attribute.colorControlActivated = global::EG.MisNumeritos.Resource.Attribute.colorControlActivated;
+			global::EG.MisNumeritos.Source.Resource.Attribute.colorControlHighlight = global::EG.MisNumeritos.Resource.Attribute.colorControlHighlight;
+			global::EG.MisNumeritos.Source.Resource.Attribute.colorControlNormal = global::EG.MisNumeritos.Resource.Attribute.colorControlNormal;
+			global::EG.MisNumeritos.Source.Resource.Attribute.colorError = global::EG.MisNumeritos.Resource.Attribute.colorError;
+			global::EG.MisNumeritos.Source.Resource.Attribute.colorPrimary = global::EG.MisNumeritos.Resource.Attribute.colorPrimary;
+			global::EG.MisNumeritos.Source.Resource.Attribute.colorPrimaryDark = global::EG.MisNumeritos.Resource.Attribute.colorPrimaryDark;
+			global::EG.MisNumeritos.Source.Resource.Attribute.colorSwitchThumbNormal = global::EG.MisNumeritos.Resource.Attribute.colorSwitchThumbNormal;
+			global::EG.MisNumeritos.Source.Resource.Attribute.commitIcon = global::EG.MisNumeritos.Resource.Attribute.commitIcon;
+			global::EG.MisNumeritos.Source.Resource.Attribute.contentDescription = global::EG.MisNumeritos.Resource.Attribute.contentDescription;
+			global::EG.MisNumeritos.Source.Resource.Attribute.contentInsetEnd = global::EG.MisNumeritos.Resource.Attribute.contentInsetEnd;
+			global::EG.MisNumeritos.Source.Resource.Attribute.contentInsetEndWithActions = global::EG.MisNumeritos.Resource.Attribute.contentInsetEndWithActions;
+			global::EG.MisNumeritos.Source.Resource.Attribute.contentInsetLeft = global::EG.MisNumeritos.Resource.Attribute.contentInsetLeft;
+			global::EG.MisNumeritos.Source.Resource.Attribute.contentInsetRight = global::EG.MisNumeritos.Resource.Attribute.contentInsetRight;
+			global::EG.MisNumeritos.Source.Resource.Attribute.contentInsetStart = global::EG.MisNumeritos.Resource.Attribute.contentInsetStart;
+			global::EG.MisNumeritos.Source.Resource.Attribute.contentInsetStartWithNavigation = global::EG.MisNumeritos.Resource.Attribute.contentInsetStartWithNavigation;
+			global::EG.MisNumeritos.Source.Resource.Attribute.controlBackground = global::EG.MisNumeritos.Resource.Attribute.controlBackground;
+			global::EG.MisNumeritos.Source.Resource.Attribute.customNavigationLayout = global::EG.MisNumeritos.Resource.Attribute.customNavigationLayout;
+			global::EG.MisNumeritos.Source.Resource.Attribute.defaultQueryHint = global::EG.MisNumeritos.Resource.Attribute.defaultQueryHint;
+			global::EG.MisNumeritos.Source.Resource.Attribute.dialogPreferredPadding = global::EG.MisNumeritos.Resource.Attribute.dialogPreferredPadding;
+			global::EG.MisNumeritos.Source.Resource.Attribute.dialogTheme = global::EG.MisNumeritos.Resource.Attribute.dialogTheme;
+			global::EG.MisNumeritos.Source.Resource.Attribute.displayOptions = global::EG.MisNumeritos.Resource.Attribute.displayOptions;
+			global::EG.MisNumeritos.Source.Resource.Attribute.divider = global::EG.MisNumeritos.Resource.Attribute.divider;
+			global::EG.MisNumeritos.Source.Resource.Attribute.dividerHorizontal = global::EG.MisNumeritos.Resource.Attribute.dividerHorizontal;
+			global::EG.MisNumeritos.Source.Resource.Attribute.dividerPadding = global::EG.MisNumeritos.Resource.Attribute.dividerPadding;
+			global::EG.MisNumeritos.Source.Resource.Attribute.dividerVertical = global::EG.MisNumeritos.Resource.Attribute.dividerVertical;
+			global::EG.MisNumeritos.Source.Resource.Attribute.drawableSize = global::EG.MisNumeritos.Resource.Attribute.drawableSize;
+			global::EG.MisNumeritos.Source.Resource.Attribute.drawerArrowStyle = global::EG.MisNumeritos.Resource.Attribute.drawerArrowStyle;
+			global::EG.MisNumeritos.Source.Resource.Attribute.dropDownListViewStyle = global::EG.MisNumeritos.Resource.Attribute.dropDownListViewStyle;
+			global::EG.MisNumeritos.Source.Resource.Attribute.dropdownListPreferredItemHeight = global::EG.MisNumeritos.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::EG.MisNumeritos.Source.Resource.Attribute.editTextBackground = global::EG.MisNumeritos.Resource.Attribute.editTextBackground;
+			global::EG.MisNumeritos.Source.Resource.Attribute.editTextColor = global::EG.MisNumeritos.Resource.Attribute.editTextColor;
+			global::EG.MisNumeritos.Source.Resource.Attribute.editTextStyle = global::EG.MisNumeritos.Resource.Attribute.editTextStyle;
+			global::EG.MisNumeritos.Source.Resource.Attribute.elevation = global::EG.MisNumeritos.Resource.Attribute.elevation;
+			global::EG.MisNumeritos.Source.Resource.Attribute.expandActivityOverflowButtonDrawable = global::EG.MisNumeritos.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::EG.MisNumeritos.Source.Resource.Attribute.font = global::EG.MisNumeritos.Resource.Attribute.font;
+			global::EG.MisNumeritos.Source.Resource.Attribute.fontFamily = global::EG.MisNumeritos.Resource.Attribute.fontFamily;
+			global::EG.MisNumeritos.Source.Resource.Attribute.fontProviderAuthority = global::EG.MisNumeritos.Resource.Attribute.fontProviderAuthority;
+			global::EG.MisNumeritos.Source.Resource.Attribute.fontProviderCerts = global::EG.MisNumeritos.Resource.Attribute.fontProviderCerts;
+			global::EG.MisNumeritos.Source.Resource.Attribute.fontProviderFetchStrategy = global::EG.MisNumeritos.Resource.Attribute.fontProviderFetchStrategy;
+			global::EG.MisNumeritos.Source.Resource.Attribute.fontProviderFetchTimeout = global::EG.MisNumeritos.Resource.Attribute.fontProviderFetchTimeout;
+			global::EG.MisNumeritos.Source.Resource.Attribute.fontProviderPackage = global::EG.MisNumeritos.Resource.Attribute.fontProviderPackage;
+			global::EG.MisNumeritos.Source.Resource.Attribute.fontProviderQuery = global::EG.MisNumeritos.Resource.Attribute.fontProviderQuery;
+			global::EG.MisNumeritos.Source.Resource.Attribute.fontStyle = global::EG.MisNumeritos.Resource.Attribute.fontStyle;
+			global::EG.MisNumeritos.Source.Resource.Attribute.fontWeight = global::EG.MisNumeritos.Resource.Attribute.fontWeight;
+			global::EG.MisNumeritos.Source.Resource.Attribute.gapBetweenBars = global::EG.MisNumeritos.Resource.Attribute.gapBetweenBars;
+			global::EG.MisNumeritos.Source.Resource.Attribute.goIcon = global::EG.MisNumeritos.Resource.Attribute.goIcon;
+			global::EG.MisNumeritos.Source.Resource.Attribute.height = global::EG.MisNumeritos.Resource.Attribute.height;
+			global::EG.MisNumeritos.Source.Resource.Attribute.hideOnContentScroll = global::EG.MisNumeritos.Resource.Attribute.hideOnContentScroll;
+			global::EG.MisNumeritos.Source.Resource.Attribute.homeAsUpIndicator = global::EG.MisNumeritos.Resource.Attribute.homeAsUpIndicator;
+			global::EG.MisNumeritos.Source.Resource.Attribute.homeLayout = global::EG.MisNumeritos.Resource.Attribute.homeLayout;
+			global::EG.MisNumeritos.Source.Resource.Attribute.icon = global::EG.MisNumeritos.Resource.Attribute.icon;
+			global::EG.MisNumeritos.Source.Resource.Attribute.iconTint = global::EG.MisNumeritos.Resource.Attribute.iconTint;
+			global::EG.MisNumeritos.Source.Resource.Attribute.iconTintMode = global::EG.MisNumeritos.Resource.Attribute.iconTintMode;
+			global::EG.MisNumeritos.Source.Resource.Attribute.iconifiedByDefault = global::EG.MisNumeritos.Resource.Attribute.iconifiedByDefault;
+			global::EG.MisNumeritos.Source.Resource.Attribute.imageButtonStyle = global::EG.MisNumeritos.Resource.Attribute.imageButtonStyle;
+			global::EG.MisNumeritos.Source.Resource.Attribute.indeterminateProgressStyle = global::EG.MisNumeritos.Resource.Attribute.indeterminateProgressStyle;
+			global::EG.MisNumeritos.Source.Resource.Attribute.initialActivityCount = global::EG.MisNumeritos.Resource.Attribute.initialActivityCount;
+			global::EG.MisNumeritos.Source.Resource.Attribute.isLightTheme = global::EG.MisNumeritos.Resource.Attribute.isLightTheme;
+			global::EG.MisNumeritos.Source.Resource.Attribute.itemPadding = global::EG.MisNumeritos.Resource.Attribute.itemPadding;
+			global::EG.MisNumeritos.Source.Resource.Attribute.layout = global::EG.MisNumeritos.Resource.Attribute.layout;
+			global::EG.MisNumeritos.Source.Resource.Attribute.listChoiceBackgroundIndicator = global::EG.MisNumeritos.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::EG.MisNumeritos.Source.Resource.Attribute.listDividerAlertDialog = global::EG.MisNumeritos.Resource.Attribute.listDividerAlertDialog;
+			global::EG.MisNumeritos.Source.Resource.Attribute.listItemLayout = global::EG.MisNumeritos.Resource.Attribute.listItemLayout;
+			global::EG.MisNumeritos.Source.Resource.Attribute.listLayout = global::EG.MisNumeritos.Resource.Attribute.listLayout;
+			global::EG.MisNumeritos.Source.Resource.Attribute.listMenuViewStyle = global::EG.MisNumeritos.Resource.Attribute.listMenuViewStyle;
+			global::EG.MisNumeritos.Source.Resource.Attribute.listPopupWindowStyle = global::EG.MisNumeritos.Resource.Attribute.listPopupWindowStyle;
+			global::EG.MisNumeritos.Source.Resource.Attribute.listPreferredItemHeight = global::EG.MisNumeritos.Resource.Attribute.listPreferredItemHeight;
+			global::EG.MisNumeritos.Source.Resource.Attribute.listPreferredItemHeightLarge = global::EG.MisNumeritos.Resource.Attribute.listPreferredItemHeightLarge;
+			global::EG.MisNumeritos.Source.Resource.Attribute.listPreferredItemHeightSmall = global::EG.MisNumeritos.Resource.Attribute.listPreferredItemHeightSmall;
+			global::EG.MisNumeritos.Source.Resource.Attribute.listPreferredItemPaddingLeft = global::EG.MisNumeritos.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::EG.MisNumeritos.Source.Resource.Attribute.listPreferredItemPaddingRight = global::EG.MisNumeritos.Resource.Attribute.listPreferredItemPaddingRight;
+			global::EG.MisNumeritos.Source.Resource.Attribute.logo = global::EG.MisNumeritos.Resource.Attribute.logo;
+			global::EG.MisNumeritos.Source.Resource.Attribute.logoDescription = global::EG.MisNumeritos.Resource.Attribute.logoDescription;
+			global::EG.MisNumeritos.Source.Resource.Attribute.maxButtonHeight = global::EG.MisNumeritos.Resource.Attribute.maxButtonHeight;
+			global::EG.MisNumeritos.Source.Resource.Attribute.measureWithLargestChild = global::EG.MisNumeritos.Resource.Attribute.measureWithLargestChild;
+			global::EG.MisNumeritos.Source.Resource.Attribute.multiChoiceItemLayout = global::EG.MisNumeritos.Resource.Attribute.multiChoiceItemLayout;
+			global::EG.MisNumeritos.Source.Resource.Attribute.navigationContentDescription = global::EG.MisNumeritos.Resource.Attribute.navigationContentDescription;
+			global::EG.MisNumeritos.Source.Resource.Attribute.navigationIcon = global::EG.MisNumeritos.Resource.Attribute.navigationIcon;
+			global::EG.MisNumeritos.Source.Resource.Attribute.navigationMode = global::EG.MisNumeritos.Resource.Attribute.navigationMode;
+			global::EG.MisNumeritos.Source.Resource.Attribute.numericModifiers = global::EG.MisNumeritos.Resource.Attribute.numericModifiers;
+			global::EG.MisNumeritos.Source.Resource.Attribute.overlapAnchor = global::EG.MisNumeritos.Resource.Attribute.overlapAnchor;
+			global::EG.MisNumeritos.Source.Resource.Attribute.paddingBottomNoButtons = global::EG.MisNumeritos.Resource.Attribute.paddingBottomNoButtons;
+			global::EG.MisNumeritos.Source.Resource.Attribute.paddingEnd = global::EG.MisNumeritos.Resource.Attribute.paddingEnd;
+			global::EG.MisNumeritos.Source.Resource.Attribute.paddingStart = global::EG.MisNumeritos.Resource.Attribute.paddingStart;
+			global::EG.MisNumeritos.Source.Resource.Attribute.paddingTopNoTitle = global::EG.MisNumeritos.Resource.Attribute.paddingTopNoTitle;
+			global::EG.MisNumeritos.Source.Resource.Attribute.panelBackground = global::EG.MisNumeritos.Resource.Attribute.panelBackground;
+			global::EG.MisNumeritos.Source.Resource.Attribute.panelMenuListTheme = global::EG.MisNumeritos.Resource.Attribute.panelMenuListTheme;
+			global::EG.MisNumeritos.Source.Resource.Attribute.panelMenuListWidth = global::EG.MisNumeritos.Resource.Attribute.panelMenuListWidth;
+			global::EG.MisNumeritos.Source.Resource.Attribute.popupMenuStyle = global::EG.MisNumeritos.Resource.Attribute.popupMenuStyle;
+			global::EG.MisNumeritos.Source.Resource.Attribute.popupTheme = global::EG.MisNumeritos.Resource.Attribute.popupTheme;
+			global::EG.MisNumeritos.Source.Resource.Attribute.popupWindowStyle = global::EG.MisNumeritos.Resource.Attribute.popupWindowStyle;
+			global::EG.MisNumeritos.Source.Resource.Attribute.preserveIconSpacing = global::EG.MisNumeritos.Resource.Attribute.preserveIconSpacing;
+			global::EG.MisNumeritos.Source.Resource.Attribute.progressBarPadding = global::EG.MisNumeritos.Resource.Attribute.progressBarPadding;
+			global::EG.MisNumeritos.Source.Resource.Attribute.progressBarStyle = global::EG.MisNumeritos.Resource.Attribute.progressBarStyle;
+			global::EG.MisNumeritos.Source.Resource.Attribute.queryBackground = global::EG.MisNumeritos.Resource.Attribute.queryBackground;
+			global::EG.MisNumeritos.Source.Resource.Attribute.queryHint = global::EG.MisNumeritos.Resource.Attribute.queryHint;
+			global::EG.MisNumeritos.Source.Resource.Attribute.radioButtonStyle = global::EG.MisNumeritos.Resource.Attribute.radioButtonStyle;
+			global::EG.MisNumeritos.Source.Resource.Attribute.ratingBarStyle = global::EG.MisNumeritos.Resource.Attribute.ratingBarStyle;
+			global::EG.MisNumeritos.Source.Resource.Attribute.ratingBarStyleIndicator = global::EG.MisNumeritos.Resource.Attribute.ratingBarStyleIndicator;
+			global::EG.MisNumeritos.Source.Resource.Attribute.ratingBarStyleSmall = global::EG.MisNumeritos.Resource.Attribute.ratingBarStyleSmall;
+			global::EG.MisNumeritos.Source.Resource.Attribute.searchHintIcon = global::EG.MisNumeritos.Resource.Attribute.searchHintIcon;
+			global::EG.MisNumeritos.Source.Resource.Attribute.searchIcon = global::EG.MisNumeritos.Resource.Attribute.searchIcon;
+			global::EG.MisNumeritos.Source.Resource.Attribute.searchViewStyle = global::EG.MisNumeritos.Resource.Attribute.searchViewStyle;
+			global::EG.MisNumeritos.Source.Resource.Attribute.seekBarStyle = global::EG.MisNumeritos.Resource.Attribute.seekBarStyle;
+			global::EG.MisNumeritos.Source.Resource.Attribute.selectableItemBackground = global::EG.MisNumeritos.Resource.Attribute.selectableItemBackground;
+			global::EG.MisNumeritos.Source.Resource.Attribute.selectableItemBackgroundBorderless = global::EG.MisNumeritos.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::EG.MisNumeritos.Source.Resource.Attribute.showAsAction = global::EG.MisNumeritos.Resource.Attribute.showAsAction;
+			global::EG.MisNumeritos.Source.Resource.Attribute.showDividers = global::EG.MisNumeritos.Resource.Attribute.showDividers;
+			global::EG.MisNumeritos.Source.Resource.Attribute.showText = global::EG.MisNumeritos.Resource.Attribute.showText;
+			global::EG.MisNumeritos.Source.Resource.Attribute.showTitle = global::EG.MisNumeritos.Resource.Attribute.showTitle;
+			global::EG.MisNumeritos.Source.Resource.Attribute.singleChoiceItemLayout = global::EG.MisNumeritos.Resource.Attribute.singleChoiceItemLayout;
+			global::EG.MisNumeritos.Source.Resource.Attribute.spinBars = global::EG.MisNumeritos.Resource.Attribute.spinBars;
+			global::EG.MisNumeritos.Source.Resource.Attribute.spinnerDropDownItemStyle = global::EG.MisNumeritos.Resource.Attribute.spinnerDropDownItemStyle;
+			global::EG.MisNumeritos.Source.Resource.Attribute.spinnerStyle = global::EG.MisNumeritos.Resource.Attribute.spinnerStyle;
+			global::EG.MisNumeritos.Source.Resource.Attribute.splitTrack = global::EG.MisNumeritos.Resource.Attribute.splitTrack;
+			global::EG.MisNumeritos.Source.Resource.Attribute.srcCompat = global::EG.MisNumeritos.Resource.Attribute.srcCompat;
+			global::EG.MisNumeritos.Source.Resource.Attribute.state_above_anchor = global::EG.MisNumeritos.Resource.Attribute.state_above_anchor;
+			global::EG.MisNumeritos.Source.Resource.Attribute.subMenuArrow = global::EG.MisNumeritos.Resource.Attribute.subMenuArrow;
+			global::EG.MisNumeritos.Source.Resource.Attribute.submitBackground = global::EG.MisNumeritos.Resource.Attribute.submitBackground;
+			global::EG.MisNumeritos.Source.Resource.Attribute.subtitle = global::EG.MisNumeritos.Resource.Attribute.subtitle;
+			global::EG.MisNumeritos.Source.Resource.Attribute.subtitleTextAppearance = global::EG.MisNumeritos.Resource.Attribute.subtitleTextAppearance;
+			global::EG.MisNumeritos.Source.Resource.Attribute.subtitleTextColor = global::EG.MisNumeritos.Resource.Attribute.subtitleTextColor;
+			global::EG.MisNumeritos.Source.Resource.Attribute.subtitleTextStyle = global::EG.MisNumeritos.Resource.Attribute.subtitleTextStyle;
+			global::EG.MisNumeritos.Source.Resource.Attribute.suggestionRowLayout = global::EG.MisNumeritos.Resource.Attribute.suggestionRowLayout;
+			global::EG.MisNumeritos.Source.Resource.Attribute.switchMinWidth = global::EG.MisNumeritos.Resource.Attribute.switchMinWidth;
+			global::EG.MisNumeritos.Source.Resource.Attribute.switchPadding = global::EG.MisNumeritos.Resource.Attribute.switchPadding;
+			global::EG.MisNumeritos.Source.Resource.Attribute.switchStyle = global::EG.MisNumeritos.Resource.Attribute.switchStyle;
+			global::EG.MisNumeritos.Source.Resource.Attribute.switchTextAppearance = global::EG.MisNumeritos.Resource.Attribute.switchTextAppearance;
+			global::EG.MisNumeritos.Source.Resource.Attribute.textAllCaps = global::EG.MisNumeritos.Resource.Attribute.textAllCaps;
+			global::EG.MisNumeritos.Source.Resource.Attribute.textAppearanceLargePopupMenu = global::EG.MisNumeritos.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::EG.MisNumeritos.Source.Resource.Attribute.textAppearanceListItem = global::EG.MisNumeritos.Resource.Attribute.textAppearanceListItem;
+			global::EG.MisNumeritos.Source.Resource.Attribute.textAppearanceListItemSecondary = global::EG.MisNumeritos.Resource.Attribute.textAppearanceListItemSecondary;
+			global::EG.MisNumeritos.Source.Resource.Attribute.textAppearanceListItemSmall = global::EG.MisNumeritos.Resource.Attribute.textAppearanceListItemSmall;
+			global::EG.MisNumeritos.Source.Resource.Attribute.textAppearancePopupMenuHeader = global::EG.MisNumeritos.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::EG.MisNumeritos.Source.Resource.Attribute.textAppearanceSearchResultSubtitle = global::EG.MisNumeritos.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::EG.MisNumeritos.Source.Resource.Attribute.textAppearanceSearchResultTitle = global::EG.MisNumeritos.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::EG.MisNumeritos.Source.Resource.Attribute.textAppearanceSmallPopupMenu = global::EG.MisNumeritos.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::EG.MisNumeritos.Source.Resource.Attribute.textColorAlertDialogListItem = global::EG.MisNumeritos.Resource.Attribute.textColorAlertDialogListItem;
+			global::EG.MisNumeritos.Source.Resource.Attribute.textColorSearchUrl = global::EG.MisNumeritos.Resource.Attribute.textColorSearchUrl;
+			global::EG.MisNumeritos.Source.Resource.Attribute.theme = global::EG.MisNumeritos.Resource.Attribute.theme;
+			global::EG.MisNumeritos.Source.Resource.Attribute.thickness = global::EG.MisNumeritos.Resource.Attribute.thickness;
+			global::EG.MisNumeritos.Source.Resource.Attribute.thumbTextPadding = global::EG.MisNumeritos.Resource.Attribute.thumbTextPadding;
+			global::EG.MisNumeritos.Source.Resource.Attribute.thumbTint = global::EG.MisNumeritos.Resource.Attribute.thumbTint;
+			global::EG.MisNumeritos.Source.Resource.Attribute.thumbTintMode = global::EG.MisNumeritos.Resource.Attribute.thumbTintMode;
+			global::EG.MisNumeritos.Source.Resource.Attribute.tickMark = global::EG.MisNumeritos.Resource.Attribute.tickMark;
+			global::EG.MisNumeritos.Source.Resource.Attribute.tickMarkTint = global::EG.MisNumeritos.Resource.Attribute.tickMarkTint;
+			global::EG.MisNumeritos.Source.Resource.Attribute.tickMarkTintMode = global::EG.MisNumeritos.Resource.Attribute.tickMarkTintMode;
+			global::EG.MisNumeritos.Source.Resource.Attribute.tint = global::EG.MisNumeritos.Resource.Attribute.tint;
+			global::EG.MisNumeritos.Source.Resource.Attribute.tintMode = global::EG.MisNumeritos.Resource.Attribute.tintMode;
+			global::EG.MisNumeritos.Source.Resource.Attribute.title = global::EG.MisNumeritos.Resource.Attribute.title;
+			global::EG.MisNumeritos.Source.Resource.Attribute.titleMargin = global::EG.MisNumeritos.Resource.Attribute.titleMargin;
+			global::EG.MisNumeritos.Source.Resource.Attribute.titleMarginBottom = global::EG.MisNumeritos.Resource.Attribute.titleMarginBottom;
+			global::EG.MisNumeritos.Source.Resource.Attribute.titleMarginEnd = global::EG.MisNumeritos.Resource.Attribute.titleMarginEnd;
+			global::EG.MisNumeritos.Source.Resource.Attribute.titleMarginStart = global::EG.MisNumeritos.Resource.Attribute.titleMarginStart;
+			global::EG.MisNumeritos.Source.Resource.Attribute.titleMarginTop = global::EG.MisNumeritos.Resource.Attribute.titleMarginTop;
+			global::EG.MisNumeritos.Source.Resource.Attribute.titleMargins = global::EG.MisNumeritos.Resource.Attribute.titleMargins;
+			global::EG.MisNumeritos.Source.Resource.Attribute.titleTextAppearance = global::EG.MisNumeritos.Resource.Attribute.titleTextAppearance;
+			global::EG.MisNumeritos.Source.Resource.Attribute.titleTextColor = global::EG.MisNumeritos.Resource.Attribute.titleTextColor;
+			global::EG.MisNumeritos.Source.Resource.Attribute.titleTextStyle = global::EG.MisNumeritos.Resource.Attribute.titleTextStyle;
+			global::EG.MisNumeritos.Source.Resource.Attribute.toolbarNavigationButtonStyle = global::EG.MisNumeritos.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::EG.MisNumeritos.Source.Resource.Attribute.toolbarStyle = global::EG.MisNumeritos.Resource.Attribute.toolbarStyle;
+			global::EG.MisNumeritos.Source.Resource.Attribute.tooltipForegroundColor = global::EG.MisNumeritos.Resource.Attribute.tooltipForegroundColor;
+			global::EG.MisNumeritos.Source.Resource.Attribute.tooltipFrameBackground = global::EG.MisNumeritos.Resource.Attribute.tooltipFrameBackground;
+			global::EG.MisNumeritos.Source.Resource.Attribute.tooltipText = global::EG.MisNumeritos.Resource.Attribute.tooltipText;
+			global::EG.MisNumeritos.Source.Resource.Attribute.track = global::EG.MisNumeritos.Resource.Attribute.track;
+			global::EG.MisNumeritos.Source.Resource.Attribute.trackTint = global::EG.MisNumeritos.Resource.Attribute.trackTint;
+			global::EG.MisNumeritos.Source.Resource.Attribute.trackTintMode = global::EG.MisNumeritos.Resource.Attribute.trackTintMode;
+			global::EG.MisNumeritos.Source.Resource.Attribute.voiceIcon = global::EG.MisNumeritos.Resource.Attribute.voiceIcon;
+			global::EG.MisNumeritos.Source.Resource.Attribute.windowActionBar = global::EG.MisNumeritos.Resource.Attribute.windowActionBar;
+			global::EG.MisNumeritos.Source.Resource.Attribute.windowActionBarOverlay = global::EG.MisNumeritos.Resource.Attribute.windowActionBarOverlay;
+			global::EG.MisNumeritos.Source.Resource.Attribute.windowActionModeOverlay = global::EG.MisNumeritos.Resource.Attribute.windowActionModeOverlay;
+			global::EG.MisNumeritos.Source.Resource.Attribute.windowFixedHeightMajor = global::EG.MisNumeritos.Resource.Attribute.windowFixedHeightMajor;
+			global::EG.MisNumeritos.Source.Resource.Attribute.windowFixedHeightMinor = global::EG.MisNumeritos.Resource.Attribute.windowFixedHeightMinor;
+			global::EG.MisNumeritos.Source.Resource.Attribute.windowFixedWidthMajor = global::EG.MisNumeritos.Resource.Attribute.windowFixedWidthMajor;
+			global::EG.MisNumeritos.Source.Resource.Attribute.windowFixedWidthMinor = global::EG.MisNumeritos.Resource.Attribute.windowFixedWidthMinor;
+			global::EG.MisNumeritos.Source.Resource.Attribute.windowMinWidthMajor = global::EG.MisNumeritos.Resource.Attribute.windowMinWidthMajor;
+			global::EG.MisNumeritos.Source.Resource.Attribute.windowMinWidthMinor = global::EG.MisNumeritos.Resource.Attribute.windowMinWidthMinor;
+			global::EG.MisNumeritos.Source.Resource.Attribute.windowNoTitle = global::EG.MisNumeritos.Resource.Attribute.windowNoTitle;
+			global::EG.MisNumeritos.Source.Resource.Boolean.abc_action_bar_embed_tabs = global::EG.MisNumeritos.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::EG.MisNumeritos.Source.Resource.Boolean.abc_allow_stacked_button_bar = global::EG.MisNumeritos.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::EG.MisNumeritos.Source.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::EG.MisNumeritos.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::EG.MisNumeritos.Source.Resource.Boolean.abc_config_closeDialogWhenTouchOutside = global::EG.MisNumeritos.Resource.Boolean.abc_config_closeDialogWhenTouchOutside;
+			global::EG.MisNumeritos.Source.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::EG.MisNumeritos.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
+			global::EG.MisNumeritos.Source.Resource.Color.abc_background_cache_hint_selector_material_dark = global::EG.MisNumeritos.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::EG.MisNumeritos.Source.Resource.Color.abc_background_cache_hint_selector_material_light = global::EG.MisNumeritos.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::EG.MisNumeritos.Source.Resource.Color.abc_btn_colored_borderless_text_material = global::EG.MisNumeritos.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::EG.MisNumeritos.Source.Resource.Color.abc_btn_colored_text_material = global::EG.MisNumeritos.Resource.Color.abc_btn_colored_text_material;
+			global::EG.MisNumeritos.Source.Resource.Color.abc_color_highlight_material = global::EG.MisNumeritos.Resource.Color.abc_color_highlight_material;
+			global::EG.MisNumeritos.Source.Resource.Color.abc_hint_foreground_material_dark = global::EG.MisNumeritos.Resource.Color.abc_hint_foreground_material_dark;
+			global::EG.MisNumeritos.Source.Resource.Color.abc_hint_foreground_material_light = global::EG.MisNumeritos.Resource.Color.abc_hint_foreground_material_light;
+			global::EG.MisNumeritos.Source.Resource.Color.abc_input_method_navigation_guard = global::EG.MisNumeritos.Resource.Color.abc_input_method_navigation_guard;
+			global::EG.MisNumeritos.Source.Resource.Color.abc_primary_text_disable_only_material_dark = global::EG.MisNumeritos.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::EG.MisNumeritos.Source.Resource.Color.abc_primary_text_disable_only_material_light = global::EG.MisNumeritos.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::EG.MisNumeritos.Source.Resource.Color.abc_primary_text_material_dark = global::EG.MisNumeritos.Resource.Color.abc_primary_text_material_dark;
+			global::EG.MisNumeritos.Source.Resource.Color.abc_primary_text_material_light = global::EG.MisNumeritos.Resource.Color.abc_primary_text_material_light;
+			global::EG.MisNumeritos.Source.Resource.Color.abc_search_url_text = global::EG.MisNumeritos.Resource.Color.abc_search_url_text;
+			global::EG.MisNumeritos.Source.Resource.Color.abc_search_url_text_normal = global::EG.MisNumeritos.Resource.Color.abc_search_url_text_normal;
+			global::EG.MisNumeritos.Source.Resource.Color.abc_search_url_text_pressed = global::EG.MisNumeritos.Resource.Color.abc_search_url_text_pressed;
+			global::EG.MisNumeritos.Source.Resource.Color.abc_search_url_text_selected = global::EG.MisNumeritos.Resource.Color.abc_search_url_text_selected;
+			global::EG.MisNumeritos.Source.Resource.Color.abc_secondary_text_material_dark = global::EG.MisNumeritos.Resource.Color.abc_secondary_text_material_dark;
+			global::EG.MisNumeritos.Source.Resource.Color.abc_secondary_text_material_light = global::EG.MisNumeritos.Resource.Color.abc_secondary_text_material_light;
+			global::EG.MisNumeritos.Source.Resource.Color.abc_tint_btn_checkable = global::EG.MisNumeritos.Resource.Color.abc_tint_btn_checkable;
+			global::EG.MisNumeritos.Source.Resource.Color.abc_tint_default = global::EG.MisNumeritos.Resource.Color.abc_tint_default;
+			global::EG.MisNumeritos.Source.Resource.Color.abc_tint_edittext = global::EG.MisNumeritos.Resource.Color.abc_tint_edittext;
+			global::EG.MisNumeritos.Source.Resource.Color.abc_tint_seek_thumb = global::EG.MisNumeritos.Resource.Color.abc_tint_seek_thumb;
+			global::EG.MisNumeritos.Source.Resource.Color.abc_tint_spinner = global::EG.MisNumeritos.Resource.Color.abc_tint_spinner;
+			global::EG.MisNumeritos.Source.Resource.Color.abc_tint_switch_track = global::EG.MisNumeritos.Resource.Color.abc_tint_switch_track;
+			global::EG.MisNumeritos.Source.Resource.Color.accent_material_dark = global::EG.MisNumeritos.Resource.Color.accent_material_dark;
+			global::EG.MisNumeritos.Source.Resource.Color.accent_material_light = global::EG.MisNumeritos.Resource.Color.accent_material_light;
+			global::EG.MisNumeritos.Source.Resource.Color.background_floating_material_dark = global::EG.MisNumeritos.Resource.Color.background_floating_material_dark;
+			global::EG.MisNumeritos.Source.Resource.Color.background_floating_material_light = global::EG.MisNumeritos.Resource.Color.background_floating_material_light;
+			global::EG.MisNumeritos.Source.Resource.Color.background_material_dark = global::EG.MisNumeritos.Resource.Color.background_material_dark;
+			global::EG.MisNumeritos.Source.Resource.Color.background_material_light = global::EG.MisNumeritos.Resource.Color.background_material_light;
+			global::EG.MisNumeritos.Source.Resource.Color.bright_foreground_disabled_material_dark = global::EG.MisNumeritos.Resource.Color.bright_foreground_disabled_material_dark;
+			global::EG.MisNumeritos.Source.Resource.Color.bright_foreground_disabled_material_light = global::EG.MisNumeritos.Resource.Color.bright_foreground_disabled_material_light;
+			global::EG.MisNumeritos.Source.Resource.Color.bright_foreground_inverse_material_dark = global::EG.MisNumeritos.Resource.Color.bright_foreground_inverse_material_dark;
+			global::EG.MisNumeritos.Source.Resource.Color.bright_foreground_inverse_material_light = global::EG.MisNumeritos.Resource.Color.bright_foreground_inverse_material_light;
+			global::EG.MisNumeritos.Source.Resource.Color.bright_foreground_material_dark = global::EG.MisNumeritos.Resource.Color.bright_foreground_material_dark;
+			global::EG.MisNumeritos.Source.Resource.Color.bright_foreground_material_light = global::EG.MisNumeritos.Resource.Color.bright_foreground_material_light;
+			global::EG.MisNumeritos.Source.Resource.Color.button_material_dark = global::EG.MisNumeritos.Resource.Color.button_material_dark;
+			global::EG.MisNumeritos.Source.Resource.Color.button_material_light = global::EG.MisNumeritos.Resource.Color.button_material_light;
+			global::EG.MisNumeritos.Source.Resource.Color.dim_foreground_disabled_material_dark = global::EG.MisNumeritos.Resource.Color.dim_foreground_disabled_material_dark;
+			global::EG.MisNumeritos.Source.Resource.Color.dim_foreground_disabled_material_light = global::EG.MisNumeritos.Resource.Color.dim_foreground_disabled_material_light;
+			global::EG.MisNumeritos.Source.Resource.Color.dim_foreground_material_dark = global::EG.MisNumeritos.Resource.Color.dim_foreground_material_dark;
+			global::EG.MisNumeritos.Source.Resource.Color.dim_foreground_material_light = global::EG.MisNumeritos.Resource.Color.dim_foreground_material_light;
+			global::EG.MisNumeritos.Source.Resource.Color.error_color_material = global::EG.MisNumeritos.Resource.Color.error_color_material;
+			global::EG.MisNumeritos.Source.Resource.Color.foreground_material_dark = global::EG.MisNumeritos.Resource.Color.foreground_material_dark;
+			global::EG.MisNumeritos.Source.Resource.Color.foreground_material_light = global::EG.MisNumeritos.Resource.Color.foreground_material_light;
+			global::EG.MisNumeritos.Source.Resource.Color.highlighted_text_material_dark = global::EG.MisNumeritos.Resource.Color.highlighted_text_material_dark;
+			global::EG.MisNumeritos.Source.Resource.Color.highlighted_text_material_light = global::EG.MisNumeritos.Resource.Color.highlighted_text_material_light;
+			global::EG.MisNumeritos.Source.Resource.Color.material_blue_grey_800 = global::EG.MisNumeritos.Resource.Color.material_blue_grey_800;
+			global::EG.MisNumeritos.Source.Resource.Color.material_blue_grey_900 = global::EG.MisNumeritos.Resource.Color.material_blue_grey_900;
+			global::EG.MisNumeritos.Source.Resource.Color.material_blue_grey_950 = global::EG.MisNumeritos.Resource.Color.material_blue_grey_950;
+			global::EG.MisNumeritos.Source.Resource.Color.material_deep_teal_200 = global::EG.MisNumeritos.Resource.Color.material_deep_teal_200;
+			global::EG.MisNumeritos.Source.Resource.Color.material_deep_teal_500 = global::EG.MisNumeritos.Resource.Color.material_deep_teal_500;
+			global::EG.MisNumeritos.Source.Resource.Color.material_grey_100 = global::EG.MisNumeritos.Resource.Color.material_grey_100;
+			global::EG.MisNumeritos.Source.Resource.Color.material_grey_300 = global::EG.MisNumeritos.Resource.Color.material_grey_300;
+			global::EG.MisNumeritos.Source.Resource.Color.material_grey_50 = global::EG.MisNumeritos.Resource.Color.material_grey_50;
+			global::EG.MisNumeritos.Source.Resource.Color.material_grey_600 = global::EG.MisNumeritos.Resource.Color.material_grey_600;
+			global::EG.MisNumeritos.Source.Resource.Color.material_grey_800 = global::EG.MisNumeritos.Resource.Color.material_grey_800;
+			global::EG.MisNumeritos.Source.Resource.Color.material_grey_850 = global::EG.MisNumeritos.Resource.Color.material_grey_850;
+			global::EG.MisNumeritos.Source.Resource.Color.material_grey_900 = global::EG.MisNumeritos.Resource.Color.material_grey_900;
+			global::EG.MisNumeritos.Source.Resource.Color.notification_action_color_filter = global::EG.MisNumeritos.Resource.Color.notification_action_color_filter;
+			global::EG.MisNumeritos.Source.Resource.Color.notification_icon_bg_color = global::EG.MisNumeritos.Resource.Color.notification_icon_bg_color;
+			global::EG.MisNumeritos.Source.Resource.Color.notification_material_background_media_default_color = global::EG.MisNumeritos.Resource.Color.notification_material_background_media_default_color;
+			global::EG.MisNumeritos.Source.Resource.Color.primary_dark_material_dark = global::EG.MisNumeritos.Resource.Color.primary_dark_material_dark;
+			global::EG.MisNumeritos.Source.Resource.Color.primary_dark_material_light = global::EG.MisNumeritos.Resource.Color.primary_dark_material_light;
+			global::EG.MisNumeritos.Source.Resource.Color.primary_material_dark = global::EG.MisNumeritos.Resource.Color.primary_material_dark;
+			global::EG.MisNumeritos.Source.Resource.Color.primary_material_light = global::EG.MisNumeritos.Resource.Color.primary_material_light;
+			global::EG.MisNumeritos.Source.Resource.Color.primary_text_default_material_dark = global::EG.MisNumeritos.Resource.Color.primary_text_default_material_dark;
+			global::EG.MisNumeritos.Source.Resource.Color.primary_text_default_material_light = global::EG.MisNumeritos.Resource.Color.primary_text_default_material_light;
+			global::EG.MisNumeritos.Source.Resource.Color.primary_text_disabled_material_dark = global::EG.MisNumeritos.Resource.Color.primary_text_disabled_material_dark;
+			global::EG.MisNumeritos.Source.Resource.Color.primary_text_disabled_material_light = global::EG.MisNumeritos.Resource.Color.primary_text_disabled_material_light;
+			global::EG.MisNumeritos.Source.Resource.Color.ripple_material_dark = global::EG.MisNumeritos.Resource.Color.ripple_material_dark;
+			global::EG.MisNumeritos.Source.Resource.Color.ripple_material_light = global::EG.MisNumeritos.Resource.Color.ripple_material_light;
+			global::EG.MisNumeritos.Source.Resource.Color.secondary_text_default_material_dark = global::EG.MisNumeritos.Resource.Color.secondary_text_default_material_dark;
+			global::EG.MisNumeritos.Source.Resource.Color.secondary_text_default_material_light = global::EG.MisNumeritos.Resource.Color.secondary_text_default_material_light;
+			global::EG.MisNumeritos.Source.Resource.Color.secondary_text_disabled_material_dark = global::EG.MisNumeritos.Resource.Color.secondary_text_disabled_material_dark;
+			global::EG.MisNumeritos.Source.Resource.Color.secondary_text_disabled_material_light = global::EG.MisNumeritos.Resource.Color.secondary_text_disabled_material_light;
+			global::EG.MisNumeritos.Source.Resource.Color.switch_thumb_disabled_material_dark = global::EG.MisNumeritos.Resource.Color.switch_thumb_disabled_material_dark;
+			global::EG.MisNumeritos.Source.Resource.Color.switch_thumb_disabled_material_light = global::EG.MisNumeritos.Resource.Color.switch_thumb_disabled_material_light;
+			global::EG.MisNumeritos.Source.Resource.Color.switch_thumb_material_dark = global::EG.MisNumeritos.Resource.Color.switch_thumb_material_dark;
+			global::EG.MisNumeritos.Source.Resource.Color.switch_thumb_material_light = global::EG.MisNumeritos.Resource.Color.switch_thumb_material_light;
+			global::EG.MisNumeritos.Source.Resource.Color.switch_thumb_normal_material_dark = global::EG.MisNumeritos.Resource.Color.switch_thumb_normal_material_dark;
+			global::EG.MisNumeritos.Source.Resource.Color.switch_thumb_normal_material_light = global::EG.MisNumeritos.Resource.Color.switch_thumb_normal_material_light;
+			global::EG.MisNumeritos.Source.Resource.Color.tooltip_background_dark = global::EG.MisNumeritos.Resource.Color.tooltip_background_dark;
+			global::EG.MisNumeritos.Source.Resource.Color.tooltip_background_light = global::EG.MisNumeritos.Resource.Color.tooltip_background_light;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_action_bar_content_inset_material = global::EG.MisNumeritos.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::EG.MisNumeritos.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_action_bar_default_height_material = global::EG.MisNumeritos.Resource.Dimension.abc_action_bar_default_height_material;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_action_bar_default_padding_end_material = global::EG.MisNumeritos.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_action_bar_default_padding_start_material = global::EG.MisNumeritos.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_action_bar_elevation_material = global::EG.MisNumeritos.Resource.Dimension.abc_action_bar_elevation_material;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::EG.MisNumeritos.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::EG.MisNumeritos.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::EG.MisNumeritos.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_action_bar_progress_bar_size = global::EG.MisNumeritos.Resource.Dimension.abc_action_bar_progress_bar_size;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_action_bar_stacked_max_height = global::EG.MisNumeritos.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::EG.MisNumeritos.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::EG.MisNumeritos.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::EG.MisNumeritos.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_action_button_min_height_material = global::EG.MisNumeritos.Resource.Dimension.abc_action_button_min_height_material;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_action_button_min_width_material = global::EG.MisNumeritos.Resource.Dimension.abc_action_button_min_width_material;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_action_button_min_width_overflow_material = global::EG.MisNumeritos.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_alert_dialog_button_bar_height = global::EG.MisNumeritos.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_button_inset_horizontal_material = global::EG.MisNumeritos.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_button_inset_vertical_material = global::EG.MisNumeritos.Resource.Dimension.abc_button_inset_vertical_material;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_button_padding_horizontal_material = global::EG.MisNumeritos.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_button_padding_vertical_material = global::EG.MisNumeritos.Resource.Dimension.abc_button_padding_vertical_material;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::EG.MisNumeritos.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_config_prefDialogWidth = global::EG.MisNumeritos.Resource.Dimension.abc_config_prefDialogWidth;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_control_corner_material = global::EG.MisNumeritos.Resource.Dimension.abc_control_corner_material;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_control_inset_material = global::EG.MisNumeritos.Resource.Dimension.abc_control_inset_material;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_control_padding_material = global::EG.MisNumeritos.Resource.Dimension.abc_control_padding_material;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_dialog_fixed_height_major = global::EG.MisNumeritos.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_dialog_fixed_height_minor = global::EG.MisNumeritos.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_dialog_fixed_width_major = global::EG.MisNumeritos.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_dialog_fixed_width_minor = global::EG.MisNumeritos.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::EG.MisNumeritos.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::EG.MisNumeritos.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_dialog_min_width_major = global::EG.MisNumeritos.Resource.Dimension.abc_dialog_min_width_major;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_dialog_min_width_minor = global::EG.MisNumeritos.Resource.Dimension.abc_dialog_min_width_minor;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_dialog_padding_material = global::EG.MisNumeritos.Resource.Dimension.abc_dialog_padding_material;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_dialog_padding_top_material = global::EG.MisNumeritos.Resource.Dimension.abc_dialog_padding_top_material;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_dialog_title_divider_material = global::EG.MisNumeritos.Resource.Dimension.abc_dialog_title_divider_material;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_disabled_alpha_material_dark = global::EG.MisNumeritos.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_disabled_alpha_material_light = global::EG.MisNumeritos.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_dropdownitem_icon_width = global::EG.MisNumeritos.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_dropdownitem_text_padding_left = global::EG.MisNumeritos.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_dropdownitem_text_padding_right = global::EG.MisNumeritos.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_edit_text_inset_bottom_material = global::EG.MisNumeritos.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::EG.MisNumeritos.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_edit_text_inset_top_material = global::EG.MisNumeritos.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_floating_window_z = global::EG.MisNumeritos.Resource.Dimension.abc_floating_window_z;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_list_item_padding_horizontal_material = global::EG.MisNumeritos.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_panel_menu_list_width = global::EG.MisNumeritos.Resource.Dimension.abc_panel_menu_list_width;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_progress_bar_height_material = global::EG.MisNumeritos.Resource.Dimension.abc_progress_bar_height_material;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_search_view_preferred_height = global::EG.MisNumeritos.Resource.Dimension.abc_search_view_preferred_height;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_search_view_preferred_width = global::EG.MisNumeritos.Resource.Dimension.abc_search_view_preferred_width;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_seekbar_track_background_height_material = global::EG.MisNumeritos.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_seekbar_track_progress_height_material = global::EG.MisNumeritos.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_select_dialog_padding_start_material = global::EG.MisNumeritos.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_switch_padding = global::EG.MisNumeritos.Resource.Dimension.abc_switch_padding;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_text_size_body_1_material = global::EG.MisNumeritos.Resource.Dimension.abc_text_size_body_1_material;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_text_size_body_2_material = global::EG.MisNumeritos.Resource.Dimension.abc_text_size_body_2_material;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_text_size_button_material = global::EG.MisNumeritos.Resource.Dimension.abc_text_size_button_material;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_text_size_caption_material = global::EG.MisNumeritos.Resource.Dimension.abc_text_size_caption_material;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_text_size_display_1_material = global::EG.MisNumeritos.Resource.Dimension.abc_text_size_display_1_material;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_text_size_display_2_material = global::EG.MisNumeritos.Resource.Dimension.abc_text_size_display_2_material;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_text_size_display_3_material = global::EG.MisNumeritos.Resource.Dimension.abc_text_size_display_3_material;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_text_size_display_4_material = global::EG.MisNumeritos.Resource.Dimension.abc_text_size_display_4_material;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_text_size_headline_material = global::EG.MisNumeritos.Resource.Dimension.abc_text_size_headline_material;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_text_size_large_material = global::EG.MisNumeritos.Resource.Dimension.abc_text_size_large_material;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_text_size_medium_material = global::EG.MisNumeritos.Resource.Dimension.abc_text_size_medium_material;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_text_size_menu_header_material = global::EG.MisNumeritos.Resource.Dimension.abc_text_size_menu_header_material;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_text_size_menu_material = global::EG.MisNumeritos.Resource.Dimension.abc_text_size_menu_material;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_text_size_small_material = global::EG.MisNumeritos.Resource.Dimension.abc_text_size_small_material;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_text_size_subhead_material = global::EG.MisNumeritos.Resource.Dimension.abc_text_size_subhead_material;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::EG.MisNumeritos.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_text_size_title_material = global::EG.MisNumeritos.Resource.Dimension.abc_text_size_title_material;
+			global::EG.MisNumeritos.Source.Resource.Dimension.abc_text_size_title_material_toolbar = global::EG.MisNumeritos.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::EG.MisNumeritos.Source.Resource.Dimension.compat_button_inset_horizontal_material = global::EG.MisNumeritos.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::EG.MisNumeritos.Source.Resource.Dimension.compat_button_inset_vertical_material = global::EG.MisNumeritos.Resource.Dimension.compat_button_inset_vertical_material;
+			global::EG.MisNumeritos.Source.Resource.Dimension.compat_button_padding_horizontal_material = global::EG.MisNumeritos.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::EG.MisNumeritos.Source.Resource.Dimension.compat_button_padding_vertical_material = global::EG.MisNumeritos.Resource.Dimension.compat_button_padding_vertical_material;
+			global::EG.MisNumeritos.Source.Resource.Dimension.compat_control_corner_material = global::EG.MisNumeritos.Resource.Dimension.compat_control_corner_material;
+			global::EG.MisNumeritos.Source.Resource.Dimension.disabled_alpha_material_dark = global::EG.MisNumeritos.Resource.Dimension.disabled_alpha_material_dark;
+			global::EG.MisNumeritos.Source.Resource.Dimension.disabled_alpha_material_light = global::EG.MisNumeritos.Resource.Dimension.disabled_alpha_material_light;
+			global::EG.MisNumeritos.Source.Resource.Dimension.highlight_alpha_material_colored = global::EG.MisNumeritos.Resource.Dimension.highlight_alpha_material_colored;
+			global::EG.MisNumeritos.Source.Resource.Dimension.highlight_alpha_material_dark = global::EG.MisNumeritos.Resource.Dimension.highlight_alpha_material_dark;
+			global::EG.MisNumeritos.Source.Resource.Dimension.highlight_alpha_material_light = global::EG.MisNumeritos.Resource.Dimension.highlight_alpha_material_light;
+			global::EG.MisNumeritos.Source.Resource.Dimension.hint_alpha_material_dark = global::EG.MisNumeritos.Resource.Dimension.hint_alpha_material_dark;
+			global::EG.MisNumeritos.Source.Resource.Dimension.hint_alpha_material_light = global::EG.MisNumeritos.Resource.Dimension.hint_alpha_material_light;
+			global::EG.MisNumeritos.Source.Resource.Dimension.hint_pressed_alpha_material_dark = global::EG.MisNumeritos.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::EG.MisNumeritos.Source.Resource.Dimension.hint_pressed_alpha_material_light = global::EG.MisNumeritos.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::EG.MisNumeritos.Source.Resource.Dimension.notification_action_icon_size = global::EG.MisNumeritos.Resource.Dimension.notification_action_icon_size;
+			global::EG.MisNumeritos.Source.Resource.Dimension.notification_action_text_size = global::EG.MisNumeritos.Resource.Dimension.notification_action_text_size;
+			global::EG.MisNumeritos.Source.Resource.Dimension.notification_big_circle_margin = global::EG.MisNumeritos.Resource.Dimension.notification_big_circle_margin;
+			global::EG.MisNumeritos.Source.Resource.Dimension.notification_content_margin_start = global::EG.MisNumeritos.Resource.Dimension.notification_content_margin_start;
+			global::EG.MisNumeritos.Source.Resource.Dimension.notification_large_icon_height = global::EG.MisNumeritos.Resource.Dimension.notification_large_icon_height;
+			global::EG.MisNumeritos.Source.Resource.Dimension.notification_large_icon_width = global::EG.MisNumeritos.Resource.Dimension.notification_large_icon_width;
+			global::EG.MisNumeritos.Source.Resource.Dimension.notification_main_column_padding_top = global::EG.MisNumeritos.Resource.Dimension.notification_main_column_padding_top;
+			global::EG.MisNumeritos.Source.Resource.Dimension.notification_media_narrow_margin = global::EG.MisNumeritos.Resource.Dimension.notification_media_narrow_margin;
+			global::EG.MisNumeritos.Source.Resource.Dimension.notification_right_icon_size = global::EG.MisNumeritos.Resource.Dimension.notification_right_icon_size;
+			global::EG.MisNumeritos.Source.Resource.Dimension.notification_right_side_padding_top = global::EG.MisNumeritos.Resource.Dimension.notification_right_side_padding_top;
+			global::EG.MisNumeritos.Source.Resource.Dimension.notification_small_icon_background_padding = global::EG.MisNumeritos.Resource.Dimension.notification_small_icon_background_padding;
+			global::EG.MisNumeritos.Source.Resource.Dimension.notification_small_icon_size_as_large = global::EG.MisNumeritos.Resource.Dimension.notification_small_icon_size_as_large;
+			global::EG.MisNumeritos.Source.Resource.Dimension.notification_subtext_size = global::EG.MisNumeritos.Resource.Dimension.notification_subtext_size;
+			global::EG.MisNumeritos.Source.Resource.Dimension.notification_top_pad = global::EG.MisNumeritos.Resource.Dimension.notification_top_pad;
+			global::EG.MisNumeritos.Source.Resource.Dimension.notification_top_pad_large_text = global::EG.MisNumeritos.Resource.Dimension.notification_top_pad_large_text;
+			global::EG.MisNumeritos.Source.Resource.Dimension.tooltip_corner_radius = global::EG.MisNumeritos.Resource.Dimension.tooltip_corner_radius;
+			global::EG.MisNumeritos.Source.Resource.Dimension.tooltip_horizontal_padding = global::EG.MisNumeritos.Resource.Dimension.tooltip_horizontal_padding;
+			global::EG.MisNumeritos.Source.Resource.Dimension.tooltip_margin = global::EG.MisNumeritos.Resource.Dimension.tooltip_margin;
+			global::EG.MisNumeritos.Source.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::EG.MisNumeritos.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::EG.MisNumeritos.Source.Resource.Dimension.tooltip_precise_anchor_threshold = global::EG.MisNumeritos.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::EG.MisNumeritos.Source.Resource.Dimension.tooltip_vertical_padding = global::EG.MisNumeritos.Resource.Dimension.tooltip_vertical_padding;
+			global::EG.MisNumeritos.Source.Resource.Dimension.tooltip_y_offset_non_touch = global::EG.MisNumeritos.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::EG.MisNumeritos.Source.Resource.Dimension.tooltip_y_offset_touch = global::EG.MisNumeritos.Resource.Dimension.tooltip_y_offset_touch;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::EG.MisNumeritos.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_action_bar_item_background_material = global::EG.MisNumeritos.Resource.Drawable.abc_action_bar_item_background_material;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_btn_borderless_material = global::EG.MisNumeritos.Resource.Drawable.abc_btn_borderless_material;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_btn_check_material = global::EG.MisNumeritos.Resource.Drawable.abc_btn_check_material;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::EG.MisNumeritos.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::EG.MisNumeritos.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_btn_colored_material = global::EG.MisNumeritos.Resource.Drawable.abc_btn_colored_material;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_btn_default_mtrl_shape = global::EG.MisNumeritos.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_btn_radio_material = global::EG.MisNumeritos.Resource.Drawable.abc_btn_radio_material;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::EG.MisNumeritos.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::EG.MisNumeritos.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::EG.MisNumeritos.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::EG.MisNumeritos.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_cab_background_internal_bg = global::EG.MisNumeritos.Resource.Drawable.abc_cab_background_internal_bg;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_cab_background_top_material = global::EG.MisNumeritos.Resource.Drawable.abc_cab_background_top_material;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::EG.MisNumeritos.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_control_background_material = global::EG.MisNumeritos.Resource.Drawable.abc_control_background_material;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_dialog_material_background = global::EG.MisNumeritos.Resource.Drawable.abc_dialog_material_background;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_edit_text_material = global::EG.MisNumeritos.Resource.Drawable.abc_edit_text_material;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_ic_ab_back_material = global::EG.MisNumeritos.Resource.Drawable.abc_ic_ab_back_material;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::EG.MisNumeritos.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_ic_clear_material = global::EG.MisNumeritos.Resource.Drawable.abc_ic_clear_material;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::EG.MisNumeritos.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_ic_go_search_api_material = global::EG.MisNumeritos.Resource.Drawable.abc_ic_go_search_api_material;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::EG.MisNumeritos.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::EG.MisNumeritos.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_ic_menu_overflow_material = global::EG.MisNumeritos.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::EG.MisNumeritos.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::EG.MisNumeritos.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::EG.MisNumeritos.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_ic_search_api_material = global::EG.MisNumeritos.Resource.Drawable.abc_ic_search_api_material;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_ic_star_black_16dp = global::EG.MisNumeritos.Resource.Drawable.abc_ic_star_black_16dp;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_ic_star_black_36dp = global::EG.MisNumeritos.Resource.Drawable.abc_ic_star_black_36dp;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_ic_star_black_48dp = global::EG.MisNumeritos.Resource.Drawable.abc_ic_star_black_48dp;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_ic_star_half_black_16dp = global::EG.MisNumeritos.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_ic_star_half_black_36dp = global::EG.MisNumeritos.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_ic_star_half_black_48dp = global::EG.MisNumeritos.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_ic_voice_search_api_material = global::EG.MisNumeritos.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_item_background_holo_dark = global::EG.MisNumeritos.Resource.Drawable.abc_item_background_holo_dark;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_item_background_holo_light = global::EG.MisNumeritos.Resource.Drawable.abc_item_background_holo_light;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_list_divider_mtrl_alpha = global::EG.MisNumeritos.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_list_focused_holo = global::EG.MisNumeritos.Resource.Drawable.abc_list_focused_holo;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_list_longpressed_holo = global::EG.MisNumeritos.Resource.Drawable.abc_list_longpressed_holo;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_list_pressed_holo_dark = global::EG.MisNumeritos.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_list_pressed_holo_light = global::EG.MisNumeritos.Resource.Drawable.abc_list_pressed_holo_light;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::EG.MisNumeritos.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::EG.MisNumeritos.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::EG.MisNumeritos.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_list_selector_disabled_holo_light = global::EG.MisNumeritos.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_list_selector_holo_dark = global::EG.MisNumeritos.Resource.Drawable.abc_list_selector_holo_dark;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_list_selector_holo_light = global::EG.MisNumeritos.Resource.Drawable.abc_list_selector_holo_light;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::EG.MisNumeritos.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_popup_background_mtrl_mult = global::EG.MisNumeritos.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_ratingbar_indicator_material = global::EG.MisNumeritos.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_ratingbar_material = global::EG.MisNumeritos.Resource.Drawable.abc_ratingbar_material;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_ratingbar_small_material = global::EG.MisNumeritos.Resource.Drawable.abc_ratingbar_small_material;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::EG.MisNumeritos.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::EG.MisNumeritos.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::EG.MisNumeritos.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::EG.MisNumeritos.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::EG.MisNumeritos.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_seekbar_thumb_material = global::EG.MisNumeritos.Resource.Drawable.abc_seekbar_thumb_material;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_seekbar_tick_mark_material = global::EG.MisNumeritos.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_seekbar_track_material = global::EG.MisNumeritos.Resource.Drawable.abc_seekbar_track_material;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::EG.MisNumeritos.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_spinner_textfield_background_material = global::EG.MisNumeritos.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_switch_thumb_material = global::EG.MisNumeritos.Resource.Drawable.abc_switch_thumb_material;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_switch_track_mtrl_alpha = global::EG.MisNumeritos.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_tab_indicator_material = global::EG.MisNumeritos.Resource.Drawable.abc_tab_indicator_material;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::EG.MisNumeritos.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_text_cursor_material = global::EG.MisNumeritos.Resource.Drawable.abc_text_cursor_material;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::EG.MisNumeritos.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::EG.MisNumeritos.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::EG.MisNumeritos.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::EG.MisNumeritos.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::EG.MisNumeritos.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::EG.MisNumeritos.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::EG.MisNumeritos.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::EG.MisNumeritos.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::EG.MisNumeritos.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::EG.MisNumeritos.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_textfield_search_material = global::EG.MisNumeritos.Resource.Drawable.abc_textfield_search_material;
+			global::EG.MisNumeritos.Source.Resource.Drawable.abc_vector_test = global::EG.MisNumeritos.Resource.Drawable.abc_vector_test;
+			global::EG.MisNumeritos.Source.Resource.Drawable.notification_action_background = global::EG.MisNumeritos.Resource.Drawable.notification_action_background;
+			global::EG.MisNumeritos.Source.Resource.Drawable.notification_bg = global::EG.MisNumeritos.Resource.Drawable.notification_bg;
+			global::EG.MisNumeritos.Source.Resource.Drawable.notification_bg_low = global::EG.MisNumeritos.Resource.Drawable.notification_bg_low;
+			global::EG.MisNumeritos.Source.Resource.Drawable.notification_bg_low_normal = global::EG.MisNumeritos.Resource.Drawable.notification_bg_low_normal;
+			global::EG.MisNumeritos.Source.Resource.Drawable.notification_bg_low_pressed = global::EG.MisNumeritos.Resource.Drawable.notification_bg_low_pressed;
+			global::EG.MisNumeritos.Source.Resource.Drawable.notification_bg_normal = global::EG.MisNumeritos.Resource.Drawable.notification_bg_normal;
+			global::EG.MisNumeritos.Source.Resource.Drawable.notification_bg_normal_pressed = global::EG.MisNumeritos.Resource.Drawable.notification_bg_normal_pressed;
+			global::EG.MisNumeritos.Source.Resource.Drawable.notification_icon_background = global::EG.MisNumeritos.Resource.Drawable.notification_icon_background;
+			global::EG.MisNumeritos.Source.Resource.Drawable.notification_template_icon_bg = global::EG.MisNumeritos.Resource.Drawable.notification_template_icon_bg;
+			global::EG.MisNumeritos.Source.Resource.Drawable.notification_template_icon_low_bg = global::EG.MisNumeritos.Resource.Drawable.notification_template_icon_low_bg;
+			global::EG.MisNumeritos.Source.Resource.Drawable.notification_tile_bg = global::EG.MisNumeritos.Resource.Drawable.notification_tile_bg;
+			global::EG.MisNumeritos.Source.Resource.Drawable.notify_panel_notification_icon_bg = global::EG.MisNumeritos.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::EG.MisNumeritos.Source.Resource.Drawable.tooltip_frame_dark = global::EG.MisNumeritos.Resource.Drawable.tooltip_frame_dark;
+			global::EG.MisNumeritos.Source.Resource.Drawable.tooltip_frame_light = global::EG.MisNumeritos.Resource.Drawable.tooltip_frame_light;
+			global::EG.MisNumeritos.Source.Resource.Id.ALT = global::EG.MisNumeritos.Resource.Id.ALT;
+			global::EG.MisNumeritos.Source.Resource.Id.CTRL = global::EG.MisNumeritos.Resource.Id.CTRL;
+			global::EG.MisNumeritos.Source.Resource.Id.FUNCTION = global::EG.MisNumeritos.Resource.Id.FUNCTION;
+			global::EG.MisNumeritos.Source.Resource.Id.META = global::EG.MisNumeritos.Resource.Id.META;
+			global::EG.MisNumeritos.Source.Resource.Id.SHIFT = global::EG.MisNumeritos.Resource.Id.SHIFT;
+			global::EG.MisNumeritos.Source.Resource.Id.SYM = global::EG.MisNumeritos.Resource.Id.SYM;
+			global::EG.MisNumeritos.Source.Resource.Id.action0 = global::EG.MisNumeritos.Resource.Id.action0;
+			global::EG.MisNumeritos.Source.Resource.Id.action_bar = global::EG.MisNumeritos.Resource.Id.action_bar;
+			global::EG.MisNumeritos.Source.Resource.Id.action_bar_activity_content = global::EG.MisNumeritos.Resource.Id.action_bar_activity_content;
+			global::EG.MisNumeritos.Source.Resource.Id.action_bar_container = global::EG.MisNumeritos.Resource.Id.action_bar_container;
+			global::EG.MisNumeritos.Source.Resource.Id.action_bar_root = global::EG.MisNumeritos.Resource.Id.action_bar_root;
+			global::EG.MisNumeritos.Source.Resource.Id.action_bar_spinner = global::EG.MisNumeritos.Resource.Id.action_bar_spinner;
+			global::EG.MisNumeritos.Source.Resource.Id.action_bar_subtitle = global::EG.MisNumeritos.Resource.Id.action_bar_subtitle;
+			global::EG.MisNumeritos.Source.Resource.Id.action_bar_title = global::EG.MisNumeritos.Resource.Id.action_bar_title;
+			global::EG.MisNumeritos.Source.Resource.Id.action_container = global::EG.MisNumeritos.Resource.Id.action_container;
+			global::EG.MisNumeritos.Source.Resource.Id.action_context_bar = global::EG.MisNumeritos.Resource.Id.action_context_bar;
+			global::EG.MisNumeritos.Source.Resource.Id.action_divider = global::EG.MisNumeritos.Resource.Id.action_divider;
+			global::EG.MisNumeritos.Source.Resource.Id.action_image = global::EG.MisNumeritos.Resource.Id.action_image;
+			global::EG.MisNumeritos.Source.Resource.Id.action_menu_divider = global::EG.MisNumeritos.Resource.Id.action_menu_divider;
+			global::EG.MisNumeritos.Source.Resource.Id.action_menu_presenter = global::EG.MisNumeritos.Resource.Id.action_menu_presenter;
+			global::EG.MisNumeritos.Source.Resource.Id.action_mode_bar = global::EG.MisNumeritos.Resource.Id.action_mode_bar;
+			global::EG.MisNumeritos.Source.Resource.Id.action_mode_bar_stub = global::EG.MisNumeritos.Resource.Id.action_mode_bar_stub;
+			global::EG.MisNumeritos.Source.Resource.Id.action_mode_close_button = global::EG.MisNumeritos.Resource.Id.action_mode_close_button;
+			global::EG.MisNumeritos.Source.Resource.Id.action_text = global::EG.MisNumeritos.Resource.Id.action_text;
+			global::EG.MisNumeritos.Source.Resource.Id.actions = global::EG.MisNumeritos.Resource.Id.actions;
+			global::EG.MisNumeritos.Source.Resource.Id.activity_chooser_view_content = global::EG.MisNumeritos.Resource.Id.activity_chooser_view_content;
+			global::EG.MisNumeritos.Source.Resource.Id.add = global::EG.MisNumeritos.Resource.Id.add;
+			global::EG.MisNumeritos.Source.Resource.Id.alertTitle = global::EG.MisNumeritos.Resource.Id.alertTitle;
+			global::EG.MisNumeritos.Source.Resource.Id.always = global::EG.MisNumeritos.Resource.Id.always;
+			global::EG.MisNumeritos.Source.Resource.Id.async = global::EG.MisNumeritos.Resource.Id.async;
+			global::EG.MisNumeritos.Source.Resource.Id.beginning = global::EG.MisNumeritos.Resource.Id.beginning;
+			global::EG.MisNumeritos.Source.Resource.Id.blocking = global::EG.MisNumeritos.Resource.Id.blocking;
+			global::EG.MisNumeritos.Source.Resource.Id.bottom = global::EG.MisNumeritos.Resource.Id.bottom;
+			global::EG.MisNumeritos.Source.Resource.Id.buttonPanel = global::EG.MisNumeritos.Resource.Id.buttonPanel;
+			global::EG.MisNumeritos.Source.Resource.Id.cancel_action = global::EG.MisNumeritos.Resource.Id.cancel_action;
+			global::EG.MisNumeritos.Source.Resource.Id.checkbox = global::EG.MisNumeritos.Resource.Id.checkbox;
+			global::EG.MisNumeritos.Source.Resource.Id.chronometer = global::EG.MisNumeritos.Resource.Id.chronometer;
+			global::EG.MisNumeritos.Source.Resource.Id.collapseActionView = global::EG.MisNumeritos.Resource.Id.collapseActionView;
+			global::EG.MisNumeritos.Source.Resource.Id.contentPanel = global::EG.MisNumeritos.Resource.Id.contentPanel;
+			global::EG.MisNumeritos.Source.Resource.Id.custom = global::EG.MisNumeritos.Resource.Id.custom;
+			global::EG.MisNumeritos.Source.Resource.Id.customPanel = global::EG.MisNumeritos.Resource.Id.customPanel;
+			global::EG.MisNumeritos.Source.Resource.Id.decor_content_parent = global::EG.MisNumeritos.Resource.Id.decor_content_parent;
+			global::EG.MisNumeritos.Source.Resource.Id.default_activity_button = global::EG.MisNumeritos.Resource.Id.default_activity_button;
+			global::EG.MisNumeritos.Source.Resource.Id.disableHome = global::EG.MisNumeritos.Resource.Id.disableHome;
+			global::EG.MisNumeritos.Source.Resource.Id.edit_query = global::EG.MisNumeritos.Resource.Id.edit_query;
+			global::EG.MisNumeritos.Source.Resource.Id.end = global::EG.MisNumeritos.Resource.Id.end;
+			global::EG.MisNumeritos.Source.Resource.Id.end_padder = global::EG.MisNumeritos.Resource.Id.end_padder;
+			global::EG.MisNumeritos.Source.Resource.Id.expand_activities_button = global::EG.MisNumeritos.Resource.Id.expand_activities_button;
+			global::EG.MisNumeritos.Source.Resource.Id.expanded_menu = global::EG.MisNumeritos.Resource.Id.expanded_menu;
+			global::EG.MisNumeritos.Source.Resource.Id.forever = global::EG.MisNumeritos.Resource.Id.forever;
+			global::EG.MisNumeritos.Source.Resource.Id.home = global::EG.MisNumeritos.Resource.Id.home;
+			global::EG.MisNumeritos.Source.Resource.Id.homeAsUp = global::EG.MisNumeritos.Resource.Id.homeAsUp;
+			global::EG.MisNumeritos.Source.Resource.Id.icon = global::EG.MisNumeritos.Resource.Id.icon;
+			global::EG.MisNumeritos.Source.Resource.Id.icon_group = global::EG.MisNumeritos.Resource.Id.icon_group;
+			global::EG.MisNumeritos.Source.Resource.Id.ifRoom = global::EG.MisNumeritos.Resource.Id.ifRoom;
+			global::EG.MisNumeritos.Source.Resource.Id.image = global::EG.MisNumeritos.Resource.Id.image;
+			global::EG.MisNumeritos.Source.Resource.Id.info = global::EG.MisNumeritos.Resource.Id.info;
+			global::EG.MisNumeritos.Source.Resource.Id.italic = global::EG.MisNumeritos.Resource.Id.italic;
+			global::EG.MisNumeritos.Source.Resource.Id.line1 = global::EG.MisNumeritos.Resource.Id.line1;
+			global::EG.MisNumeritos.Source.Resource.Id.line3 = global::EG.MisNumeritos.Resource.Id.line3;
+			global::EG.MisNumeritos.Source.Resource.Id.listMode = global::EG.MisNumeritos.Resource.Id.listMode;
+			global::EG.MisNumeritos.Source.Resource.Id.list_item = global::EG.MisNumeritos.Resource.Id.list_item;
+			global::EG.MisNumeritos.Source.Resource.Id.media_actions = global::EG.MisNumeritos.Resource.Id.media_actions;
+			global::EG.MisNumeritos.Source.Resource.Id.message = global::EG.MisNumeritos.Resource.Id.message;
+			global::EG.MisNumeritos.Source.Resource.Id.middle = global::EG.MisNumeritos.Resource.Id.middle;
+			global::EG.MisNumeritos.Source.Resource.Id.multiply = global::EG.MisNumeritos.Resource.Id.multiply;
+			global::EG.MisNumeritos.Source.Resource.Id.never = global::EG.MisNumeritos.Resource.Id.never;
+			global::EG.MisNumeritos.Source.Resource.Id.none = global::EG.MisNumeritos.Resource.Id.none;
+			global::EG.MisNumeritos.Source.Resource.Id.normal = global::EG.MisNumeritos.Resource.Id.normal;
+			global::EG.MisNumeritos.Source.Resource.Id.notification_background = global::EG.MisNumeritos.Resource.Id.notification_background;
+			global::EG.MisNumeritos.Source.Resource.Id.notification_main_column = global::EG.MisNumeritos.Resource.Id.notification_main_column;
+			global::EG.MisNumeritos.Source.Resource.Id.notification_main_column_container = global::EG.MisNumeritos.Resource.Id.notification_main_column_container;
+			global::EG.MisNumeritos.Source.Resource.Id.parentPanel = global::EG.MisNumeritos.Resource.Id.parentPanel;
+			global::EG.MisNumeritos.Source.Resource.Id.progress_circular = global::EG.MisNumeritos.Resource.Id.progress_circular;
+			global::EG.MisNumeritos.Source.Resource.Id.progress_horizontal = global::EG.MisNumeritos.Resource.Id.progress_horizontal;
+			global::EG.MisNumeritos.Source.Resource.Id.radio = global::EG.MisNumeritos.Resource.Id.radio;
+			global::EG.MisNumeritos.Source.Resource.Id.right_icon = global::EG.MisNumeritos.Resource.Id.right_icon;
+			global::EG.MisNumeritos.Source.Resource.Id.right_side = global::EG.MisNumeritos.Resource.Id.right_side;
+			global::EG.MisNumeritos.Source.Resource.Id.screen = global::EG.MisNumeritos.Resource.Id.screen;
+			global::EG.MisNumeritos.Source.Resource.Id.scrollIndicatorDown = global::EG.MisNumeritos.Resource.Id.scrollIndicatorDown;
+			global::EG.MisNumeritos.Source.Resource.Id.scrollIndicatorUp = global::EG.MisNumeritos.Resource.Id.scrollIndicatorUp;
+			global::EG.MisNumeritos.Source.Resource.Id.scrollView = global::EG.MisNumeritos.Resource.Id.scrollView;
+			global::EG.MisNumeritos.Source.Resource.Id.search_badge = global::EG.MisNumeritos.Resource.Id.search_badge;
+			global::EG.MisNumeritos.Source.Resource.Id.search_bar = global::EG.MisNumeritos.Resource.Id.search_bar;
+			global::EG.MisNumeritos.Source.Resource.Id.search_button = global::EG.MisNumeritos.Resource.Id.search_button;
+			global::EG.MisNumeritos.Source.Resource.Id.search_close_btn = global::EG.MisNumeritos.Resource.Id.search_close_btn;
+			global::EG.MisNumeritos.Source.Resource.Id.search_edit_frame = global::EG.MisNumeritos.Resource.Id.search_edit_frame;
+			global::EG.MisNumeritos.Source.Resource.Id.search_go_btn = global::EG.MisNumeritos.Resource.Id.search_go_btn;
+			global::EG.MisNumeritos.Source.Resource.Id.search_mag_icon = global::EG.MisNumeritos.Resource.Id.search_mag_icon;
+			global::EG.MisNumeritos.Source.Resource.Id.search_plate = global::EG.MisNumeritos.Resource.Id.search_plate;
+			global::EG.MisNumeritos.Source.Resource.Id.search_src_text = global::EG.MisNumeritos.Resource.Id.search_src_text;
+			global::EG.MisNumeritos.Source.Resource.Id.search_voice_btn = global::EG.MisNumeritos.Resource.Id.search_voice_btn;
+			global::EG.MisNumeritos.Source.Resource.Id.select_dialog_listview = global::EG.MisNumeritos.Resource.Id.select_dialog_listview;
+			global::EG.MisNumeritos.Source.Resource.Id.shortcut = global::EG.MisNumeritos.Resource.Id.shortcut;
+			global::EG.MisNumeritos.Source.Resource.Id.showCustom = global::EG.MisNumeritos.Resource.Id.showCustom;
+			global::EG.MisNumeritos.Source.Resource.Id.showHome = global::EG.MisNumeritos.Resource.Id.showHome;
+			global::EG.MisNumeritos.Source.Resource.Id.showTitle = global::EG.MisNumeritos.Resource.Id.showTitle;
+			global::EG.MisNumeritos.Source.Resource.Id.spacer = global::EG.MisNumeritos.Resource.Id.spacer;
+			global::EG.MisNumeritos.Source.Resource.Id.split_action_bar = global::EG.MisNumeritos.Resource.Id.split_action_bar;
+			global::EG.MisNumeritos.Source.Resource.Id.src_atop = global::EG.MisNumeritos.Resource.Id.src_atop;
+			global::EG.MisNumeritos.Source.Resource.Id.src_in = global::EG.MisNumeritos.Resource.Id.src_in;
+			global::EG.MisNumeritos.Source.Resource.Id.src_over = global::EG.MisNumeritos.Resource.Id.src_over;
+			global::EG.MisNumeritos.Source.Resource.Id.status_bar_latest_event_content = global::EG.MisNumeritos.Resource.Id.status_bar_latest_event_content;
+			global::EG.MisNumeritos.Source.Resource.Id.submenuarrow = global::EG.MisNumeritos.Resource.Id.submenuarrow;
+			global::EG.MisNumeritos.Source.Resource.Id.submit_area = global::EG.MisNumeritos.Resource.Id.submit_area;
+			global::EG.MisNumeritos.Source.Resource.Id.tabMode = global::EG.MisNumeritos.Resource.Id.tabMode;
+			global::EG.MisNumeritos.Source.Resource.Id.tag_transition_group = global::EG.MisNumeritos.Resource.Id.tag_transition_group;
+			global::EG.MisNumeritos.Source.Resource.Id.text = global::EG.MisNumeritos.Resource.Id.text;
+			global::EG.MisNumeritos.Source.Resource.Id.text2 = global::EG.MisNumeritos.Resource.Id.text2;
+			global::EG.MisNumeritos.Source.Resource.Id.textSpacerNoButtons = global::EG.MisNumeritos.Resource.Id.textSpacerNoButtons;
+			global::EG.MisNumeritos.Source.Resource.Id.textSpacerNoTitle = global::EG.MisNumeritos.Resource.Id.textSpacerNoTitle;
+			global::EG.MisNumeritos.Source.Resource.Id.time = global::EG.MisNumeritos.Resource.Id.time;
+			global::EG.MisNumeritos.Source.Resource.Id.title = global::EG.MisNumeritos.Resource.Id.title;
+			global::EG.MisNumeritos.Source.Resource.Id.titleDividerNoCustom = global::EG.MisNumeritos.Resource.Id.titleDividerNoCustom;
+			global::EG.MisNumeritos.Source.Resource.Id.title_template = global::EG.MisNumeritos.Resource.Id.title_template;
+			global::EG.MisNumeritos.Source.Resource.Id.top = global::EG.MisNumeritos.Resource.Id.top;
+			global::EG.MisNumeritos.Source.Resource.Id.topPanel = global::EG.MisNumeritos.Resource.Id.topPanel;
+			global::EG.MisNumeritos.Source.Resource.Id.uniform = global::EG.MisNumeritos.Resource.Id.uniform;
+			global::EG.MisNumeritos.Source.Resource.Id.up = global::EG.MisNumeritos.Resource.Id.up;
+			global::EG.MisNumeritos.Source.Resource.Id.useLogo = global::EG.MisNumeritos.Resource.Id.useLogo;
+			global::EG.MisNumeritos.Source.Resource.Id.withText = global::EG.MisNumeritos.Resource.Id.withText;
+			global::EG.MisNumeritos.Source.Resource.Id.wrap_content = global::EG.MisNumeritos.Resource.Id.wrap_content;
+			global::EG.MisNumeritos.Source.Resource.Integer.abc_config_activityDefaultDur = global::EG.MisNumeritos.Resource.Integer.abc_config_activityDefaultDur;
+			global::EG.MisNumeritos.Source.Resource.Integer.abc_config_activityShortDur = global::EG.MisNumeritos.Resource.Integer.abc_config_activityShortDur;
+			global::EG.MisNumeritos.Source.Resource.Integer.cancel_button_image_alpha = global::EG.MisNumeritos.Resource.Integer.cancel_button_image_alpha;
+			global::EG.MisNumeritos.Source.Resource.Integer.config_tooltipAnimTime = global::EG.MisNumeritos.Resource.Integer.config_tooltipAnimTime;
+			global::EG.MisNumeritos.Source.Resource.Integer.status_bar_notification_info_maxnum = global::EG.MisNumeritos.Resource.Integer.status_bar_notification_info_maxnum;
+			global::EG.MisNumeritos.Source.Resource.Layout.abc_action_bar_title_item = global::EG.MisNumeritos.Resource.Layout.abc_action_bar_title_item;
+			global::EG.MisNumeritos.Source.Resource.Layout.abc_action_bar_up_container = global::EG.MisNumeritos.Resource.Layout.abc_action_bar_up_container;
+			global::EG.MisNumeritos.Source.Resource.Layout.abc_action_menu_item_layout = global::EG.MisNumeritos.Resource.Layout.abc_action_menu_item_layout;
+			global::EG.MisNumeritos.Source.Resource.Layout.abc_action_menu_layout = global::EG.MisNumeritos.Resource.Layout.abc_action_menu_layout;
+			global::EG.MisNumeritos.Source.Resource.Layout.abc_action_mode_bar = global::EG.MisNumeritos.Resource.Layout.abc_action_mode_bar;
+			global::EG.MisNumeritos.Source.Resource.Layout.abc_action_mode_close_item_material = global::EG.MisNumeritos.Resource.Layout.abc_action_mode_close_item_material;
+			global::EG.MisNumeritos.Source.Resource.Layout.abc_activity_chooser_view = global::EG.MisNumeritos.Resource.Layout.abc_activity_chooser_view;
+			global::EG.MisNumeritos.Source.Resource.Layout.abc_activity_chooser_view_list_item = global::EG.MisNumeritos.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::EG.MisNumeritos.Source.Resource.Layout.abc_alert_dialog_button_bar_material = global::EG.MisNumeritos.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::EG.MisNumeritos.Source.Resource.Layout.abc_alert_dialog_material = global::EG.MisNumeritos.Resource.Layout.abc_alert_dialog_material;
+			global::EG.MisNumeritos.Source.Resource.Layout.abc_alert_dialog_title_material = global::EG.MisNumeritos.Resource.Layout.abc_alert_dialog_title_material;
+			global::EG.MisNumeritos.Source.Resource.Layout.abc_dialog_title_material = global::EG.MisNumeritos.Resource.Layout.abc_dialog_title_material;
+			global::EG.MisNumeritos.Source.Resource.Layout.abc_expanded_menu_layout = global::EG.MisNumeritos.Resource.Layout.abc_expanded_menu_layout;
+			global::EG.MisNumeritos.Source.Resource.Layout.abc_list_menu_item_checkbox = global::EG.MisNumeritos.Resource.Layout.abc_list_menu_item_checkbox;
+			global::EG.MisNumeritos.Source.Resource.Layout.abc_list_menu_item_icon = global::EG.MisNumeritos.Resource.Layout.abc_list_menu_item_icon;
+			global::EG.MisNumeritos.Source.Resource.Layout.abc_list_menu_item_layout = global::EG.MisNumeritos.Resource.Layout.abc_list_menu_item_layout;
+			global::EG.MisNumeritos.Source.Resource.Layout.abc_list_menu_item_radio = global::EG.MisNumeritos.Resource.Layout.abc_list_menu_item_radio;
+			global::EG.MisNumeritos.Source.Resource.Layout.abc_popup_menu_header_item_layout = global::EG.MisNumeritos.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::EG.MisNumeritos.Source.Resource.Layout.abc_popup_menu_item_layout = global::EG.MisNumeritos.Resource.Layout.abc_popup_menu_item_layout;
+			global::EG.MisNumeritos.Source.Resource.Layout.abc_screen_content_include = global::EG.MisNumeritos.Resource.Layout.abc_screen_content_include;
+			global::EG.MisNumeritos.Source.Resource.Layout.abc_screen_simple = global::EG.MisNumeritos.Resource.Layout.abc_screen_simple;
+			global::EG.MisNumeritos.Source.Resource.Layout.abc_screen_simple_overlay_action_mode = global::EG.MisNumeritos.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::EG.MisNumeritos.Source.Resource.Layout.abc_screen_toolbar = global::EG.MisNumeritos.Resource.Layout.abc_screen_toolbar;
+			global::EG.MisNumeritos.Source.Resource.Layout.abc_search_dropdown_item_icons_2line = global::EG.MisNumeritos.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::EG.MisNumeritos.Source.Resource.Layout.abc_search_view = global::EG.MisNumeritos.Resource.Layout.abc_search_view;
+			global::EG.MisNumeritos.Source.Resource.Layout.abc_select_dialog_material = global::EG.MisNumeritos.Resource.Layout.abc_select_dialog_material;
+			global::EG.MisNumeritos.Source.Resource.Layout.notification_action = global::EG.MisNumeritos.Resource.Layout.notification_action;
+			global::EG.MisNumeritos.Source.Resource.Layout.notification_action_tombstone = global::EG.MisNumeritos.Resource.Layout.notification_action_tombstone;
+			global::EG.MisNumeritos.Source.Resource.Layout.notification_media_action = global::EG.MisNumeritos.Resource.Layout.notification_media_action;
+			global::EG.MisNumeritos.Source.Resource.Layout.notification_media_cancel_action = global::EG.MisNumeritos.Resource.Layout.notification_media_cancel_action;
+			global::EG.MisNumeritos.Source.Resource.Layout.notification_template_big_media = global::EG.MisNumeritos.Resource.Layout.notification_template_big_media;
+			global::EG.MisNumeritos.Source.Resource.Layout.notification_template_big_media_custom = global::EG.MisNumeritos.Resource.Layout.notification_template_big_media_custom;
+			global::EG.MisNumeritos.Source.Resource.Layout.notification_template_big_media_narrow = global::EG.MisNumeritos.Resource.Layout.notification_template_big_media_narrow;
+			global::EG.MisNumeritos.Source.Resource.Layout.notification_template_big_media_narrow_custom = global::EG.MisNumeritos.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::EG.MisNumeritos.Source.Resource.Layout.notification_template_custom_big = global::EG.MisNumeritos.Resource.Layout.notification_template_custom_big;
+			global::EG.MisNumeritos.Source.Resource.Layout.notification_template_icon_group = global::EG.MisNumeritos.Resource.Layout.notification_template_icon_group;
+			global::EG.MisNumeritos.Source.Resource.Layout.notification_template_lines_media = global::EG.MisNumeritos.Resource.Layout.notification_template_lines_media;
+			global::EG.MisNumeritos.Source.Resource.Layout.notification_template_media = global::EG.MisNumeritos.Resource.Layout.notification_template_media;
+			global::EG.MisNumeritos.Source.Resource.Layout.notification_template_media_custom = global::EG.MisNumeritos.Resource.Layout.notification_template_media_custom;
+			global::EG.MisNumeritos.Source.Resource.Layout.notification_template_part_chronometer = global::EG.MisNumeritos.Resource.Layout.notification_template_part_chronometer;
+			global::EG.MisNumeritos.Source.Resource.Layout.notification_template_part_time = global::EG.MisNumeritos.Resource.Layout.notification_template_part_time;
+			global::EG.MisNumeritos.Source.Resource.Layout.select_dialog_item_material = global::EG.MisNumeritos.Resource.Layout.select_dialog_item_material;
+			global::EG.MisNumeritos.Source.Resource.Layout.select_dialog_multichoice_material = global::EG.MisNumeritos.Resource.Layout.select_dialog_multichoice_material;
+			global::EG.MisNumeritos.Source.Resource.Layout.select_dialog_singlechoice_material = global::EG.MisNumeritos.Resource.Layout.select_dialog_singlechoice_material;
+			global::EG.MisNumeritos.Source.Resource.Layout.support_simple_spinner_dropdown_item = global::EG.MisNumeritos.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::EG.MisNumeritos.Source.Resource.Layout.tooltip = global::EG.MisNumeritos.Resource.Layout.tooltip;
+			global::EG.MisNumeritos.Source.Resource.String.abc_action_bar_home_description = global::EG.MisNumeritos.Resource.String.abc_action_bar_home_description;
+			global::EG.MisNumeritos.Source.Resource.String.abc_action_bar_up_description = global::EG.MisNumeritos.Resource.String.abc_action_bar_up_description;
+			global::EG.MisNumeritos.Source.Resource.String.abc_action_menu_overflow_description = global::EG.MisNumeritos.Resource.String.abc_action_menu_overflow_description;
+			global::EG.MisNumeritos.Source.Resource.String.abc_action_mode_done = global::EG.MisNumeritos.Resource.String.abc_action_mode_done;
+			global::EG.MisNumeritos.Source.Resource.String.abc_activity_chooser_view_see_all = global::EG.MisNumeritos.Resource.String.abc_activity_chooser_view_see_all;
+			global::EG.MisNumeritos.Source.Resource.String.abc_activitychooserview_choose_application = global::EG.MisNumeritos.Resource.String.abc_activitychooserview_choose_application;
+			global::EG.MisNumeritos.Source.Resource.String.abc_capital_off = global::EG.MisNumeritos.Resource.String.abc_capital_off;
+			global::EG.MisNumeritos.Source.Resource.String.abc_capital_on = global::EG.MisNumeritos.Resource.String.abc_capital_on;
+			global::EG.MisNumeritos.Source.Resource.String.abc_font_family_body_1_material = global::EG.MisNumeritos.Resource.String.abc_font_family_body_1_material;
+			global::EG.MisNumeritos.Source.Resource.String.abc_font_family_body_2_material = global::EG.MisNumeritos.Resource.String.abc_font_family_body_2_material;
+			global::EG.MisNumeritos.Source.Resource.String.abc_font_family_button_material = global::EG.MisNumeritos.Resource.String.abc_font_family_button_material;
+			global::EG.MisNumeritos.Source.Resource.String.abc_font_family_caption_material = global::EG.MisNumeritos.Resource.String.abc_font_family_caption_material;
+			global::EG.MisNumeritos.Source.Resource.String.abc_font_family_display_1_material = global::EG.MisNumeritos.Resource.String.abc_font_family_display_1_material;
+			global::EG.MisNumeritos.Source.Resource.String.abc_font_family_display_2_material = global::EG.MisNumeritos.Resource.String.abc_font_family_display_2_material;
+			global::EG.MisNumeritos.Source.Resource.String.abc_font_family_display_3_material = global::EG.MisNumeritos.Resource.String.abc_font_family_display_3_material;
+			global::EG.MisNumeritos.Source.Resource.String.abc_font_family_display_4_material = global::EG.MisNumeritos.Resource.String.abc_font_family_display_4_material;
+			global::EG.MisNumeritos.Source.Resource.String.abc_font_family_headline_material = global::EG.MisNumeritos.Resource.String.abc_font_family_headline_material;
+			global::EG.MisNumeritos.Source.Resource.String.abc_font_family_menu_material = global::EG.MisNumeritos.Resource.String.abc_font_family_menu_material;
+			global::EG.MisNumeritos.Source.Resource.String.abc_font_family_subhead_material = global::EG.MisNumeritos.Resource.String.abc_font_family_subhead_material;
+			global::EG.MisNumeritos.Source.Resource.String.abc_font_family_title_material = global::EG.MisNumeritos.Resource.String.abc_font_family_title_material;
+			global::EG.MisNumeritos.Source.Resource.String.abc_search_hint = global::EG.MisNumeritos.Resource.String.abc_search_hint;
+			global::EG.MisNumeritos.Source.Resource.String.abc_searchview_description_clear = global::EG.MisNumeritos.Resource.String.abc_searchview_description_clear;
+			global::EG.MisNumeritos.Source.Resource.String.abc_searchview_description_query = global::EG.MisNumeritos.Resource.String.abc_searchview_description_query;
+			global::EG.MisNumeritos.Source.Resource.String.abc_searchview_description_search = global::EG.MisNumeritos.Resource.String.abc_searchview_description_search;
+			global::EG.MisNumeritos.Source.Resource.String.abc_searchview_description_submit = global::EG.MisNumeritos.Resource.String.abc_searchview_description_submit;
+			global::EG.MisNumeritos.Source.Resource.String.abc_searchview_description_voice = global::EG.MisNumeritos.Resource.String.abc_searchview_description_voice;
+			global::EG.MisNumeritos.Source.Resource.String.abc_shareactionprovider_share_with = global::EG.MisNumeritos.Resource.String.abc_shareactionprovider_share_with;
+			global::EG.MisNumeritos.Source.Resource.String.abc_shareactionprovider_share_with_application = global::EG.MisNumeritos.Resource.String.abc_shareactionprovider_share_with_application;
+			global::EG.MisNumeritos.Source.Resource.String.abc_toolbar_collapse_description = global::EG.MisNumeritos.Resource.String.abc_toolbar_collapse_description;
+			global::EG.MisNumeritos.Source.Resource.String.app_name = global::EG.MisNumeritos.Resource.String.app_name;
+			global::EG.MisNumeritos.Source.Resource.String.hello = global::EG.MisNumeritos.Resource.String.hello;
+			global::EG.MisNumeritos.Source.Resource.String.search_menu_title = global::EG.MisNumeritos.Resource.String.search_menu_title;
+			global::EG.MisNumeritos.Source.Resource.String.status_bar_notification_info_overflow = global::EG.MisNumeritos.Resource.String.status_bar_notification_info_overflow;
+			global::EG.MisNumeritos.Source.Resource.Style.AlertDialog_AppCompat = global::EG.MisNumeritos.Resource.Style.AlertDialog_AppCompat;
+			global::EG.MisNumeritos.Source.Resource.Style.AlertDialog_AppCompat_Light = global::EG.MisNumeritos.Resource.Style.AlertDialog_AppCompat_Light;
+			global::EG.MisNumeritos.Source.Resource.Style.Animation_AppCompat_Dialog = global::EG.MisNumeritos.Resource.Style.Animation_AppCompat_Dialog;
+			global::EG.MisNumeritos.Source.Resource.Style.Animation_AppCompat_DropDownUp = global::EG.MisNumeritos.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::EG.MisNumeritos.Source.Resource.Style.Animation_AppCompat_Tooltip = global::EG.MisNumeritos.Resource.Style.Animation_AppCompat_Tooltip;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_AlertDialog_AppCompat = global::EG.MisNumeritos.Resource.Style.Base_AlertDialog_AppCompat;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_AlertDialog_AppCompat_Light = global::EG.MisNumeritos.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Animation_AppCompat_Dialog = global::EG.MisNumeritos.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::EG.MisNumeritos.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Animation_AppCompat_Tooltip = global::EG.MisNumeritos.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_DialogWindowTitle_AppCompat = global::EG.MisNumeritos.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::EG.MisNumeritos.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_TextAppearance_AppCompat = global::EG.MisNumeritos.Resource.Style.Base_TextAppearance_AppCompat;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::EG.MisNumeritos.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::EG.MisNumeritos.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_TextAppearance_AppCompat_Button = global::EG.MisNumeritos.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::EG.MisNumeritos.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::EG.MisNumeritos.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::EG.MisNumeritos.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::EG.MisNumeritos.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::EG.MisNumeritos.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::EG.MisNumeritos.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::EG.MisNumeritos.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_TextAppearance_AppCompat_Large = global::EG.MisNumeritos.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::EG.MisNumeritos.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::EG.MisNumeritos.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::EG.MisNumeritos.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::EG.MisNumeritos.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::EG.MisNumeritos.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::EG.MisNumeritos.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::EG.MisNumeritos.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::EG.MisNumeritos.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::EG.MisNumeritos.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_TextAppearance_AppCompat_Small = global::EG.MisNumeritos.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::EG.MisNumeritos.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::EG.MisNumeritos.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::EG.MisNumeritos.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_TextAppearance_AppCompat_Title = global::EG.MisNumeritos.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::EG.MisNumeritos.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::EG.MisNumeritos.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::EG.MisNumeritos.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::EG.MisNumeritos.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::EG.MisNumeritos.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::EG.MisNumeritos.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::EG.MisNumeritos.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::EG.MisNumeritos.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::EG.MisNumeritos.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::EG.MisNumeritos.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::EG.MisNumeritos.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::EG.MisNumeritos.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::EG.MisNumeritos.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::EG.MisNumeritos.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::EG.MisNumeritos.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::EG.MisNumeritos.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::EG.MisNumeritos.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::EG.MisNumeritos.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::EG.MisNumeritos.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::EG.MisNumeritos.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::EG.MisNumeritos.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::EG.MisNumeritos.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Theme_AppCompat = global::EG.MisNumeritos.Resource.Style.Base_Theme_AppCompat;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::EG.MisNumeritos.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Theme_AppCompat_Dialog = global::EG.MisNumeritos.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::EG.MisNumeritos.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::EG.MisNumeritos.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::EG.MisNumeritos.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::EG.MisNumeritos.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Theme_AppCompat_Light = global::EG.MisNumeritos.Resource.Style.Base_Theme_AppCompat_Light;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::EG.MisNumeritos.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::EG.MisNumeritos.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::EG.MisNumeritos.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::EG.MisNumeritos.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::EG.MisNumeritos.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::EG.MisNumeritos.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_ThemeOverlay_AppCompat = global::EG.MisNumeritos.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::EG.MisNumeritos.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::EG.MisNumeritos.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::EG.MisNumeritos.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::EG.MisNumeritos.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::EG.MisNumeritos.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::EG.MisNumeritos.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::EG.MisNumeritos.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::EG.MisNumeritos.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_V11_ThemeOverlay_AppCompat_Dialog = global::EG.MisNumeritos.Resource.Style.Base_V11_ThemeOverlay_AppCompat_Dialog;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::EG.MisNumeritos.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::EG.MisNumeritos.Resource.Style.Base_V12_Widget_AppCompat_EditText;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_V21_Theme_AppCompat = global::EG.MisNumeritos.Resource.Style.Base_V21_Theme_AppCompat;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::EG.MisNumeritos.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_V21_Theme_AppCompat_Light = global::EG.MisNumeritos.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::EG.MisNumeritos.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::EG.MisNumeritos.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_V22_Theme_AppCompat = global::EG.MisNumeritos.Resource.Style.Base_V22_Theme_AppCompat;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_V22_Theme_AppCompat_Light = global::EG.MisNumeritos.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_V23_Theme_AppCompat = global::EG.MisNumeritos.Resource.Style.Base_V23_Theme_AppCompat;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_V23_Theme_AppCompat_Light = global::EG.MisNumeritos.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_V26_Theme_AppCompat = global::EG.MisNumeritos.Resource.Style.Base_V26_Theme_AppCompat;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_V26_Theme_AppCompat_Light = global::EG.MisNumeritos.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::EG.MisNumeritos.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_V7_Theme_AppCompat = global::EG.MisNumeritos.Resource.Style.Base_V7_Theme_AppCompat;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::EG.MisNumeritos.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_V7_Theme_AppCompat_Light = global::EG.MisNumeritos.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::EG.MisNumeritos.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::EG.MisNumeritos.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::EG.MisNumeritos.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::EG.MisNumeritos.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::EG.MisNumeritos.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Widget_AppCompat_ActionBar = global::EG.MisNumeritos.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::EG.MisNumeritos.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::EG.MisNumeritos.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::EG.MisNumeritos.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::EG.MisNumeritos.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Widget_AppCompat_ActionButton = global::EG.MisNumeritos.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::EG.MisNumeritos.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::EG.MisNumeritos.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Widget_AppCompat_ActionMode = global::EG.MisNumeritos.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::EG.MisNumeritos.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::EG.MisNumeritos.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Widget_AppCompat_Button = global::EG.MisNumeritos.Resource.Style.Base_Widget_AppCompat_Button;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::EG.MisNumeritos.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::EG.MisNumeritos.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::EG.MisNumeritos.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::EG.MisNumeritos.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Widget_AppCompat_Button_Small = global::EG.MisNumeritos.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::EG.MisNumeritos.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::EG.MisNumeritos.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::EG.MisNumeritos.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::EG.MisNumeritos.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::EG.MisNumeritos.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::EG.MisNumeritos.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::EG.MisNumeritos.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::EG.MisNumeritos.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Widget_AppCompat_EditText = global::EG.MisNumeritos.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Widget_AppCompat_ImageButton = global::EG.MisNumeritos.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::EG.MisNumeritos.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::EG.MisNumeritos.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::EG.MisNumeritos.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::EG.MisNumeritos.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::EG.MisNumeritos.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::EG.MisNumeritos.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::EG.MisNumeritos.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::EG.MisNumeritos.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::EG.MisNumeritos.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::EG.MisNumeritos.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Widget_AppCompat_ListView = global::EG.MisNumeritos.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::EG.MisNumeritos.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::EG.MisNumeritos.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::EG.MisNumeritos.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::EG.MisNumeritos.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::EG.MisNumeritos.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::EG.MisNumeritos.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::EG.MisNumeritos.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Widget_AppCompat_RatingBar = global::EG.MisNumeritos.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::EG.MisNumeritos.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::EG.MisNumeritos.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Widget_AppCompat_SearchView = global::EG.MisNumeritos.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::EG.MisNumeritos.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Widget_AppCompat_SeekBar = global::EG.MisNumeritos.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::EG.MisNumeritos.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Widget_AppCompat_Spinner = global::EG.MisNumeritos.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::EG.MisNumeritos.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::EG.MisNumeritos.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Widget_AppCompat_Toolbar = global::EG.MisNumeritos.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::EG.MisNumeritos.Source.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::EG.MisNumeritos.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::EG.MisNumeritos.Source.Resource.Style.Platform_AppCompat = global::EG.MisNumeritos.Resource.Style.Platform_AppCompat;
+			global::EG.MisNumeritos.Source.Resource.Style.Platform_AppCompat_Light = global::EG.MisNumeritos.Resource.Style.Platform_AppCompat_Light;
+			global::EG.MisNumeritos.Source.Resource.Style.Platform_ThemeOverlay_AppCompat = global::EG.MisNumeritos.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::EG.MisNumeritos.Source.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::EG.MisNumeritos.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::EG.MisNumeritos.Source.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::EG.MisNumeritos.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::EG.MisNumeritos.Source.Resource.Style.Platform_V11_AppCompat = global::EG.MisNumeritos.Resource.Style.Platform_V11_AppCompat;
+			global::EG.MisNumeritos.Source.Resource.Style.Platform_V11_AppCompat_Light = global::EG.MisNumeritos.Resource.Style.Platform_V11_AppCompat_Light;
+			global::EG.MisNumeritos.Source.Resource.Style.Platform_V14_AppCompat = global::EG.MisNumeritos.Resource.Style.Platform_V14_AppCompat;
+			global::EG.MisNumeritos.Source.Resource.Style.Platform_V14_AppCompat_Light = global::EG.MisNumeritos.Resource.Style.Platform_V14_AppCompat_Light;
+			global::EG.MisNumeritos.Source.Resource.Style.Platform_V21_AppCompat = global::EG.MisNumeritos.Resource.Style.Platform_V21_AppCompat;
+			global::EG.MisNumeritos.Source.Resource.Style.Platform_V21_AppCompat_Light = global::EG.MisNumeritos.Resource.Style.Platform_V21_AppCompat_Light;
+			global::EG.MisNumeritos.Source.Resource.Style.Platform_V25_AppCompat = global::EG.MisNumeritos.Resource.Style.Platform_V25_AppCompat;
+			global::EG.MisNumeritos.Source.Resource.Style.Platform_V25_AppCompat_Light = global::EG.MisNumeritos.Resource.Style.Platform_V25_AppCompat_Light;
+			global::EG.MisNumeritos.Source.Resource.Style.Platform_Widget_AppCompat_Spinner = global::EG.MisNumeritos.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::EG.MisNumeritos.Source.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::EG.MisNumeritos.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::EG.MisNumeritos.Source.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::EG.MisNumeritos.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::EG.MisNumeritos.Source.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::EG.MisNumeritos.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::EG.MisNumeritos.Source.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::EG.MisNumeritos.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::EG.MisNumeritos.Source.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::EG.MisNumeritos.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::EG.MisNumeritos.Source.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::EG.MisNumeritos.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::EG.MisNumeritos.Source.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::EG.MisNumeritos.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::EG.MisNumeritos.Source.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::EG.MisNumeritos.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::EG.MisNumeritos.Source.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::EG.MisNumeritos.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::EG.MisNumeritos.Source.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::EG.MisNumeritos.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::EG.MisNumeritos.Source.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::EG.MisNumeritos.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::EG.MisNumeritos.Source.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::EG.MisNumeritos.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::EG.MisNumeritos.Source.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::EG.MisNumeritos.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::EG.MisNumeritos.Source.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::EG.MisNumeritos.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::EG.MisNumeritos.Source.Resource.Style.TextAppearance_AppCompat = global::EG.MisNumeritos.Resource.Style.TextAppearance_AppCompat;
+			global::EG.MisNumeritos.Source.Resource.Style.TextAppearance_AppCompat_Body1 = global::EG.MisNumeritos.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::EG.MisNumeritos.Source.Resource.Style.TextAppearance_AppCompat_Body2 = global::EG.MisNumeritos.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::EG.MisNumeritos.Source.Resource.Style.TextAppearance_AppCompat_Button = global::EG.MisNumeritos.Resource.Style.TextAppearance_AppCompat_Button;
+			global::EG.MisNumeritos.Source.Resource.Style.TextAppearance_AppCompat_Caption = global::EG.MisNumeritos.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::EG.MisNumeritos.Source.Resource.Style.TextAppearance_AppCompat_Display1 = global::EG.MisNumeritos.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::EG.MisNumeritos.Source.Resource.Style.TextAppearance_AppCompat_Display2 = global::EG.MisNumeritos.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::EG.MisNumeritos.Source.Resource.Style.TextAppearance_AppCompat_Display3 = global::EG.MisNumeritos.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::EG.MisNumeritos.Source.Resource.Style.TextAppearance_AppCompat_Display4 = global::EG.MisNumeritos.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::EG.MisNumeritos.Source.Resource.Style.TextAppearance_AppCompat_Headline = global::EG.MisNumeritos.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::EG.MisNumeritos.Source.Resource.Style.TextAppearance_AppCompat_Inverse = global::EG.MisNumeritos.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::EG.MisNumeritos.Source.Resource.Style.TextAppearance_AppCompat_Large = global::EG.MisNumeritos.Resource.Style.TextAppearance_AppCompat_Large;
+			global::EG.MisNumeritos.Source.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::EG.MisNumeritos.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::EG.MisNumeritos.Source.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::EG.MisNumeritos.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::EG.MisNumeritos.Source.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::EG.MisNumeritos.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::EG.MisNumeritos.Source.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::EG.MisNumeritos.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::EG.MisNumeritos.Source.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::EG.MisNumeritos.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::EG.MisNumeritos.Source.Resource.Style.TextAppearance_AppCompat_Medium = global::EG.MisNumeritos.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::EG.MisNumeritos.Source.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::EG.MisNumeritos.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::EG.MisNumeritos.Source.Resource.Style.TextAppearance_AppCompat_Menu = global::EG.MisNumeritos.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::EG.MisNumeritos.Source.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::EG.MisNumeritos.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::EG.MisNumeritos.Source.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::EG.MisNumeritos.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::EG.MisNumeritos.Source.Resource.Style.TextAppearance_AppCompat_Small = global::EG.MisNumeritos.Resource.Style.TextAppearance_AppCompat_Small;
+			global::EG.MisNumeritos.Source.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::EG.MisNumeritos.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::EG.MisNumeritos.Source.Resource.Style.TextAppearance_AppCompat_Subhead = global::EG.MisNumeritos.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::EG.MisNumeritos.Source.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::EG.MisNumeritos.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::EG.MisNumeritos.Source.Resource.Style.TextAppearance_AppCompat_Title = global::EG.MisNumeritos.Resource.Style.TextAppearance_AppCompat_Title;
+			global::EG.MisNumeritos.Source.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::EG.MisNumeritos.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::EG.MisNumeritos.Source.Resource.Style.TextAppearance_AppCompat_Tooltip = global::EG.MisNumeritos.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::EG.MisNumeritos.Source.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::EG.MisNumeritos.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::EG.MisNumeritos.Source.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::EG.MisNumeritos.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::EG.MisNumeritos.Source.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::EG.MisNumeritos.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::EG.MisNumeritos.Source.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::EG.MisNumeritos.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::EG.MisNumeritos.Source.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::EG.MisNumeritos.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::EG.MisNumeritos.Source.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::EG.MisNumeritos.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::EG.MisNumeritos.Source.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::EG.MisNumeritos.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::EG.MisNumeritos.Source.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::EG.MisNumeritos.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::EG.MisNumeritos.Source.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::EG.MisNumeritos.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::EG.MisNumeritos.Source.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::EG.MisNumeritos.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::EG.MisNumeritos.Source.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::EG.MisNumeritos.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::EG.MisNumeritos.Source.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::EG.MisNumeritos.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::EG.MisNumeritos.Source.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::EG.MisNumeritos.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::EG.MisNumeritos.Source.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::EG.MisNumeritos.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::EG.MisNumeritos.Source.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::EG.MisNumeritos.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::EG.MisNumeritos.Source.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::EG.MisNumeritos.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::EG.MisNumeritos.Source.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::EG.MisNumeritos.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::EG.MisNumeritos.Source.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::EG.MisNumeritos.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::EG.MisNumeritos.Source.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::EG.MisNumeritos.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::EG.MisNumeritos.Source.Resource.Style.TextAppearance_Compat_Notification = global::EG.MisNumeritos.Resource.Style.TextAppearance_Compat_Notification;
+			global::EG.MisNumeritos.Source.Resource.Style.TextAppearance_Compat_Notification_Info = global::EG.MisNumeritos.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::EG.MisNumeritos.Source.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::EG.MisNumeritos.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::EG.MisNumeritos.Source.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::EG.MisNumeritos.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::EG.MisNumeritos.Source.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::EG.MisNumeritos.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::EG.MisNumeritos.Source.Resource.Style.TextAppearance_Compat_Notification_Media = global::EG.MisNumeritos.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::EG.MisNumeritos.Source.Resource.Style.TextAppearance_Compat_Notification_Time = global::EG.MisNumeritos.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::EG.MisNumeritos.Source.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::EG.MisNumeritos.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::EG.MisNumeritos.Source.Resource.Style.TextAppearance_Compat_Notification_Title = global::EG.MisNumeritos.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::EG.MisNumeritos.Source.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::EG.MisNumeritos.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::EG.MisNumeritos.Source.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::EG.MisNumeritos.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::EG.MisNumeritos.Source.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::EG.MisNumeritos.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::EG.MisNumeritos.Source.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::EG.MisNumeritos.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::EG.MisNumeritos.Source.Resource.Style.Theme_AppCompat = global::EG.MisNumeritos.Resource.Style.Theme_AppCompat;
+			global::EG.MisNumeritos.Source.Resource.Style.Theme_AppCompat_CompactMenu = global::EG.MisNumeritos.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::EG.MisNumeritos.Source.Resource.Style.Theme_AppCompat_DayNight = global::EG.MisNumeritos.Resource.Style.Theme_AppCompat_DayNight;
+			global::EG.MisNumeritos.Source.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::EG.MisNumeritos.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::EG.MisNumeritos.Source.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::EG.MisNumeritos.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::EG.MisNumeritos.Source.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::EG.MisNumeritos.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::EG.MisNumeritos.Source.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::EG.MisNumeritos.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::EG.MisNumeritos.Source.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::EG.MisNumeritos.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::EG.MisNumeritos.Source.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::EG.MisNumeritos.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::EG.MisNumeritos.Source.Resource.Style.Theme_AppCompat_Dialog = global::EG.MisNumeritos.Resource.Style.Theme_AppCompat_Dialog;
+			global::EG.MisNumeritos.Source.Resource.Style.Theme_AppCompat_Dialog_Alert = global::EG.MisNumeritos.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::EG.MisNumeritos.Source.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::EG.MisNumeritos.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::EG.MisNumeritos.Source.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::EG.MisNumeritos.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::EG.MisNumeritos.Source.Resource.Style.Theme_AppCompat_Light = global::EG.MisNumeritos.Resource.Style.Theme_AppCompat_Light;
+			global::EG.MisNumeritos.Source.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::EG.MisNumeritos.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::EG.MisNumeritos.Source.Resource.Style.Theme_AppCompat_Light_Dialog = global::EG.MisNumeritos.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::EG.MisNumeritos.Source.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::EG.MisNumeritos.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::EG.MisNumeritos.Source.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::EG.MisNumeritos.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::EG.MisNumeritos.Source.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::EG.MisNumeritos.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::EG.MisNumeritos.Source.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::EG.MisNumeritos.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::EG.MisNumeritos.Source.Resource.Style.Theme_AppCompat_NoActionBar = global::EG.MisNumeritos.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::EG.MisNumeritos.Source.Resource.Style.ThemeOverlay_AppCompat = global::EG.MisNumeritos.Resource.Style.ThemeOverlay_AppCompat;
+			global::EG.MisNumeritos.Source.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::EG.MisNumeritos.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::EG.MisNumeritos.Source.Resource.Style.ThemeOverlay_AppCompat_Dark = global::EG.MisNumeritos.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::EG.MisNumeritos.Source.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::EG.MisNumeritos.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::EG.MisNumeritos.Source.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::EG.MisNumeritos.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::EG.MisNumeritos.Source.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::EG.MisNumeritos.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::EG.MisNumeritos.Source.Resource.Style.ThemeOverlay_AppCompat_Light = global::EG.MisNumeritos.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_ActionBar = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_ActionBar;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_ActionButton = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_ActionButton;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_ActionMode = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_ActionMode;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_ActivityChooserView = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_Button = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_Button;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_Button_Borderless = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_Button_Colored = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_Button_Small = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_Button_Small;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_ButtonBar = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_EditText = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_EditText;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_ImageButton = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_ImageButton;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_Light_ActionBar = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_Light_ActionButton = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_Light_SearchView = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_ListMenuView = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_ListPopupWindow = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_ListView = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_ListView;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_ListView_DropDown = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_ListView_Menu = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_PopupMenu = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_PopupWindow = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_ProgressBar = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_RatingBar = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_RatingBar;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_RatingBar_Small = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_SearchView = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_SearchView;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_SeekBar = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_SeekBar;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_Spinner = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_Spinner;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_Toolbar = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_Toolbar;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::EG.MisNumeritos.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_Compat_NotificationActionContainer = global::EG.MisNumeritos.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::EG.MisNumeritos.Source.Resource.Style.Widget_Compat_NotificationActionText = global::EG.MisNumeritos.Resource.Style.Widget_Compat_NotificationActionText;
+			global::EG.MisNumeritos.Source.Resource.Styleable.ActionBar = global::EG.MisNumeritos.Resource.Styleable.ActionBar;
+			global::EG.MisNumeritos.Source.Resource.Styleable.ActionBar_background = global::EG.MisNumeritos.Resource.Styleable.ActionBar_background;
+			global::EG.MisNumeritos.Source.Resource.Styleable.ActionBar_backgroundSplit = global::EG.MisNumeritos.Resource.Styleable.ActionBar_backgroundSplit;
+			global::EG.MisNumeritos.Source.Resource.Styleable.ActionBar_backgroundStacked = global::EG.MisNumeritos.Resource.Styleable.ActionBar_backgroundStacked;
+			global::EG.MisNumeritos.Source.Resource.Styleable.ActionBar_contentInsetEnd = global::EG.MisNumeritos.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::EG.MisNumeritos.Source.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::EG.MisNumeritos.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::EG.MisNumeritos.Source.Resource.Styleable.ActionBar_contentInsetLeft = global::EG.MisNumeritos.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::EG.MisNumeritos.Source.Resource.Styleable.ActionBar_contentInsetRight = global::EG.MisNumeritos.Resource.Styleable.ActionBar_contentInsetRight;
+			global::EG.MisNumeritos.Source.Resource.Styleable.ActionBar_contentInsetStart = global::EG.MisNumeritos.Resource.Styleable.ActionBar_contentInsetStart;
+			global::EG.MisNumeritos.Source.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::EG.MisNumeritos.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::EG.MisNumeritos.Source.Resource.Styleable.ActionBar_customNavigationLayout = global::EG.MisNumeritos.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::EG.MisNumeritos.Source.Resource.Styleable.ActionBar_displayOptions = global::EG.MisNumeritos.Resource.Styleable.ActionBar_displayOptions;
+			global::EG.MisNumeritos.Source.Resource.Styleable.ActionBar_divider = global::EG.MisNumeritos.Resource.Styleable.ActionBar_divider;
+			global::EG.MisNumeritos.Source.Resource.Styleable.ActionBar_elevation = global::EG.MisNumeritos.Resource.Styleable.ActionBar_elevation;
+			global::EG.MisNumeritos.Source.Resource.Styleable.ActionBar_height = global::EG.MisNumeritos.Resource.Styleable.ActionBar_height;
+			global::EG.MisNumeritos.Source.Resource.Styleable.ActionBar_hideOnContentScroll = global::EG.MisNumeritos.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::EG.MisNumeritos.Source.Resource.Styleable.ActionBar_homeAsUpIndicator = global::EG.MisNumeritos.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::EG.MisNumeritos.Source.Resource.Styleable.ActionBar_homeLayout = global::EG.MisNumeritos.Resource.Styleable.ActionBar_homeLayout;
+			global::EG.MisNumeritos.Source.Resource.Styleable.ActionBar_icon = global::EG.MisNumeritos.Resource.Styleable.ActionBar_icon;
+			global::EG.MisNumeritos.Source.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::EG.MisNumeritos.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::EG.MisNumeritos.Source.Resource.Styleable.ActionBar_itemPadding = global::EG.MisNumeritos.Resource.Styleable.ActionBar_itemPadding;
+			global::EG.MisNumeritos.Source.Resource.Styleable.ActionBar_logo = global::EG.MisNumeritos.Resource.Styleable.ActionBar_logo;
+			global::EG.MisNumeritos.Source.Resource.Styleable.ActionBar_navigationMode = global::EG.MisNumeritos.Resource.Styleable.ActionBar_navigationMode;
+			global::EG.MisNumeritos.Source.Resource.Styleable.ActionBar_popupTheme = global::EG.MisNumeritos.Resource.Styleable.ActionBar_popupTheme;
+			global::EG.MisNumeritos.Source.Resource.Styleable.ActionBar_progressBarPadding = global::EG.MisNumeritos.Resource.Styleable.ActionBar_progressBarPadding;
+			global::EG.MisNumeritos.Source.Resource.Styleable.ActionBar_progressBarStyle = global::EG.MisNumeritos.Resource.Styleable.ActionBar_progressBarStyle;
+			global::EG.MisNumeritos.Source.Resource.Styleable.ActionBar_subtitle = global::EG.MisNumeritos.Resource.Styleable.ActionBar_subtitle;
+			global::EG.MisNumeritos.Source.Resource.Styleable.ActionBar_subtitleTextStyle = global::EG.MisNumeritos.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::EG.MisNumeritos.Source.Resource.Styleable.ActionBar_title = global::EG.MisNumeritos.Resource.Styleable.ActionBar_title;
+			global::EG.MisNumeritos.Source.Resource.Styleable.ActionBar_titleTextStyle = global::EG.MisNumeritos.Resource.Styleable.ActionBar_titleTextStyle;
+			global::EG.MisNumeritos.Source.Resource.Styleable.ActionBarLayout = global::EG.MisNumeritos.Resource.Styleable.ActionBarLayout;
+			global::EG.MisNumeritos.Source.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::EG.MisNumeritos.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::EG.MisNumeritos.Source.Resource.Styleable.ActionMenuItemView = global::EG.MisNumeritos.Resource.Styleable.ActionMenuItemView;
+			global::EG.MisNumeritos.Source.Resource.Styleable.ActionMenuItemView_android_minWidth = global::EG.MisNumeritos.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::EG.MisNumeritos.Source.Resource.Styleable.ActionMenuView = global::EG.MisNumeritos.Resource.Styleable.ActionMenuView;
+			global::EG.MisNumeritos.Source.Resource.Styleable.ActionMode = global::EG.MisNumeritos.Resource.Styleable.ActionMode;
+			global::EG.MisNumeritos.Source.Resource.Styleable.ActionMode_background = global::EG.MisNumeritos.Resource.Styleable.ActionMode_background;
+			global::EG.MisNumeritos.Source.Resource.Styleable.ActionMode_backgroundSplit = global::EG.MisNumeritos.Resource.Styleable.ActionMode_backgroundSplit;
+			global::EG.MisNumeritos.Source.Resource.Styleable.ActionMode_closeItemLayout = global::EG.MisNumeritos.Resource.Styleable.ActionMode_closeItemLayout;
+			global::EG.MisNumeritos.Source.Resource.Styleable.ActionMode_height = global::EG.MisNumeritos.Resource.Styleable.ActionMode_height;
+			global::EG.MisNumeritos.Source.Resource.Styleable.ActionMode_subtitleTextStyle = global::EG.MisNumeritos.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::EG.MisNumeritos.Source.Resource.Styleable.ActionMode_titleTextStyle = global::EG.MisNumeritos.Resource.Styleable.ActionMode_titleTextStyle;
+			global::EG.MisNumeritos.Source.Resource.Styleable.ActivityChooserView = global::EG.MisNumeritos.Resource.Styleable.ActivityChooserView;
+			global::EG.MisNumeritos.Source.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::EG.MisNumeritos.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::EG.MisNumeritos.Source.Resource.Styleable.ActivityChooserView_initialActivityCount = global::EG.MisNumeritos.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AlertDialog = global::EG.MisNumeritos.Resource.Styleable.AlertDialog;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AlertDialog_android_layout = global::EG.MisNumeritos.Resource.Styleable.AlertDialog_android_layout;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::EG.MisNumeritos.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AlertDialog_listItemLayout = global::EG.MisNumeritos.Resource.Styleable.AlertDialog_listItemLayout;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AlertDialog_listLayout = global::EG.MisNumeritos.Resource.Styleable.AlertDialog_listLayout;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::EG.MisNumeritos.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AlertDialog_showTitle = global::EG.MisNumeritos.Resource.Styleable.AlertDialog_showTitle;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::EG.MisNumeritos.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatImageView = global::EG.MisNumeritos.Resource.Styleable.AppCompatImageView;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatImageView_android_src = global::EG.MisNumeritos.Resource.Styleable.AppCompatImageView_android_src;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatImageView_srcCompat = global::EG.MisNumeritos.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatImageView_tint = global::EG.MisNumeritos.Resource.Styleable.AppCompatImageView_tint;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatImageView_tintMode = global::EG.MisNumeritos.Resource.Styleable.AppCompatImageView_tintMode;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatSeekBar = global::EG.MisNumeritos.Resource.Styleable.AppCompatSeekBar;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatSeekBar_android_thumb = global::EG.MisNumeritos.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatSeekBar_tickMark = global::EG.MisNumeritos.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::EG.MisNumeritos.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::EG.MisNumeritos.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTextHelper = global::EG.MisNumeritos.Resource.Styleable.AppCompatTextHelper;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::EG.MisNumeritos.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::EG.MisNumeritos.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::EG.MisNumeritos.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::EG.MisNumeritos.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::EG.MisNumeritos.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::EG.MisNumeritos.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::EG.MisNumeritos.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTextView = global::EG.MisNumeritos.Resource.Styleable.AppCompatTextView;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTextView_android_textAppearance = global::EG.MisNumeritos.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::EG.MisNumeritos.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::EG.MisNumeritos.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::EG.MisNumeritos.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::EG.MisNumeritos.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::EG.MisNumeritos.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTextView_fontFamily = global::EG.MisNumeritos.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTextView_textAllCaps = global::EG.MisNumeritos.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_actionBarDivider = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_actionBarSize = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_actionBarStyle = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_actionBarTheme = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_actionModeBackground = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_actionModeStyle = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_buttonStyle = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_checkboxStyle = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_colorAccent = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_colorControlActivated = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_colorControlNormal = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_colorError = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_colorError;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_colorPrimary = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_controlBackground = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_dialogTheme = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_dividerVertical = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_editTextBackground = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_editTextColor = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_editTextStyle = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_panelBackground = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_searchViewStyle = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_seekBarStyle = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_spinnerStyle = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_switchStyle = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_toolbarStyle = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_windowActionBar = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::EG.MisNumeritos.Source.Resource.Styleable.AppCompatTheme_windowNoTitle = global::EG.MisNumeritos.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::EG.MisNumeritos.Source.Resource.Styleable.ButtonBarLayout = global::EG.MisNumeritos.Resource.Styleable.ButtonBarLayout;
+			global::EG.MisNumeritos.Source.Resource.Styleable.ButtonBarLayout_allowStacking = global::EG.MisNumeritos.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::EG.MisNumeritos.Source.Resource.Styleable.ColorStateListItem = global::EG.MisNumeritos.Resource.Styleable.ColorStateListItem;
+			global::EG.MisNumeritos.Source.Resource.Styleable.ColorStateListItem_alpha = global::EG.MisNumeritos.Resource.Styleable.ColorStateListItem_alpha;
+			global::EG.MisNumeritos.Source.Resource.Styleable.ColorStateListItem_android_alpha = global::EG.MisNumeritos.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::EG.MisNumeritos.Source.Resource.Styleable.ColorStateListItem_android_color = global::EG.MisNumeritos.Resource.Styleable.ColorStateListItem_android_color;
+			global::EG.MisNumeritos.Source.Resource.Styleable.CompoundButton = global::EG.MisNumeritos.Resource.Styleable.CompoundButton;
+			global::EG.MisNumeritos.Source.Resource.Styleable.CompoundButton_android_button = global::EG.MisNumeritos.Resource.Styleable.CompoundButton_android_button;
+			global::EG.MisNumeritos.Source.Resource.Styleable.CompoundButton_buttonTint = global::EG.MisNumeritos.Resource.Styleable.CompoundButton_buttonTint;
+			global::EG.MisNumeritos.Source.Resource.Styleable.CompoundButton_buttonTintMode = global::EG.MisNumeritos.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::EG.MisNumeritos.Source.Resource.Styleable.DrawerArrowToggle = global::EG.MisNumeritos.Resource.Styleable.DrawerArrowToggle;
+			global::EG.MisNumeritos.Source.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::EG.MisNumeritos.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::EG.MisNumeritos.Source.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::EG.MisNumeritos.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::EG.MisNumeritos.Source.Resource.Styleable.DrawerArrowToggle_barLength = global::EG.MisNumeritos.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::EG.MisNumeritos.Source.Resource.Styleable.DrawerArrowToggle_color = global::EG.MisNumeritos.Resource.Styleable.DrawerArrowToggle_color;
+			global::EG.MisNumeritos.Source.Resource.Styleable.DrawerArrowToggle_drawableSize = global::EG.MisNumeritos.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::EG.MisNumeritos.Source.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::EG.MisNumeritos.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::EG.MisNumeritos.Source.Resource.Styleable.DrawerArrowToggle_spinBars = global::EG.MisNumeritos.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::EG.MisNumeritos.Source.Resource.Styleable.DrawerArrowToggle_thickness = global::EG.MisNumeritos.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::EG.MisNumeritos.Source.Resource.Styleable.FontFamily = global::EG.MisNumeritos.Resource.Styleable.FontFamily;
+			global::EG.MisNumeritos.Source.Resource.Styleable.FontFamily_fontProviderAuthority = global::EG.MisNumeritos.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::EG.MisNumeritos.Source.Resource.Styleable.FontFamily_fontProviderCerts = global::EG.MisNumeritos.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::EG.MisNumeritos.Source.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::EG.MisNumeritos.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::EG.MisNumeritos.Source.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::EG.MisNumeritos.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::EG.MisNumeritos.Source.Resource.Styleable.FontFamily_fontProviderPackage = global::EG.MisNumeritos.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::EG.MisNumeritos.Source.Resource.Styleable.FontFamily_fontProviderQuery = global::EG.MisNumeritos.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::EG.MisNumeritos.Source.Resource.Styleable.FontFamilyFont = global::EG.MisNumeritos.Resource.Styleable.FontFamilyFont;
+			global::EG.MisNumeritos.Source.Resource.Styleable.FontFamilyFont_android_font = global::EG.MisNumeritos.Resource.Styleable.FontFamilyFont_android_font;
+			global::EG.MisNumeritos.Source.Resource.Styleable.FontFamilyFont_android_fontStyle = global::EG.MisNumeritos.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::EG.MisNumeritos.Source.Resource.Styleable.FontFamilyFont_android_fontWeight = global::EG.MisNumeritos.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::EG.MisNumeritos.Source.Resource.Styleable.FontFamilyFont_font = global::EG.MisNumeritos.Resource.Styleable.FontFamilyFont_font;
+			global::EG.MisNumeritos.Source.Resource.Styleable.FontFamilyFont_fontStyle = global::EG.MisNumeritos.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::EG.MisNumeritos.Source.Resource.Styleable.FontFamilyFont_fontWeight = global::EG.MisNumeritos.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::EG.MisNumeritos.Source.Resource.Styleable.LinearLayoutCompat = global::EG.MisNumeritos.Resource.Styleable.LinearLayoutCompat;
+			global::EG.MisNumeritos.Source.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::EG.MisNumeritos.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::EG.MisNumeritos.Source.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::EG.MisNumeritos.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::EG.MisNumeritos.Source.Resource.Styleable.LinearLayoutCompat_android_gravity = global::EG.MisNumeritos.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::EG.MisNumeritos.Source.Resource.Styleable.LinearLayoutCompat_android_orientation = global::EG.MisNumeritos.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::EG.MisNumeritos.Source.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::EG.MisNumeritos.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::EG.MisNumeritos.Source.Resource.Styleable.LinearLayoutCompat_divider = global::EG.MisNumeritos.Resource.Styleable.LinearLayoutCompat_divider;
+			global::EG.MisNumeritos.Source.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::EG.MisNumeritos.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::EG.MisNumeritos.Source.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::EG.MisNumeritos.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::EG.MisNumeritos.Source.Resource.Styleable.LinearLayoutCompat_showDividers = global::EG.MisNumeritos.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::EG.MisNumeritos.Source.Resource.Styleable.LinearLayoutCompat_Layout = global::EG.MisNumeritos.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::EG.MisNumeritos.Source.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::EG.MisNumeritos.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::EG.MisNumeritos.Source.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::EG.MisNumeritos.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::EG.MisNumeritos.Source.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::EG.MisNumeritos.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::EG.MisNumeritos.Source.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::EG.MisNumeritos.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::EG.MisNumeritos.Source.Resource.Styleable.ListPopupWindow = global::EG.MisNumeritos.Resource.Styleable.ListPopupWindow;
+			global::EG.MisNumeritos.Source.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::EG.MisNumeritos.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::EG.MisNumeritos.Source.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::EG.MisNumeritos.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::EG.MisNumeritos.Source.Resource.Styleable.MenuGroup = global::EG.MisNumeritos.Resource.Styleable.MenuGroup;
+			global::EG.MisNumeritos.Source.Resource.Styleable.MenuGroup_android_checkableBehavior = global::EG.MisNumeritos.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::EG.MisNumeritos.Source.Resource.Styleable.MenuGroup_android_enabled = global::EG.MisNumeritos.Resource.Styleable.MenuGroup_android_enabled;
+			global::EG.MisNumeritos.Source.Resource.Styleable.MenuGroup_android_id = global::EG.MisNumeritos.Resource.Styleable.MenuGroup_android_id;
+			global::EG.MisNumeritos.Source.Resource.Styleable.MenuGroup_android_menuCategory = global::EG.MisNumeritos.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::EG.MisNumeritos.Source.Resource.Styleable.MenuGroup_android_orderInCategory = global::EG.MisNumeritos.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::EG.MisNumeritos.Source.Resource.Styleable.MenuGroup_android_visible = global::EG.MisNumeritos.Resource.Styleable.MenuGroup_android_visible;
+			global::EG.MisNumeritos.Source.Resource.Styleable.MenuItem = global::EG.MisNumeritos.Resource.Styleable.MenuItem;
+			global::EG.MisNumeritos.Source.Resource.Styleable.MenuItem_actionLayout = global::EG.MisNumeritos.Resource.Styleable.MenuItem_actionLayout;
+			global::EG.MisNumeritos.Source.Resource.Styleable.MenuItem_actionProviderClass = global::EG.MisNumeritos.Resource.Styleable.MenuItem_actionProviderClass;
+			global::EG.MisNumeritos.Source.Resource.Styleable.MenuItem_actionViewClass = global::EG.MisNumeritos.Resource.Styleable.MenuItem_actionViewClass;
+			global::EG.MisNumeritos.Source.Resource.Styleable.MenuItem_alphabeticModifiers = global::EG.MisNumeritos.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::EG.MisNumeritos.Source.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::EG.MisNumeritos.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::EG.MisNumeritos.Source.Resource.Styleable.MenuItem_android_checkable = global::EG.MisNumeritos.Resource.Styleable.MenuItem_android_checkable;
+			global::EG.MisNumeritos.Source.Resource.Styleable.MenuItem_android_checked = global::EG.MisNumeritos.Resource.Styleable.MenuItem_android_checked;
+			global::EG.MisNumeritos.Source.Resource.Styleable.MenuItem_android_enabled = global::EG.MisNumeritos.Resource.Styleable.MenuItem_android_enabled;
+			global::EG.MisNumeritos.Source.Resource.Styleable.MenuItem_android_icon = global::EG.MisNumeritos.Resource.Styleable.MenuItem_android_icon;
+			global::EG.MisNumeritos.Source.Resource.Styleable.MenuItem_android_id = global::EG.MisNumeritos.Resource.Styleable.MenuItem_android_id;
+			global::EG.MisNumeritos.Source.Resource.Styleable.MenuItem_android_menuCategory = global::EG.MisNumeritos.Resource.Styleable.MenuItem_android_menuCategory;
+			global::EG.MisNumeritos.Source.Resource.Styleable.MenuItem_android_numericShortcut = global::EG.MisNumeritos.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::EG.MisNumeritos.Source.Resource.Styleable.MenuItem_android_onClick = global::EG.MisNumeritos.Resource.Styleable.MenuItem_android_onClick;
+			global::EG.MisNumeritos.Source.Resource.Styleable.MenuItem_android_orderInCategory = global::EG.MisNumeritos.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::EG.MisNumeritos.Source.Resource.Styleable.MenuItem_android_title = global::EG.MisNumeritos.Resource.Styleable.MenuItem_android_title;
+			global::EG.MisNumeritos.Source.Resource.Styleable.MenuItem_android_titleCondensed = global::EG.MisNumeritos.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::EG.MisNumeritos.Source.Resource.Styleable.MenuItem_android_visible = global::EG.MisNumeritos.Resource.Styleable.MenuItem_android_visible;
+			global::EG.MisNumeritos.Source.Resource.Styleable.MenuItem_contentDescription = global::EG.MisNumeritos.Resource.Styleable.MenuItem_contentDescription;
+			global::EG.MisNumeritos.Source.Resource.Styleable.MenuItem_iconTint = global::EG.MisNumeritos.Resource.Styleable.MenuItem_iconTint;
+			global::EG.MisNumeritos.Source.Resource.Styleable.MenuItem_iconTintMode = global::EG.MisNumeritos.Resource.Styleable.MenuItem_iconTintMode;
+			global::EG.MisNumeritos.Source.Resource.Styleable.MenuItem_numericModifiers = global::EG.MisNumeritos.Resource.Styleable.MenuItem_numericModifiers;
+			global::EG.MisNumeritos.Source.Resource.Styleable.MenuItem_showAsAction = global::EG.MisNumeritos.Resource.Styleable.MenuItem_showAsAction;
+			global::EG.MisNumeritos.Source.Resource.Styleable.MenuItem_tooltipText = global::EG.MisNumeritos.Resource.Styleable.MenuItem_tooltipText;
+			global::EG.MisNumeritos.Source.Resource.Styleable.MenuView = global::EG.MisNumeritos.Resource.Styleable.MenuView;
+			global::EG.MisNumeritos.Source.Resource.Styleable.MenuView_android_headerBackground = global::EG.MisNumeritos.Resource.Styleable.MenuView_android_headerBackground;
+			global::EG.MisNumeritos.Source.Resource.Styleable.MenuView_android_horizontalDivider = global::EG.MisNumeritos.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::EG.MisNumeritos.Source.Resource.Styleable.MenuView_android_itemBackground = global::EG.MisNumeritos.Resource.Styleable.MenuView_android_itemBackground;
+			global::EG.MisNumeritos.Source.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::EG.MisNumeritos.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::EG.MisNumeritos.Source.Resource.Styleable.MenuView_android_itemTextAppearance = global::EG.MisNumeritos.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::EG.MisNumeritos.Source.Resource.Styleable.MenuView_android_verticalDivider = global::EG.MisNumeritos.Resource.Styleable.MenuView_android_verticalDivider;
+			global::EG.MisNumeritos.Source.Resource.Styleable.MenuView_android_windowAnimationStyle = global::EG.MisNumeritos.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::EG.MisNumeritos.Source.Resource.Styleable.MenuView_preserveIconSpacing = global::EG.MisNumeritos.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::EG.MisNumeritos.Source.Resource.Styleable.MenuView_subMenuArrow = global::EG.MisNumeritos.Resource.Styleable.MenuView_subMenuArrow;
+			global::EG.MisNumeritos.Source.Resource.Styleable.PopupWindow = global::EG.MisNumeritos.Resource.Styleable.PopupWindow;
+			global::EG.MisNumeritos.Source.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::EG.MisNumeritos.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::EG.MisNumeritos.Source.Resource.Styleable.PopupWindow_android_popupBackground = global::EG.MisNumeritos.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::EG.MisNumeritos.Source.Resource.Styleable.PopupWindow_overlapAnchor = global::EG.MisNumeritos.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::EG.MisNumeritos.Source.Resource.Styleable.PopupWindowBackgroundState = global::EG.MisNumeritos.Resource.Styleable.PopupWindowBackgroundState;
+			global::EG.MisNumeritos.Source.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::EG.MisNumeritos.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::EG.MisNumeritos.Source.Resource.Styleable.RecycleListView = global::EG.MisNumeritos.Resource.Styleable.RecycleListView;
+			global::EG.MisNumeritos.Source.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::EG.MisNumeritos.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::EG.MisNumeritos.Source.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::EG.MisNumeritos.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::EG.MisNumeritos.Source.Resource.Styleable.SearchView = global::EG.MisNumeritos.Resource.Styleable.SearchView;
+			global::EG.MisNumeritos.Source.Resource.Styleable.SearchView_android_focusable = global::EG.MisNumeritos.Resource.Styleable.SearchView_android_focusable;
+			global::EG.MisNumeritos.Source.Resource.Styleable.SearchView_android_imeOptions = global::EG.MisNumeritos.Resource.Styleable.SearchView_android_imeOptions;
+			global::EG.MisNumeritos.Source.Resource.Styleable.SearchView_android_inputType = global::EG.MisNumeritos.Resource.Styleable.SearchView_android_inputType;
+			global::EG.MisNumeritos.Source.Resource.Styleable.SearchView_android_maxWidth = global::EG.MisNumeritos.Resource.Styleable.SearchView_android_maxWidth;
+			global::EG.MisNumeritos.Source.Resource.Styleable.SearchView_closeIcon = global::EG.MisNumeritos.Resource.Styleable.SearchView_closeIcon;
+			global::EG.MisNumeritos.Source.Resource.Styleable.SearchView_commitIcon = global::EG.MisNumeritos.Resource.Styleable.SearchView_commitIcon;
+			global::EG.MisNumeritos.Source.Resource.Styleable.SearchView_defaultQueryHint = global::EG.MisNumeritos.Resource.Styleable.SearchView_defaultQueryHint;
+			global::EG.MisNumeritos.Source.Resource.Styleable.SearchView_goIcon = global::EG.MisNumeritos.Resource.Styleable.SearchView_goIcon;
+			global::EG.MisNumeritos.Source.Resource.Styleable.SearchView_iconifiedByDefault = global::EG.MisNumeritos.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::EG.MisNumeritos.Source.Resource.Styleable.SearchView_layout = global::EG.MisNumeritos.Resource.Styleable.SearchView_layout;
+			global::EG.MisNumeritos.Source.Resource.Styleable.SearchView_queryBackground = global::EG.MisNumeritos.Resource.Styleable.SearchView_queryBackground;
+			global::EG.MisNumeritos.Source.Resource.Styleable.SearchView_queryHint = global::EG.MisNumeritos.Resource.Styleable.SearchView_queryHint;
+			global::EG.MisNumeritos.Source.Resource.Styleable.SearchView_searchHintIcon = global::EG.MisNumeritos.Resource.Styleable.SearchView_searchHintIcon;
+			global::EG.MisNumeritos.Source.Resource.Styleable.SearchView_searchIcon = global::EG.MisNumeritos.Resource.Styleable.SearchView_searchIcon;
+			global::EG.MisNumeritos.Source.Resource.Styleable.SearchView_submitBackground = global::EG.MisNumeritos.Resource.Styleable.SearchView_submitBackground;
+			global::EG.MisNumeritos.Source.Resource.Styleable.SearchView_suggestionRowLayout = global::EG.MisNumeritos.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::EG.MisNumeritos.Source.Resource.Styleable.SearchView_voiceIcon = global::EG.MisNumeritos.Resource.Styleable.SearchView_voiceIcon;
+			global::EG.MisNumeritos.Source.Resource.Styleable.Spinner = global::EG.MisNumeritos.Resource.Styleable.Spinner;
+			global::EG.MisNumeritos.Source.Resource.Styleable.Spinner_android_dropDownWidth = global::EG.MisNumeritos.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::EG.MisNumeritos.Source.Resource.Styleable.Spinner_android_entries = global::EG.MisNumeritos.Resource.Styleable.Spinner_android_entries;
+			global::EG.MisNumeritos.Source.Resource.Styleable.Spinner_android_popupBackground = global::EG.MisNumeritos.Resource.Styleable.Spinner_android_popupBackground;
+			global::EG.MisNumeritos.Source.Resource.Styleable.Spinner_android_prompt = global::EG.MisNumeritos.Resource.Styleable.Spinner_android_prompt;
+			global::EG.MisNumeritos.Source.Resource.Styleable.Spinner_popupTheme = global::EG.MisNumeritos.Resource.Styleable.Spinner_popupTheme;
+			global::EG.MisNumeritos.Source.Resource.Styleable.SwitchCompat = global::EG.MisNumeritos.Resource.Styleable.SwitchCompat;
+			global::EG.MisNumeritos.Source.Resource.Styleable.SwitchCompat_android_textOff = global::EG.MisNumeritos.Resource.Styleable.SwitchCompat_android_textOff;
+			global::EG.MisNumeritos.Source.Resource.Styleable.SwitchCompat_android_textOn = global::EG.MisNumeritos.Resource.Styleable.SwitchCompat_android_textOn;
+			global::EG.MisNumeritos.Source.Resource.Styleable.SwitchCompat_android_thumb = global::EG.MisNumeritos.Resource.Styleable.SwitchCompat_android_thumb;
+			global::EG.MisNumeritos.Source.Resource.Styleable.SwitchCompat_showText = global::EG.MisNumeritos.Resource.Styleable.SwitchCompat_showText;
+			global::EG.MisNumeritos.Source.Resource.Styleable.SwitchCompat_splitTrack = global::EG.MisNumeritos.Resource.Styleable.SwitchCompat_splitTrack;
+			global::EG.MisNumeritos.Source.Resource.Styleable.SwitchCompat_switchMinWidth = global::EG.MisNumeritos.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::EG.MisNumeritos.Source.Resource.Styleable.SwitchCompat_switchPadding = global::EG.MisNumeritos.Resource.Styleable.SwitchCompat_switchPadding;
+			global::EG.MisNumeritos.Source.Resource.Styleable.SwitchCompat_switchTextAppearance = global::EG.MisNumeritos.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::EG.MisNumeritos.Source.Resource.Styleable.SwitchCompat_thumbTextPadding = global::EG.MisNumeritos.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::EG.MisNumeritos.Source.Resource.Styleable.SwitchCompat_thumbTint = global::EG.MisNumeritos.Resource.Styleable.SwitchCompat_thumbTint;
+			global::EG.MisNumeritos.Source.Resource.Styleable.SwitchCompat_thumbTintMode = global::EG.MisNumeritos.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::EG.MisNumeritos.Source.Resource.Styleable.SwitchCompat_track = global::EG.MisNumeritos.Resource.Styleable.SwitchCompat_track;
+			global::EG.MisNumeritos.Source.Resource.Styleable.SwitchCompat_trackTint = global::EG.MisNumeritos.Resource.Styleable.SwitchCompat_trackTint;
+			global::EG.MisNumeritos.Source.Resource.Styleable.SwitchCompat_trackTintMode = global::EG.MisNumeritos.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::EG.MisNumeritos.Source.Resource.Styleable.TextAppearance = global::EG.MisNumeritos.Resource.Styleable.TextAppearance;
+			global::EG.MisNumeritos.Source.Resource.Styleable.TextAppearance_android_fontFamily = global::EG.MisNumeritos.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::EG.MisNumeritos.Source.Resource.Styleable.TextAppearance_android_shadowColor = global::EG.MisNumeritos.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::EG.MisNumeritos.Source.Resource.Styleable.TextAppearance_android_shadowDx = global::EG.MisNumeritos.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::EG.MisNumeritos.Source.Resource.Styleable.TextAppearance_android_shadowDy = global::EG.MisNumeritos.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::EG.MisNumeritos.Source.Resource.Styleable.TextAppearance_android_shadowRadius = global::EG.MisNumeritos.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::EG.MisNumeritos.Source.Resource.Styleable.TextAppearance_android_textColor = global::EG.MisNumeritos.Resource.Styleable.TextAppearance_android_textColor;
+			global::EG.MisNumeritos.Source.Resource.Styleable.TextAppearance_android_textColorHint = global::EG.MisNumeritos.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::EG.MisNumeritos.Source.Resource.Styleable.TextAppearance_android_textColorLink = global::EG.MisNumeritos.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::EG.MisNumeritos.Source.Resource.Styleable.TextAppearance_android_textSize = global::EG.MisNumeritos.Resource.Styleable.TextAppearance_android_textSize;
+			global::EG.MisNumeritos.Source.Resource.Styleable.TextAppearance_android_textStyle = global::EG.MisNumeritos.Resource.Styleable.TextAppearance_android_textStyle;
+			global::EG.MisNumeritos.Source.Resource.Styleable.TextAppearance_android_typeface = global::EG.MisNumeritos.Resource.Styleable.TextAppearance_android_typeface;
+			global::EG.MisNumeritos.Source.Resource.Styleable.TextAppearance_fontFamily = global::EG.MisNumeritos.Resource.Styleable.TextAppearance_fontFamily;
+			global::EG.MisNumeritos.Source.Resource.Styleable.TextAppearance_textAllCaps = global::EG.MisNumeritos.Resource.Styleable.TextAppearance_textAllCaps;
+			global::EG.MisNumeritos.Source.Resource.Styleable.Toolbar = global::EG.MisNumeritos.Resource.Styleable.Toolbar;
+			global::EG.MisNumeritos.Source.Resource.Styleable.Toolbar_android_gravity = global::EG.MisNumeritos.Resource.Styleable.Toolbar_android_gravity;
+			global::EG.MisNumeritos.Source.Resource.Styleable.Toolbar_android_minHeight = global::EG.MisNumeritos.Resource.Styleable.Toolbar_android_minHeight;
+			global::EG.MisNumeritos.Source.Resource.Styleable.Toolbar_buttonGravity = global::EG.MisNumeritos.Resource.Styleable.Toolbar_buttonGravity;
+			global::EG.MisNumeritos.Source.Resource.Styleable.Toolbar_collapseContentDescription = global::EG.MisNumeritos.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::EG.MisNumeritos.Source.Resource.Styleable.Toolbar_collapseIcon = global::EG.MisNumeritos.Resource.Styleable.Toolbar_collapseIcon;
+			global::EG.MisNumeritos.Source.Resource.Styleable.Toolbar_contentInsetEnd = global::EG.MisNumeritos.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::EG.MisNumeritos.Source.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::EG.MisNumeritos.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::EG.MisNumeritos.Source.Resource.Styleable.Toolbar_contentInsetLeft = global::EG.MisNumeritos.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::EG.MisNumeritos.Source.Resource.Styleable.Toolbar_contentInsetRight = global::EG.MisNumeritos.Resource.Styleable.Toolbar_contentInsetRight;
+			global::EG.MisNumeritos.Source.Resource.Styleable.Toolbar_contentInsetStart = global::EG.MisNumeritos.Resource.Styleable.Toolbar_contentInsetStart;
+			global::EG.MisNumeritos.Source.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::EG.MisNumeritos.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::EG.MisNumeritos.Source.Resource.Styleable.Toolbar_logo = global::EG.MisNumeritos.Resource.Styleable.Toolbar_logo;
+			global::EG.MisNumeritos.Source.Resource.Styleable.Toolbar_logoDescription = global::EG.MisNumeritos.Resource.Styleable.Toolbar_logoDescription;
+			global::EG.MisNumeritos.Source.Resource.Styleable.Toolbar_maxButtonHeight = global::EG.MisNumeritos.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::EG.MisNumeritos.Source.Resource.Styleable.Toolbar_navigationContentDescription = global::EG.MisNumeritos.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::EG.MisNumeritos.Source.Resource.Styleable.Toolbar_navigationIcon = global::EG.MisNumeritos.Resource.Styleable.Toolbar_navigationIcon;
+			global::EG.MisNumeritos.Source.Resource.Styleable.Toolbar_popupTheme = global::EG.MisNumeritos.Resource.Styleable.Toolbar_popupTheme;
+			global::EG.MisNumeritos.Source.Resource.Styleable.Toolbar_subtitle = global::EG.MisNumeritos.Resource.Styleable.Toolbar_subtitle;
+			global::EG.MisNumeritos.Source.Resource.Styleable.Toolbar_subtitleTextAppearance = global::EG.MisNumeritos.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::EG.MisNumeritos.Source.Resource.Styleable.Toolbar_subtitleTextColor = global::EG.MisNumeritos.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::EG.MisNumeritos.Source.Resource.Styleable.Toolbar_title = global::EG.MisNumeritos.Resource.Styleable.Toolbar_title;
+			global::EG.MisNumeritos.Source.Resource.Styleable.Toolbar_titleMargin = global::EG.MisNumeritos.Resource.Styleable.Toolbar_titleMargin;
+			global::EG.MisNumeritos.Source.Resource.Styleable.Toolbar_titleMarginBottom = global::EG.MisNumeritos.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::EG.MisNumeritos.Source.Resource.Styleable.Toolbar_titleMarginEnd = global::EG.MisNumeritos.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::EG.MisNumeritos.Source.Resource.Styleable.Toolbar_titleMarginStart = global::EG.MisNumeritos.Resource.Styleable.Toolbar_titleMarginStart;
+			global::EG.MisNumeritos.Source.Resource.Styleable.Toolbar_titleMarginTop = global::EG.MisNumeritos.Resource.Styleable.Toolbar_titleMarginTop;
+			global::EG.MisNumeritos.Source.Resource.Styleable.Toolbar_titleMargins = global::EG.MisNumeritos.Resource.Styleable.Toolbar_titleMargins;
+			global::EG.MisNumeritos.Source.Resource.Styleable.Toolbar_titleTextAppearance = global::EG.MisNumeritos.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::EG.MisNumeritos.Source.Resource.Styleable.Toolbar_titleTextColor = global::EG.MisNumeritos.Resource.Styleable.Toolbar_titleTextColor;
+			global::EG.MisNumeritos.Source.Resource.Styleable.View = global::EG.MisNumeritos.Resource.Styleable.View;
+			global::EG.MisNumeritos.Source.Resource.Styleable.View_android_focusable = global::EG.MisNumeritos.Resource.Styleable.View_android_focusable;
+			global::EG.MisNumeritos.Source.Resource.Styleable.View_android_theme = global::EG.MisNumeritos.Resource.Styleable.View_android_theme;
+			global::EG.MisNumeritos.Source.Resource.Styleable.View_paddingEnd = global::EG.MisNumeritos.Resource.Styleable.View_paddingEnd;
+			global::EG.MisNumeritos.Source.Resource.Styleable.View_paddingStart = global::EG.MisNumeritos.Resource.Styleable.View_paddingStart;
+			global::EG.MisNumeritos.Source.Resource.Styleable.View_theme = global::EG.MisNumeritos.Resource.Styleable.View_theme;
+			global::EG.MisNumeritos.Source.Resource.Styleable.ViewBackgroundHelper = global::EG.MisNumeritos.Resource.Styleable.ViewBackgroundHelper;
+			global::EG.MisNumeritos.Source.Resource.Styleable.ViewBackgroundHelper_android_background = global::EG.MisNumeritos.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::EG.MisNumeritos.Source.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::EG.MisNumeritos.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::EG.MisNumeritos.Source.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::EG.MisNumeritos.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::EG.MisNumeritos.Source.Resource.Styleable.ViewStubCompat = global::EG.MisNumeritos.Resource.Styleable.ViewStubCompat;
+			global::EG.MisNumeritos.Source.Resource.Styleable.ViewStubCompat_android_id = global::EG.MisNumeritos.Resource.Styleable.ViewStubCompat_android_id;
+			global::EG.MisNumeritos.Source.Resource.Styleable.ViewStubCompat_android_inflatedId = global::EG.MisNumeritos.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::EG.MisNumeritos.Source.Resource.Styleable.ViewStubCompat_android_layout = global::EG.MisNumeritos.Resource.Styleable.ViewStubCompat_android_layout;
 		}
 		
 		public partial class Animation
@@ -1187,44 +2709,44 @@ namespace EG.MisNumeritos
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f0c004b
-			public const int abc_background_cache_hint_selector_material_dark = 2131492939;
-			
 			// aapt resource value: 0x7f0c004c
-			public const int abc_background_cache_hint_selector_material_light = 2131492940;
+			public const int abc_background_cache_hint_selector_material_dark = 2131492940;
 			
 			// aapt resource value: 0x7f0c004d
-			public const int abc_btn_colored_borderless_text_material = 2131492941;
+			public const int abc_background_cache_hint_selector_material_light = 2131492941;
 			
 			// aapt resource value: 0x7f0c004e
-			public const int abc_btn_colored_text_material = 2131492942;
+			public const int abc_btn_colored_borderless_text_material = 2131492942;
 			
 			// aapt resource value: 0x7f0c004f
-			public const int abc_color_highlight_material = 2131492943;
+			public const int abc_btn_colored_text_material = 2131492943;
 			
 			// aapt resource value: 0x7f0c0050
-			public const int abc_hint_foreground_material_dark = 2131492944;
+			public const int abc_color_highlight_material = 2131492944;
 			
 			// aapt resource value: 0x7f0c0051
-			public const int abc_hint_foreground_material_light = 2131492945;
+			public const int abc_hint_foreground_material_dark = 2131492945;
+			
+			// aapt resource value: 0x7f0c0052
+			public const int abc_hint_foreground_material_light = 2131492946;
 			
 			// aapt resource value: 0x7f0c0000
 			public const int abc_input_method_navigation_guard = 2131492864;
 			
-			// aapt resource value: 0x7f0c0052
-			public const int abc_primary_text_disable_only_material_dark = 2131492946;
-			
 			// aapt resource value: 0x7f0c0053
-			public const int abc_primary_text_disable_only_material_light = 2131492947;
+			public const int abc_primary_text_disable_only_material_dark = 2131492947;
 			
 			// aapt resource value: 0x7f0c0054
-			public const int abc_primary_text_material_dark = 2131492948;
+			public const int abc_primary_text_disable_only_material_light = 2131492948;
 			
 			// aapt resource value: 0x7f0c0055
-			public const int abc_primary_text_material_light = 2131492949;
+			public const int abc_primary_text_material_dark = 2131492949;
 			
 			// aapt resource value: 0x7f0c0056
-			public const int abc_search_url_text = 2131492950;
+			public const int abc_primary_text_material_light = 2131492950;
+			
+			// aapt resource value: 0x7f0c0057
+			public const int abc_search_url_text = 2131492951;
 			
 			// aapt resource value: 0x7f0c0001
 			public const int abc_search_url_text_normal = 2131492865;
@@ -1235,35 +2757,38 @@ namespace EG.MisNumeritos
 			// aapt resource value: 0x7f0c0003
 			public const int abc_search_url_text_selected = 2131492867;
 			
-			// aapt resource value: 0x7f0c0057
-			public const int abc_secondary_text_material_dark = 2131492951;
-			
 			// aapt resource value: 0x7f0c0058
-			public const int abc_secondary_text_material_light = 2131492952;
+			public const int abc_secondary_text_material_dark = 2131492952;
 			
 			// aapt resource value: 0x7f0c0059
-			public const int abc_tint_btn_checkable = 2131492953;
+			public const int abc_secondary_text_material_light = 2131492953;
 			
 			// aapt resource value: 0x7f0c005a
-			public const int abc_tint_default = 2131492954;
+			public const int abc_tint_btn_checkable = 2131492954;
 			
 			// aapt resource value: 0x7f0c005b
-			public const int abc_tint_edittext = 2131492955;
+			public const int abc_tint_default = 2131492955;
 			
 			// aapt resource value: 0x7f0c005c
-			public const int abc_tint_seek_thumb = 2131492956;
+			public const int abc_tint_edittext = 2131492956;
 			
 			// aapt resource value: 0x7f0c005d
-			public const int abc_tint_spinner = 2131492957;
+			public const int abc_tint_seek_thumb = 2131492957;
 			
 			// aapt resource value: 0x7f0c005e
-			public const int abc_tint_switch_track = 2131492958;
+			public const int abc_tint_spinner = 2131492958;
+			
+			// aapt resource value: 0x7f0c005f
+			public const int abc_tint_switch_track = 2131492959;
 			
 			// aapt resource value: 0x7f0c0004
 			public const int accent_material_dark = 2131492868;
 			
 			// aapt resource value: 0x7f0c0005
 			public const int accent_material_light = 2131492869;
+			
+			// aapt resource value: 0x7f0c004a
+			public const int backgroud = 2131492938;
 			
 			// aapt resource value: 0x7f0c0006
 			public const int background_floating_material_dark = 2131492870;
@@ -1313,8 +2838,8 @@ namespace EG.MisNumeritos
 			// aapt resource value: 0x7f0c003c
 			public const int design_bottom_navigation_shadow_color = 2131492924;
 			
-			// aapt resource value: 0x7f0c005f
-			public const int design_error = 2131492959;
+			// aapt resource value: 0x7f0c0060
+			public const int design_error = 2131492960;
 			
 			// aapt resource value: 0x7f0c003d
 			public const int design_fab_shadow_end_color = 2131492925;
@@ -1340,8 +2865,8 @@ namespace EG.MisNumeritos
 			// aapt resource value: 0x7f0c0044
 			public const int design_snackbar_background_color = 2131492932;
 			
-			// aapt resource value: 0x7f0c0060
-			public const int design_tint_password_toggle = 2131492960;
+			// aapt resource value: 0x7f0c0061
+			public const int design_tint_password_toggle = 2131492961;
 			
 			// aapt resource value: 0x7f0c0012
 			public const int dim_foreground_disabled_material_dark = 2131492882;
@@ -1370,8 +2895,8 @@ namespace EG.MisNumeritos
 			// aapt resource value: 0x7f0c001a
 			public const int highlighted_text_material_light = 2131492890;
 			
-			// aapt resource value: 0x7f0c004a
-			public const int ic_launcher_background = 2131492938;
+			// aapt resource value: 0x7f0c004b
+			public const int ic_launcher_background = 2131492939;
 			
 			// aapt resource value: 0x7f0c001b
 			public const int material_blue_grey_800 = 2131492891;
@@ -1466,11 +2991,11 @@ namespace EG.MisNumeritos
 			// aapt resource value: 0x7f0c0036
 			public const int switch_thumb_disabled_material_light = 2131492918;
 			
-			// aapt resource value: 0x7f0c0061
-			public const int switch_thumb_material_dark = 2131492961;
-			
 			// aapt resource value: 0x7f0c0062
-			public const int switch_thumb_material_light = 2131492962;
+			public const int switch_thumb_material_dark = 2131492962;
+			
+			// aapt resource value: 0x7f0c0063
+			public const int switch_thumb_material_light = 2131492963;
 			
 			// aapt resource value: 0x7f0c0037
 			public const int switch_thumb_normal_material_dark = 2131492919;
@@ -2227,26 +3752,26 @@ namespace EG.MisNumeritos
 			// aapt resource value: 0x7f020053
 			public const int avd_hide_password = 2130837587;
 			
-			// aapt resource value: 0x7f02006a
-			public const int avd_hide_password_1 = 2130837610;
-			
-			// aapt resource value: 0x7f02006b
-			public const int avd_hide_password_2 = 2130837611;
-			
 			// aapt resource value: 0x7f02006c
-			public const int avd_hide_password_3 = 2130837612;
+			public const int avd_hide_password_1 = 2130837612;
+			
+			// aapt resource value: 0x7f02006d
+			public const int avd_hide_password_2 = 2130837613;
+			
+			// aapt resource value: 0x7f02006e
+			public const int avd_hide_password_3 = 2130837614;
 			
 			// aapt resource value: 0x7f020054
 			public const int avd_show_password = 2130837588;
 			
-			// aapt resource value: 0x7f02006d
-			public const int avd_show_password_1 = 2130837613;
-			
-			// aapt resource value: 0x7f02006e
-			public const int avd_show_password_2 = 2130837614;
-			
 			// aapt resource value: 0x7f02006f
-			public const int avd_show_password_3 = 2130837615;
+			public const int avd_show_password_1 = 2130837615;
+			
+			// aapt resource value: 0x7f020070
+			public const int avd_show_password_2 = 2130837616;
+			
+			// aapt resource value: 0x7f020071
+			public const int avd_show_password_3 = 2130837617;
 			
 			// aapt resource value: 0x7f020055
 			public const int design_bottom_navigation_item_background = 2130837589;
@@ -2267,49 +3792,55 @@ namespace EG.MisNumeritos
 			public const int design_snackbar_background = 2130837594;
 			
 			// aapt resource value: 0x7f02005b
-			public const int navigation_empty_icon = 2130837595;
+			public const int game_logo = 2130837595;
 			
 			// aapt resource value: 0x7f02005c
-			public const int notification_action_background = 2130837596;
+			public const int logo_mis_numeritos = 2130837596;
 			
 			// aapt resource value: 0x7f02005d
-			public const int notification_bg = 2130837597;
+			public const int navigation_empty_icon = 2130837597;
 			
 			// aapt resource value: 0x7f02005e
-			public const int notification_bg_low = 2130837598;
+			public const int notification_action_background = 2130837598;
 			
 			// aapt resource value: 0x7f02005f
-			public const int notification_bg_low_normal = 2130837599;
+			public const int notification_bg = 2130837599;
 			
 			// aapt resource value: 0x7f020060
-			public const int notification_bg_low_pressed = 2130837600;
+			public const int notification_bg_low = 2130837600;
 			
 			// aapt resource value: 0x7f020061
-			public const int notification_bg_normal = 2130837601;
+			public const int notification_bg_low_normal = 2130837601;
 			
 			// aapt resource value: 0x7f020062
-			public const int notification_bg_normal_pressed = 2130837602;
+			public const int notification_bg_low_pressed = 2130837602;
 			
 			// aapt resource value: 0x7f020063
-			public const int notification_icon_background = 2130837603;
-			
-			// aapt resource value: 0x7f020068
-			public const int notification_template_icon_bg = 2130837608;
-			
-			// aapt resource value: 0x7f020069
-			public const int notification_template_icon_low_bg = 2130837609;
+			public const int notification_bg_normal = 2130837603;
 			
 			// aapt resource value: 0x7f020064
-			public const int notification_tile_bg = 2130837604;
+			public const int notification_bg_normal_pressed = 2130837604;
 			
 			// aapt resource value: 0x7f020065
-			public const int notify_panel_notification_icon_bg = 2130837605;
+			public const int notification_icon_background = 2130837605;
+			
+			// aapt resource value: 0x7f02006a
+			public const int notification_template_icon_bg = 2130837610;
+			
+			// aapt resource value: 0x7f02006b
+			public const int notification_template_icon_low_bg = 2130837611;
 			
 			// aapt resource value: 0x7f020066
-			public const int tooltip_frame_dark = 2130837606;
+			public const int notification_tile_bg = 2130837606;
 			
 			// aapt resource value: 0x7f020067
-			public const int tooltip_frame_light = 2130837607;
+			public const int notify_panel_notification_icon_bg = 2130837607;
+			
+			// aapt resource value: 0x7f020068
+			public const int tooltip_frame_dark = 2130837608;
+			
+			// aapt resource value: 0x7f020069
+			public const int tooltip_frame_light = 2130837609;
 			
 			static Drawable()
 			{
@@ -2342,8 +3873,8 @@ namespace EG.MisNumeritos
 			// aapt resource value: 0x7f080037
 			public const int SYM = 2131230775;
 			
-			// aapt resource value: 0x7f08009c
-			public const int action0 = 2131230876;
+			// aapt resource value: 0x7f0800ae
+			public const int action0 = 2131230894;
 			
 			// aapt resource value: 0x7f08007c
 			public const int action_bar = 2131230844;
@@ -2366,17 +3897,17 @@ namespace EG.MisNumeritos
 			// aapt resource value: 0x7f08005a
 			public const int action_bar_title = 2131230810;
 			
-			// aapt resource value: 0x7f080099
-			public const int action_container = 2131230873;
+			// aapt resource value: 0x7f0800ab
+			public const int action_container = 2131230891;
 			
 			// aapt resource value: 0x7f08007d
 			public const int action_context_bar = 2131230845;
 			
-			// aapt resource value: 0x7f0800a0
-			public const int action_divider = 2131230880;
+			// aapt resource value: 0x7f0800b2
+			public const int action_divider = 2131230898;
 			
-			// aapt resource value: 0x7f08009a
-			public const int action_image = 2131230874;
+			// aapt resource value: 0x7f0800ac
+			public const int action_image = 2131230892;
 			
 			// aapt resource value: 0x7f080003
 			public const int action_menu_divider = 2131230723;
@@ -2393,11 +3924,11 @@ namespace EG.MisNumeritos
 			// aapt resource value: 0x7f08005c
 			public const int action_mode_close_button = 2131230812;
 			
-			// aapt resource value: 0x7f08009b
-			public const int action_text = 2131230875;
+			// aapt resource value: 0x7f0800ad
+			public const int action_text = 2131230893;
 			
-			// aapt resource value: 0x7f0800a9
-			public const int actions = 2131230889;
+			// aapt resource value: 0x7f0800bb
+			public const int actions = 2131230907;
 			
 			// aapt resource value: 0x7f08005d
 			public const int activity_chooser_view_content = 2131230813;
@@ -2432,8 +3963,8 @@ namespace EG.MisNumeritos
 			// aapt resource value: 0x7f080063
 			public const int buttonPanel = 2131230819;
 			
-			// aapt resource value: 0x7f08009d
-			public const int cancel_action = 2131230877;
+			// aapt resource value: 0x7f0800af
+			public const int cancel_action = 2131230895;
 			
 			// aapt resource value: 0x7f080045
 			public const int center = 2131230789;
@@ -2447,8 +3978,8 @@ namespace EG.MisNumeritos
 			// aapt resource value: 0x7f080073
 			public const int checkbox = 2131230835;
 			
-			// aapt resource value: 0x7f0800a5
-			public const int chronometer = 2131230885;
+			// aapt resource value: 0x7f0800b7
+			public const int chronometer = 2131230903;
 			
 			// aapt resource value: 0x7f08004e
 			public const int clip_horizontal = 2131230798;
@@ -2459,14 +3990,14 @@ namespace EG.MisNumeritos
 			// aapt resource value: 0x7f080039
 			public const int collapseActionView = 2131230777;
 			
-			// aapt resource value: 0x7f08008d
-			public const int container = 2131230861;
+			// aapt resource value: 0x7f08009f
+			public const int container = 2131230879;
 			
 			// aapt resource value: 0x7f080066
 			public const int contentPanel = 2131230822;
 			
-			// aapt resource value: 0x7f08008e
-			public const int coordinator = 2131230862;
+			// aapt resource value: 0x7f0800a0
+			public const int coordinator = 2131230880;
 			
 			// aapt resource value: 0x7f08006d
 			public const int custom = 2131230829;
@@ -2480,20 +4011,20 @@ namespace EG.MisNumeritos
 			// aapt resource value: 0x7f080060
 			public const int default_activity_button = 2131230816;
 			
-			// aapt resource value: 0x7f080090
-			public const int design_bottom_sheet = 2131230864;
+			// aapt resource value: 0x7f0800a2
+			public const int design_bottom_sheet = 2131230882;
 			
-			// aapt resource value: 0x7f080097
-			public const int design_menu_item_action_area = 2131230871;
+			// aapt resource value: 0x7f0800a9
+			public const int design_menu_item_action_area = 2131230889;
 			
-			// aapt resource value: 0x7f080096
-			public const int design_menu_item_action_area_stub = 2131230870;
+			// aapt resource value: 0x7f0800a8
+			public const int design_menu_item_action_area_stub = 2131230888;
 			
-			// aapt resource value: 0x7f080095
-			public const int design_menu_item_text = 2131230869;
+			// aapt resource value: 0x7f0800a7
+			public const int design_menu_item_text = 2131230887;
 			
-			// aapt resource value: 0x7f080094
-			public const int design_navigation_view = 2131230868;
+			// aapt resource value: 0x7f0800a6
+			public const int design_navigation_view = 2131230886;
 			
 			// aapt resource value: 0x7f080020
 			public const int disableHome = 2131230752;
@@ -2504,14 +4035,17 @@ namespace EG.MisNumeritos
 			// aapt resource value: 0x7f080030
 			public const int end = 2131230768;
 			
-			// aapt resource value: 0x7f0800ab
-			public const int end_padder = 2131230891;
+			// aapt resource value: 0x7f0800bd
+			public const int end_padder = 2131230909;
 			
 			// aapt resource value: 0x7f08003f
 			public const int enterAlways = 2131230783;
 			
 			// aapt resource value: 0x7f080040
 			public const int enterAlwaysCollapsed = 2131230784;
+			
+			// aapt resource value: 0x7f080093
+			public const int executeButton = 2131230867;
 			
 			// aapt resource value: 0x7f080041
 			public const int exitUntilCollapsed = 2131230785;
@@ -2537,6 +4071,9 @@ namespace EG.MisNumeritos
 			// aapt resource value: 0x7f080058
 			public const int forever = 2131230808;
 			
+			// aapt resource value: 0x7f080091
+			public const int game_tile = 2131230865;
+			
 			// aapt resource value: 0x7f08000a
 			public const int ghost_view = 2131230730;
 			
@@ -2549,8 +4086,8 @@ namespace EG.MisNumeritos
 			// aapt resource value: 0x7f080062
 			public const int icon = 2131230818;
 			
-			// aapt resource value: 0x7f0800aa
-			public const int icon_group = 2131230890;
+			// aapt resource value: 0x7f0800bc
+			public const int icon_group = 2131230908;
 			
 			// aapt resource value: 0x7f08003a
 			public const int ifRoom = 2131230778;
@@ -2558,8 +4095,11 @@ namespace EG.MisNumeritos
 			// aapt resource value: 0x7f08005f
 			public const int image = 2131230815;
 			
-			// aapt resource value: 0x7f0800a6
-			public const int info = 2131230886;
+			// aapt resource value: 0x7f080097
+			public const int imageView = 2131230871;
+			
+			// aapt resource value: 0x7f0800b8
+			public const int info = 2131230904;
 			
 			// aapt resource value: 0x7f080059
 			public const int italic = 2131230809;
@@ -2567,8 +4107,11 @@ namespace EG.MisNumeritos
 			// aapt resource value: 0x7f080000
 			public const int item_touch_helper_previous_elevation = 2131230720;
 			
-			// aapt resource value: 0x7f08008c
-			public const int largeLabel = 2131230860;
+			// aapt resource value: 0x7f08009e
+			public const int largeLabel = 2131230878;
+			
+			// aapt resource value: 0x7f080095
+			public const int leaveButton = 2131230869;
 			
 			// aapt resource value: 0x7f080049
 			public const int left = 2131230793;
@@ -2582,17 +4125,23 @@ namespace EG.MisNumeritos
 			// aapt resource value: 0x7f08001d
 			public const int listMode = 2131230749;
 			
+			// aapt resource value: 0x7f08008b
+			public const int listView_finished_score = 2131230859;
+			
+			// aapt resource value: 0x7f08009c
+			public const int listView_score = 2131230876;
+			
 			// aapt resource value: 0x7f080061
 			public const int list_item = 2131230817;
 			
-			// aapt resource value: 0x7f0800ae
-			public const int masked = 2131230894;
+			// aapt resource value: 0x7f0800c0
+			public const int masked = 2131230912;
 			
-			// aapt resource value: 0x7f08009f
-			public const int media_actions = 2131230879;
+			// aapt resource value: 0x7f0800b1
+			public const int media_actions = 2131230897;
 			
-			// aapt resource value: 0x7f0800ac
-			public const int message = 2131230892;
+			// aapt resource value: 0x7f0800be
+			public const int message = 2131230910;
 			
 			// aapt resource value: 0x7f080031
 			public const int middle = 2131230769;
@@ -2600,11 +4149,17 @@ namespace EG.MisNumeritos
 			// aapt resource value: 0x7f080053
 			public const int mini = 2131230803;
 			
+			// aapt resource value: 0x7f080096
+			public const int movesET = 2131230870;
+			
 			// aapt resource value: 0x7f080028
 			public const int multiply = 2131230760;
 			
-			// aapt resource value: 0x7f080093
-			public const int navigation_header_container = 2131230867;
+			// aapt resource value: 0x7f080098
+			public const int nameTextView = 2131230872;
+			
+			// aapt resource value: 0x7f0800a5
+			public const int navigation_header_container = 2131230885;
 			
 			// aapt resource value: 0x7f08003b
 			public const int never = 2131230779;
@@ -2615,14 +4170,17 @@ namespace EG.MisNumeritos
 			// aapt resource value: 0x7f08001e
 			public const int normal = 2131230750;
 			
-			// aapt resource value: 0x7f0800a8
-			public const int notification_background = 2131230888;
+			// aapt resource value: 0x7f0800ba
+			public const int notification_background = 2131230906;
 			
-			// aapt resource value: 0x7f0800a2
-			public const int notification_main_column = 2131230882;
+			// aapt resource value: 0x7f0800b4
+			public const int notification_main_column = 2131230900;
 			
-			// aapt resource value: 0x7f0800a1
-			public const int notification_main_column_container = 2131230881;
+			// aapt resource value: 0x7f0800b3
+			public const int notification_main_column_container = 2131230899;
+			
+			// aapt resource value: 0x7f080092
+			public const int numberInputText = 2131230866;
 			
 			// aapt resource value: 0x7f08004c
 			public const int parallax = 2131230796;
@@ -2636,6 +4194,9 @@ namespace EG.MisNumeritos
 			// aapt resource value: 0x7f08004d
 			public const int pin = 2131230797;
 			
+			// aapt resource value: 0x7f080099
+			public const int playButton = 2131230873;
+			
 			// aapt resource value: 0x7f080006
 			public const int progress_circular = 2131230726;
 			
@@ -2648,11 +4209,11 @@ namespace EG.MisNumeritos
 			// aapt resource value: 0x7f08004a
 			public const int right = 2131230794;
 			
-			// aapt resource value: 0x7f0800a7
-			public const int right_icon = 2131230887;
+			// aapt resource value: 0x7f0800b9
+			public const int right_icon = 2131230905;
 			
-			// aapt resource value: 0x7f0800a3
-			public const int right_side = 2131230883;
+			// aapt resource value: 0x7f0800b5
+			public const int right_side = 2131230901;
 			
 			// aapt resource value: 0x7f08000c
 			public const int save_image_matrix = 2131230732;
@@ -2662,6 +4223,9 @@ namespace EG.MisNumeritos
 			
 			// aapt resource value: 0x7f08000e
 			public const int save_scale_type = 2131230734;
+			
+			// aapt resource value: 0x7f08009a
+			public const int scoresButton = 2131230874;
 			
 			// aapt resource value: 0x7f080029
 			public const int screen = 2131230761;
@@ -2726,14 +4290,14 @@ namespace EG.MisNumeritos
 			// aapt resource value: 0x7f080025
 			public const int showTitle = 2131230757;
 			
-			// aapt resource value: 0x7f08008b
-			public const int smallLabel = 2131230859;
+			// aapt resource value: 0x7f08009d
+			public const int smallLabel = 2131230877;
 			
-			// aapt resource value: 0x7f080092
-			public const int snackbar_action = 2131230866;
+			// aapt resource value: 0x7f0800a4
+			public const int snackbar_action = 2131230884;
 			
-			// aapt resource value: 0x7f080091
-			public const int snackbar_text = 2131230865;
+			// aapt resource value: 0x7f0800a3
+			public const int snackbar_text = 2131230883;
 			
 			// aapt resource value: 0x7f080043
 			public const int snap = 2131230787;
@@ -2756,8 +4320,11 @@ namespace EG.MisNumeritos
 			// aapt resource value: 0x7f08004b
 			public const int start = 2131230795;
 			
-			// aapt resource value: 0x7f08009e
-			public const int status_bar_latest_event_content = 2131230878;
+			// aapt resource value: 0x7f080094
+			public const int statusText = 2131230868;
+			
+			// aapt resource value: 0x7f0800b0
+			public const int status_bar_latest_event_content = 2131230896;
 			
 			// aapt resource value: 0x7f080076
 			public const int submenuarrow = 2131230838;
@@ -2783,8 +4350,14 @@ namespace EG.MisNumeritos
 			// aapt resource value: 0x7f080069
 			public const int textSpacerNoTitle = 2131230825;
 			
-			// aapt resource value: 0x7f080098
-			public const int text_input_password_toggle = 2131230872;
+			// aapt resource value: 0x7f08009b
+			public const int textView2 = 2131230875;
+			
+			// aapt resource value: 0x7f08008c
+			public const int textView3 = 2131230860;
+			
+			// aapt resource value: 0x7f0800aa
+			public const int text_input_password_toggle = 2131230890;
 			
 			// aapt resource value: 0x7f080014
 			public const int textinput_counter = 2131230740;
@@ -2792,8 +4365,8 @@ namespace EG.MisNumeritos
 			// aapt resource value: 0x7f080015
 			public const int textinput_error = 2131230741;
 			
-			// aapt resource value: 0x7f0800a4
-			public const int time = 2131230884;
+			// aapt resource value: 0x7f0800b6
+			public const int time = 2131230902;
 			
 			// aapt resource value: 0x7f08001c
 			public const int title = 2131230748;
@@ -2810,8 +4383,8 @@ namespace EG.MisNumeritos
 			// aapt resource value: 0x7f08006e
 			public const int topPanel = 2131230830;
 			
-			// aapt resource value: 0x7f08008f
-			public const int touch_outside = 2131230863;
+			// aapt resource value: 0x7f0800a1
+			public const int touch_outside = 2131230881;
 			
 			// aapt resource value: 0x7f08000f
 			public const int transition_current_scene = 2131230735;
@@ -2828,6 +4401,18 @@ namespace EG.MisNumeritos
 			// aapt resource value: 0x7f080013
 			public const int transition_transform = 2131230739;
 			
+			// aapt resource value: 0x7f080090
+			public const int tvAFG_attempts = 2131230864;
+			
+			// aapt resource value: 0x7f08008f
+			public const int tvAFG_message = 2131230863;
+			
+			// aapt resource value: 0x7f08008d
+			public const int tvAFG_number = 2131230861;
+			
+			// aapt resource value: 0x7f08008e
+			public const int tvAFG_title = 2131230862;
+			
 			// aapt resource value: 0x7f08002d
 			public const int uniform = 2131230765;
 			
@@ -2840,8 +4425,8 @@ namespace EG.MisNumeritos
 			// aapt resource value: 0x7f080016
 			public const int view_offset_helper = 2131230742;
 			
-			// aapt resource value: 0x7f0800ad
-			public const int visible = 2131230893;
+			// aapt resource value: 0x7f0800bf
+			public const int visible = 2131230911;
 			
 			// aapt resource value: 0x7f08003c
 			public const int withText = 2131230780;
@@ -2984,109 +4569,121 @@ namespace EG.MisNumeritos
 			public const int abc_select_dialog_material = 2130968601;
 			
 			// aapt resource value: 0x7f04001a
-			public const int activity_main = 2130968602;
+			public const int activity_finished_game = 2130968602;
 			
 			// aapt resource value: 0x7f04001b
-			public const int design_bottom_navigation_item = 2130968603;
+			public const int activity_game = 2130968603;
 			
 			// aapt resource value: 0x7f04001c
-			public const int design_bottom_sheet_dialog = 2130968604;
+			public const int activity_main = 2130968604;
 			
 			// aapt resource value: 0x7f04001d
-			public const int design_layout_snackbar = 2130968605;
+			public const int activity_score = 2130968605;
 			
 			// aapt resource value: 0x7f04001e
-			public const int design_layout_snackbar_include = 2130968606;
+			public const int activity_splash = 2130968606;
 			
 			// aapt resource value: 0x7f04001f
-			public const int design_layout_tab_icon = 2130968607;
+			public const int design_bottom_navigation_item = 2130968607;
 			
 			// aapt resource value: 0x7f040020
-			public const int design_layout_tab_text = 2130968608;
+			public const int design_bottom_sheet_dialog = 2130968608;
 			
 			// aapt resource value: 0x7f040021
-			public const int design_menu_item_action_area = 2130968609;
+			public const int design_layout_snackbar = 2130968609;
 			
 			// aapt resource value: 0x7f040022
-			public const int design_navigation_item = 2130968610;
+			public const int design_layout_snackbar_include = 2130968610;
 			
 			// aapt resource value: 0x7f040023
-			public const int design_navigation_item_header = 2130968611;
+			public const int design_layout_tab_icon = 2130968611;
 			
 			// aapt resource value: 0x7f040024
-			public const int design_navigation_item_separator = 2130968612;
+			public const int design_layout_tab_text = 2130968612;
 			
 			// aapt resource value: 0x7f040025
-			public const int design_navigation_item_subheader = 2130968613;
+			public const int design_menu_item_action_area = 2130968613;
 			
 			// aapt resource value: 0x7f040026
-			public const int design_navigation_menu = 2130968614;
+			public const int design_navigation_item = 2130968614;
 			
 			// aapt resource value: 0x7f040027
-			public const int design_navigation_menu_item = 2130968615;
+			public const int design_navigation_item_header = 2130968615;
 			
 			// aapt resource value: 0x7f040028
-			public const int design_text_input_password_icon = 2130968616;
+			public const int design_navigation_item_separator = 2130968616;
 			
 			// aapt resource value: 0x7f040029
-			public const int notification_action = 2130968617;
+			public const int design_navigation_item_subheader = 2130968617;
 			
 			// aapt resource value: 0x7f04002a
-			public const int notification_action_tombstone = 2130968618;
+			public const int design_navigation_menu = 2130968618;
 			
 			// aapt resource value: 0x7f04002b
-			public const int notification_media_action = 2130968619;
+			public const int design_navigation_menu_item = 2130968619;
 			
 			// aapt resource value: 0x7f04002c
-			public const int notification_media_cancel_action = 2130968620;
+			public const int design_text_input_password_icon = 2130968620;
 			
 			// aapt resource value: 0x7f04002d
-			public const int notification_template_big_media = 2130968621;
+			public const int notification_action = 2130968621;
 			
 			// aapt resource value: 0x7f04002e
-			public const int notification_template_big_media_custom = 2130968622;
+			public const int notification_action_tombstone = 2130968622;
 			
 			// aapt resource value: 0x7f04002f
-			public const int notification_template_big_media_narrow = 2130968623;
+			public const int notification_media_action = 2130968623;
 			
 			// aapt resource value: 0x7f040030
-			public const int notification_template_big_media_narrow_custom = 2130968624;
+			public const int notification_media_cancel_action = 2130968624;
 			
 			// aapt resource value: 0x7f040031
-			public const int notification_template_custom_big = 2130968625;
+			public const int notification_template_big_media = 2130968625;
 			
 			// aapt resource value: 0x7f040032
-			public const int notification_template_icon_group = 2130968626;
+			public const int notification_template_big_media_custom = 2130968626;
 			
 			// aapt resource value: 0x7f040033
-			public const int notification_template_lines_media = 2130968627;
+			public const int notification_template_big_media_narrow = 2130968627;
 			
 			// aapt resource value: 0x7f040034
-			public const int notification_template_media = 2130968628;
+			public const int notification_template_big_media_narrow_custom = 2130968628;
 			
 			// aapt resource value: 0x7f040035
-			public const int notification_template_media_custom = 2130968629;
+			public const int notification_template_custom_big = 2130968629;
 			
 			// aapt resource value: 0x7f040036
-			public const int notification_template_part_chronometer = 2130968630;
+			public const int notification_template_icon_group = 2130968630;
 			
 			// aapt resource value: 0x7f040037
-			public const int notification_template_part_time = 2130968631;
+			public const int notification_template_lines_media = 2130968631;
 			
 			// aapt resource value: 0x7f040038
-			public const int select_dialog_item_material = 2130968632;
+			public const int notification_template_media = 2130968632;
 			
 			// aapt resource value: 0x7f040039
-			public const int select_dialog_multichoice_material = 2130968633;
+			public const int notification_template_media_custom = 2130968633;
 			
 			// aapt resource value: 0x7f04003a
-			public const int select_dialog_singlechoice_material = 2130968634;
+			public const int notification_template_part_chronometer = 2130968634;
 			
 			// aapt resource value: 0x7f04003b
-			public const int support_simple_spinner_dropdown_item = 2130968635;
+			public const int notification_template_part_time = 2130968635;
 			
 			// aapt resource value: 0x7f04003c
-			public const int tooltip = 2130968636;
+			public const int select_dialog_item_material = 2130968636;
+			
+			// aapt resource value: 0x7f04003d
+			public const int select_dialog_multichoice_material = 2130968637;
+			
+			// aapt resource value: 0x7f04003e
+			public const int select_dialog_singlechoice_material = 2130968638;
+			
+			// aapt resource value: 0x7f04003f
+			public const int support_simple_spinner_dropdown_item = 2130968639;
+			
+			// aapt resource value: 0x7f040040
+			public const int tooltip = 2130968640;
 			
 			static Layout()
 			{
@@ -3210,11 +4807,11 @@ namespace EG.MisNumeritos
 			// aapt resource value: 0x7f090010
 			public const int abc_toolbar_collapse_description = 2131296272;
 			
-			// aapt resource value: 0x7f090028
-			public const int action_settings = 2131296296;
+			// aapt resource value: 0x7f090029
+			public const int action_settings = 2131296297;
 			
-			// aapt resource value: 0x7f090027
-			public const int app_name = 2131296295;
+			// aapt resource value: 0x7f090028
+			public const int app_name = 2131296296;
 			
 			// aapt resource value: 0x7f09001e
 			public const int appbar_scrolling_view_behavior = 2131296286;
@@ -3224,6 +4821,9 @@ namespace EG.MisNumeritos
 			
 			// aapt resource value: 0x7f090020
 			public const int character_counter_pattern = 2131296288;
+			
+			// aapt resource value: 0x7f090027
+			public const int hello = 2131296295;
 			
 			// aapt resource value: 0x7f090021
 			public const int password_toggle_content_description = 2131296289;

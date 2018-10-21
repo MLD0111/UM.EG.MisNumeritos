@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@@color/backgroud"
+    
+    tools:context=".GameActivity">
+
+    <ImageView
+        android:id="@+id/game_tile"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="21dp"
+        app:srcCompat="@drawable/game_logo" />
+
+    <EditText
+        android:id="@+id/numberInputText"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:ems="10"
+        android:inputType="number"
+        android:maxLength="4"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="59dp" />
+
+    <Button
+        android:id="@+id/executeButton"
+        style="@android:style/Widget.Holo.Light.Button"
+        android:layout_width="118dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:background="@android:color/holo_red_dark"
+        android:text="Verificar"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColor="@android:color/white"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="147dp" />
+
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/executeButton"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="21dp"
+        android:text="Adivinando..."
+        android:textAllCaps="true"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/leaveButton"
+        style="@android:style/Widget.Holo.Light.Button"
+        android:layout_width="118dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/holo_red_dark"
+        android:text="Me Doy"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColor="@android:color/white"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/movesET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/executeButton"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:gravity="top|left"
+        android:inputType="textMultiLine"
+        android:maxHeight="250dp"
+        android:scrollbars="vertical"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+
+</RelativeLayout>

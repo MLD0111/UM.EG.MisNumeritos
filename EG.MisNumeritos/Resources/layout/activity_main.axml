@@ -1,7 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/backgroud"
+	tools:context=".MainActivity">
+	<ImageView
+		android:id="@+id/imageView"
+		android:layout_width="192dp"
+		android:layout_height="139dp"
+		android:layout_alignParentTop="true"
+		android:layout_centerHorizontal="true"
+		app:srcCompat="@drawable/logo_mis_numeritos" />
+	<TextView
+		android:layout_width="230dp"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/nameTextView"
+		android:layout_centerHorizontal="true"
+		android:text="¿Qué querés hacer?"
+		android:textAlignment="center"
+		android:textSize="20sp" />
+	<TextView
+		android:id="@+id/nameTextView"
+		android:layout_width="322dp"
+		android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="145dp"
+		android:text="Usuario Anónimo"
+		android:textAlignment="center"
+		android:textSize="26sp" />
+	<Button
+		android:id="@+id/playButton"
+		style="@android:style/Widget.Holo.Light.Button"
+		android:layout_width="118dp"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="260dp"
+		android:background="@android:color/holo_red_dark"
+		android:text="Jugar"
+		android:textAppearance="@style/TextAppearance.AppCompat"
+		android:textColor="@android:color/white"
+		android:textStyle="bold|italic"/>
+	<Button
+		android:id="@+id/scoresButton"
+		style="@android:style/Widget.Holo.Light.Button"
+		android:layout_width="118dp"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="320dp"
+		android:background="@android:color/holo_red_dark"
+		android:text="Ver Scores"
+		android:textAppearance="@style/TextAppearance.AppCompat"
+		android:textColor="@android:color/white"
+		android:textStyle="bold|italic"/>
+
+
 </RelativeLayout>

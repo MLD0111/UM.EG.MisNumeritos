@@ -24,7 +24,7 @@ namespace EG.MisNumeritos
         private Button executeButton;
         private Button leaveButton;
         private TextView statusView;
-        private EditText movesET;
+        //private EditText movesET;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -39,11 +39,11 @@ namespace EG.MisNumeritos
             }
 
             // Layout references
-            executeButton = FindViewById(Resource.Id.executeButton);
-            leaveButton = FindViewById(Resource.Id.leaveButton);
-            numberView = FindViewById(Resource.Id.numberInputText);
-            statusView = FindViewById(Resource.Id.statusText);
-            movesET = FindViewById(Resource.Id.movesET);
+            executeButton = (Button) FindViewById(Resource.Id.executeButton);
+            leaveButton = (Button) FindViewById(Resource.Id.leaveButton);
+            numberView = (TextView) FindViewById(Resource.Id.numberInputText);
+            statusView = (TextView) FindViewById(Resource.Id.statusText);
+            //movesET = (Button) FindViewById(Resource.Id.movesET);
 
             // TODO: TRANSLATE THIS?
             // movesET.setTag(movesET.getKeyListener());
@@ -93,8 +93,8 @@ namespace EG.MisNumeritos
                         return;
                     }
 
-                    string moves = lastMove.ToString() + "\n" + movesET.Text.ToString();
-                    movesET.Text = moves;
+                    string moves = lastMove.ToString();// + "\n" + movesET.Text.ToString();
+                    //movesET.Text = moves;
                     numberView.Text = string.Empty;
 
                 }
