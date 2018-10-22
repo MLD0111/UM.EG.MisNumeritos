@@ -9,6 +9,7 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using EG.MisNumeritos.DAO;
 using EG.MisNumeritos.Source;
 
 namespace EG.MisNumeritos
@@ -32,7 +33,10 @@ namespace EG.MisNumeritos
 
         private void LoadTopTen()
         {
-            // TODO Add database logic to load top ten
-        }   
+            // Get top ten from database
+            List<Score> topTen = ScoreDAO.recuperarTopTen();
+
+            // TODO put the top ten in the activity
+        }
     }
 }

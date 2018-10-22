@@ -33,16 +33,16 @@
 
         public override string ToString()
         {
-            string response = "En " + score.GetAttempts();
-            if (score.GetAttempts() == 1)
+            string response = "En " + score.Attemps;
+            if (score.Attemps == 1)
                 response += " intento!!! :D";
-            else if (score.GetAttempts() <= 4)
+            else if (score.Attemps <= 4)
                 response += " intentos! :)";
-            else if (score.GetAttempts() <= 10)
+            else if (score.Attemps <= 10)
                 response += " intentos :|";
             else
                 response += " intentos :(";
-            response += "   " + score.GetUser();
+            response += "   " + score.User;
             return response;
         }
     }

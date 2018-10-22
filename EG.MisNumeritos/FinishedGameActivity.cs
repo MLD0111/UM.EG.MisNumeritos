@@ -9,6 +9,7 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using EG.MisNumeritos.DAO;
 using EG.MisNumeritos.Source;
 
 namespace EG.MisNumeritos
@@ -43,7 +44,7 @@ namespace EG.MisNumeritos
                 string key = "ToDo";
                 ScoreNode scoreNode = new ScoreNode(key, new Score(username, attempts));
 
-                Toast.MakeText(this, scoreNode.GetScore().GetUser() + "-" + scoreNode.GetScore().GetAttempts(), ToastLength.Short).Show();
+                Toast.MakeText(this, scoreNode.GetScore().User + "-" + scoreNode.GetScore().Attemps, ToastLength.Short).Show();
             }
         }
 
@@ -67,10 +68,12 @@ namespace EG.MisNumeritos
             LoadTopTen();
         }
 
-
         private void LoadTopTen()
         {
-            // TODO Add database logic to load top ten here    
+            // Get top ten from database
+            List<Score> topTen = ScoreDAO.recuperarTopTen();
+
+            // TODO put the top ten in the activity
         }
 
         public void LoadUIMessages()

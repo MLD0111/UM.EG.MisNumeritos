@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EG.MisNumeritos", "EG.MisNu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EG.MisNumeritos.Source", "EG.MisNumeritos.Source\EG.MisNumeritos.Source.csproj", "{3BB4CFC9-0FD3-4853-B757-BA9E00764A9B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaDatos", "CapaDatos\CapaDatos.csproj", "{C726175E-112C-4A94-9820-4C4C1A531E5C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{3BB4CFC9-0FD3-4853-B757-BA9E00764A9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BB4CFC9-0FD3-4853-B757-BA9E00764A9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BB4CFC9-0FD3-4853-B757-BA9E00764A9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C726175E-112C-4A94-9820-4C4C1A531E5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C726175E-112C-4A94-9820-4C4C1A531E5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C726175E-112C-4A94-9820-4C4C1A531E5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C726175E-112C-4A94-9820-4C4C1A531E5C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

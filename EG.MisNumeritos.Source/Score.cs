@@ -1,9 +1,16 @@
-﻿namespace EG.MisNumeritos.Source
+﻿using System;
+using System.Collections;
+using EG.MisNumeritos.Interfaces;
+
+namespace EG.MisNumeritos.Source
 {
-    public class Score
+    public class Score : IGuardable
     {
         private string user;
         private int attempts;
+        private DateTime date;
+
+        public Score() { }
 
         public Score(string user, int attempts)
         { 
@@ -11,22 +18,36 @@
             this.attempts = attempts;
         }
 
-        public string GetUser()
+        public void armar(ArrayList atributos)
         {
-            return user;
-        }
-        public void SetUser(string user)
-        {
-            this.user = user;
+            // atributos[0] = id
+            user = atributos[1].ToString();
+            attempts = int.Parse(atributos[2].ToString());
+            date = DateTime.Parse(atributos[3].ToString());
         }
 
-        public int GetAttempts()
+        public string User
         {
-            return attempts;
+            get
+            {
+                return user;
+            }
+            set
+            {
+                user = value;
+            }
         }
-        public void SetAttempts(int _attempts)
+
+        public int Attemps
         {
-            this.attempts = _attempts;
+            get
+            {
+                return attempts;
+            }
+            set
+            {
+                attempts = value;
+            }
         }
     }
 }
