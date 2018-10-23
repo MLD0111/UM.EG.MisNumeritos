@@ -23,20 +23,34 @@ namespace EG.MisNumeritos
 
             SetContentView(Resource.Layout.activity_score);
 
-            listview = FindViewById<ListView> (Resource.Id.listView_score);
+            textView = FindViewById<TextView>(Resource.Id.textView3);
 
             LoadTopTen();
         }
 
-        ListView listview;
-        List<ScoreNode> topTenList = new List<ScoreNode>();
+        TextView textView;
 
         private void LoadTopTen()
         {
             // Get top ten from database
-            List<Score> topTen = ScoreDAO.recuperarTopTen();
+            // List<Score> topTenList = ScoreDAO.RecuperarTopTen();
+
+            string showText = string.Empty;
+            int i = 0;
+
+            List<Score> topTenList = new List<Score>();
+            topTenList.Add(new Score { Attemps = 12, User = "Usuario anonimo" });
+            topTenList.Add(new Score { Attemps = 10, User = "Usuario anonimo" });
+            topTenList.Add(new Score { Attemps = 8, User = "Usuario anonimo" });
+
+            foreach (var item in topTenList.OrderBy(x => x.Attemps))
+            {
+                i++;
+                showText = showText + i + ". " + item.User + " Attempts: " + item.Attemps + "\n";
+            }
 
             // TODO put the top ten in the activity
+            textView.Text = showText;
         }
     }
 }

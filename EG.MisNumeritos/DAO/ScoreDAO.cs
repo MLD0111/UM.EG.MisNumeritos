@@ -17,15 +17,15 @@ namespace EG.MisNumeritos.DAO
 {
     public class ScoreDAO
     {
-        public static bool guardarScore(Score score)
+        public static bool GuardarScore(Score score)
         {
             string sql = "INSERT INTO score (user, attemps, date) ";
             sql += "VALUES ('" + score.User + "', '" + score.Attemps.ToString() + "', '" + DateTime.Today.ToString("dd/MM/yyyy") + "');";
 
-            return DataAccess.ejecutar(sql);
+            return DataAccess.Ejecutar(sql);
         }
 
-        public static List<Score> recuperarTopTen()
+        public static List<Score> RecuperarTopTen()
         {
             string sql = "SELECT TOP(10) * FROM score ORDER BY attemps DESC";
 

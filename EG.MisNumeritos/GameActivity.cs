@@ -13,7 +13,7 @@ using EG.MisNumeritos.Source;
 
 namespace EG.MisNumeritos
 {
-    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = false)]
+    [Activity(Label = "Mis Numeritos", Theme = "@style/AppTheme", MainLauncher = false)]
     public class GameActivity : Activity
     {
         private Game game;
@@ -24,7 +24,7 @@ namespace EG.MisNumeritos
         private Button executeButton;
         private Button leaveButton;
         private TextView statusView;
-        //private EditText movesET;
+        private EditText movesET;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -43,12 +43,8 @@ namespace EG.MisNumeritos
             leaveButton = (Button) FindViewById(Resource.Id.leaveButton);
             numberView = (TextView) FindViewById(Resource.Id.numberInputText);
             statusView = (TextView) FindViewById(Resource.Id.statusText);
-            //movesET = (Button) FindViewById(Resource.Id.movesET);
-
-            // TODO: TRANSLATE THIS?
-            // movesET.setTag(movesET.getKeyListener());
-            // movesET.setKeyListener(null);
-            // --> this was originally commented --> movesET.setKeyListener((KeyListener) movesET.getTag());
+            movesET = (EditText) FindViewById(Resource.Id.movesET);
+            movesET.Text = string.Empty;
 
             // Create new Game
             game = new Game();
@@ -67,6 +63,7 @@ namespace EG.MisNumeritos
             executeButton.Click += (sender, e) =>
             {
                 string playerNumber = numberView.Text;
+                string moves = string.Empty;
 
                 if (playerNumber.Length < 4)
                 {
@@ -77,13 +74,22 @@ namespace EG.MisNumeritos
                     Move lastMove;
                     try
                     {
-
-                        lastMove = game.DoNewMove(playerNumber);
-
-                        // IF THE PLAYER WON OR LEFT (FINISHED IS ABORTED OR WON), OPEN FINISHED GAME ACTIVITY
-                        if (game.IsGameFinished())
+                        if (game.IsAValidRandomNumber(int.Parse(playerNumber)))
                         {
-                            GoToFinishedGameActivity();
+                            lastMove = game.DoNewMove(playerNumber);
+
+                            moves = lastMove.ToString() + "\n" + movesET.Text;
+
+                            // IF THE PLAYER WON OR LEFT (FINISHED IS ABORTED OR WON), OPEN FINISHED GAME ACTIVITY
+                            if (game.IsGameFinished())
+                            {
+                                GoToFinishedGameActivity();
+                            }
+                        }
+                        else
+                        {
+                            moves = movesET.Text;
+                            Toast.MakeText(this, "El número ingresado no puede contener dígitos repetidos.", ToastLength.Short).Show();
                         }
 
                     }
@@ -93,10 +99,8 @@ namespace EG.MisNumeritos
                         return;
                     }
 
-                    string moves = lastMove.ToString();// + "\n" + movesET.Text.ToString();
-                    //movesET.Text = moves;
+                    movesET.Text = moves;
                     numberView.Text = string.Empty;
-
                 }
             };
 

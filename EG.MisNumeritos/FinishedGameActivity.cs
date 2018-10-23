@@ -28,7 +28,7 @@ namespace EG.MisNumeritos
             tvMessage = (TextView)FindViewById(Resource.Id.tvAFG_message);
             tvNumber = (TextView)FindViewById(Resource.Id.tvAFG_number);
             tvAttempts = (TextView)FindViewById(Resource.Id.tvAFG_attempts);
-            listview = (ListView)FindViewById(Resource.Id.listView_finished_score);
+            tvTopTen = (TextView)FindViewById(Resource.Id.tvAFG_topten);
 
             if (extras != null)
             {
@@ -48,9 +48,7 @@ namespace EG.MisNumeritos
             }
         }
 
-        ListView listview;
-        List<string> list = new List<string>();
-        List<ScoreNode> topTenList = new List<ScoreNode>();
+        List<Score> topTenList = new List<Score>();
         private string numberToGuess;
         private string username;
         private int attempts;
@@ -59,6 +57,7 @@ namespace EG.MisNumeritos
         private TextView tvMessage;
         private TextView tvNumber;
         private TextView tvAttempts;
+        private TextView tvTopTen;
 
         protected override void OnStart()
         {
@@ -71,9 +70,23 @@ namespace EG.MisNumeritos
         private void LoadTopTen()
         {
             // Get top ten from database
-            List<Score> topTen = ScoreDAO.recuperarTopTen();
+            // topTenList = ScoreDAO.RecuperarTopTen();
+            string showText = string.Empty;
+            int i = 0;
+
+            topTenList = new List<Score>();
+            topTenList.Add(new Score { Attemps = 12, User = "Usuario anonimo" });
+            topTenList.Add(new Score { Attemps = 10, User = "Usuario anonimo" });
+            topTenList.Add(new Score { Attemps = 8, User = "Usuario anonimo" });
+
+            foreach (var item in topTenList.OrderBy(x => x.Attemps))
+            {
+                i++;
+                showText = showText + i + ". " + item.User + " Attempts: " + item.Attemps + "\n";
+            }
 
             // TODO put the top ten in the activity
+            tvTopTen.Text = showText;
         }
 
         public void LoadUIMessages()

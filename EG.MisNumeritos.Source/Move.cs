@@ -24,7 +24,7 @@ namespace EG.MisNumeritos.Source
                 {
                     assertedNumberAndIndex++;
                 }
-                else if ( numberToGuess.Contains(playedNumber[i]) )
+                else if (numberToGuess.Contains(playedNumber[i]) )
                 {
                     assertedNumber++;
                 }

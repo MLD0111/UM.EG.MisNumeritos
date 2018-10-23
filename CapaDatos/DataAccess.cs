@@ -21,7 +21,7 @@ namespace CapaDatos
         public static readonly string baseDirDB = AppDomain.CurrentDomain.BaseDirectory;
         public static readonly string strCon = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + baseDirDB + "\\..\\..\\mis-num-database.mdb";
 
-        
+
 
         public static bool Recuperar(List<ArrayList> atributos, string sql)
         {
@@ -59,7 +59,7 @@ namespace CapaDatos
             return ok;
         }
 
-        public static bool ejecutar(string sql)
+        public static bool Ejecutar(string sql)
         {
             bool ok = false;
             try

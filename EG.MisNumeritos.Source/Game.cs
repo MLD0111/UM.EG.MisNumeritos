@@ -50,15 +50,15 @@ namespace EG.MisNumeritos.Source
             return randomNumber.ToString();
         }
 
-        private bool IsAValidRandomNumber(int randomNumber)
+        public bool IsAValidRandomNumber(int randomNumber)
         {
-            this.numberToGuess = randomNumber.ToString();
+            string checkNumber = randomNumber.ToString();
 
             for (int i = 0; i < NUMBERS_LENGTH; i++)
             {
                 for (int j = i + 1; j < NUMBERS_LENGTH; j++)
                 {
-                    if (numberToGuess[i] == numberToGuess[j])
+                    if (checkNumber[i] == checkNumber[j])
                     {
                         return false;
                     }
