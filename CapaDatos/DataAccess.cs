@@ -18,8 +18,10 @@ namespace CapaDatos
         private static DataSet ds;
 
         // EG.MisNumeritos\bin\Debug
-        private static string baseDirDB = AppDomain.CurrentDomain.BaseDirectory;
-        private static string strCon = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + baseDirDB + "\\..\\..\\mis-num-database.mdb";
+        public static readonly string baseDirDB = AppDomain.CurrentDomain.BaseDirectory;
+        public static readonly string strCon = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + baseDirDB + "\\..\\..\\mis-num-database.mdb";
+
+        
 
         public static bool Recuperar(List<ArrayList> atributos, string sql)
         {

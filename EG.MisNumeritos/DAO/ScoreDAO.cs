@@ -27,7 +27,7 @@ namespace EG.MisNumeritos.DAO
 
         public static List<Score> recuperarTopTen()
         {
-            string sql = "SELECT TOP(10) * FROM customers ORDER BY attemp DESC";
+            string sql = "SELECT TOP(10) * FROM score ORDER BY attemps DESC";
 
             List<Score> topTen = ProcesarRecuperar(sql);
 

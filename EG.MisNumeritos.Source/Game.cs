@@ -42,6 +42,8 @@ namespace EG.MisNumeritos.Source
 
             while (!this.IsAValidRandomNumber(randomNumber))
             {
+                randomizer = new Random();
+                belowOneRandom = randomizer.NextDouble();
                 randomNumber = MINIMUM_NUMBER + (int)(belowOneRandom * ((MAXIMUM_NUMBER - MINIMUM_NUMBER) + 1));
             }
 
