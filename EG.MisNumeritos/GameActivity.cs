@@ -83,7 +83,16 @@ namespace EG.MisNumeritos
                             // IF THE PLAYER WON OR LEFT (FINISHED IS ABORTED OR WON), OPEN FINISHED GAME ACTIVITY
                             if (game.IsGameFinished())
                             {
-                                GoToFinishedGameActivity();
+                                if (game.IsGameWon())
+                                {
+                                    List<Score> topTen = DAO.ScoreDAO.RecuperarTopTen();
+                                    if (topTen.Count < 10 || game.GetNumberOfMoves() < topTen[9].Attemps)
+                                    {
+                                        GoToAddScoreActivity();
+                                    }
+                                }
+                                else
+                                    GoToFinishedGameActivity();
                             }
                         }
                         else
@@ -109,6 +118,18 @@ namespace EG.MisNumeritos
                 game.Leave();
                 GoToFinishedGameActivity();
             };
+        }
+
+        private void GoToAddScoreActivity()
+        {
+            Intent intent = new Intent(this, new AddScoreActivity().Class);
+            intent.PutExtra("NumberToGuess", game.GetNumberToGuess());
+            intent.PutExtra("Username", username);
+            intent.PutExtra("Attempts", game.GetNumberOfMoves());
+            intent.PutExtra("IsGameWon", game.IsGameWon());
+
+            StartActivity(intent);
+            this.Finish();
         }
 
         private void GoToFinishedGameActivity()

@@ -8,7 +8,6 @@ namespace EG.MisNumeritos.Source
     {
         private string user;
         private int attempts;
-        private DateTime date;
 
         public Score() { }
 
@@ -23,7 +22,6 @@ namespace EG.MisNumeritos.Source
             // atributos[0] = id
             user = atributos[1].ToString();
             attempts = int.Parse(atributos[2].ToString());
-            date = DateTime.Parse(atributos[3].ToString());
         }
 
         public string User
@@ -48,6 +46,11 @@ namespace EG.MisNumeritos.Source
             {
                 attempts = value;
             }
+        }
+
+        public override string ToString()
+        {
+            return string.Format("Intentos: {0} - {1}", Attemps.ToString("D2"), User);
         }
     }
 }
