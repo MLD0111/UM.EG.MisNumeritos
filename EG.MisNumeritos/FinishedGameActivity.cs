@@ -41,10 +41,10 @@ namespace EG.MisNumeritos
             if (isGameWon)
             {
                 // TODO Replace this section for the checking and adding to TopTen
-                string key = "ToDo";
-                ScoreNode scoreNode = new ScoreNode(key, new Score(username, attempts));
+                //string key = "ToDo";
+                //ScoreNode scoreNode = new ScoreNode(key, new Score(username, attempts));
 
-                Toast.MakeText(this, scoreNode.GetScore().User + "-" + scoreNode.GetScore().Attemps, ToastLength.Short).Show();
+                //Toast.MakeText(this, scoreNode.GetScore().User + "-" + scoreNode.GetScore().Attemps, ToastLength.Short).Show();
             }
         }
 
@@ -70,19 +70,20 @@ namespace EG.MisNumeritos
         private void LoadTopTen()
         {
             // Get top ten from database
-            // topTenList = ScoreDAO.RecuperarTopTen();
+            topTenList = ScoreDAO.RecuperarTopTen();
             string showText = string.Empty;
             int i = 0;
-
+            /*
             topTenList = new List<Score>();
             topTenList.Add(new Score { Attemps = 12, User = "Usuario anonimo" });
             topTenList.Add(new Score { Attemps = 10, User = "Usuario anonimo" });
             topTenList.Add(new Score { Attemps = 8, User = "Usuario anonimo" });
-
+            */
             foreach (var item in topTenList.OrderBy(x => x.Attemps))
             {
                 i++;
-                showText = showText + i + ". " + item.User + " Attempts: " + item.Attemps + "\n";
+                //showText = showText + i + ". " + item.User + " Attempts: " + item.Attemps + "\n";
+                showText = showText + item.ToString() + "\n";
             }
 
             // TODO put the top ten in the activity

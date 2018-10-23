@@ -19,17 +19,34 @@ namespace EG.MisNumeritos.DAO
     {
         public static bool GuardarScore(Score score)
         {
+            /*
             string sql = "INSERT INTO score (user, attemps) ";
             sql += "VALUES ('" + score.User + "', " + score.Attemps.ToString() + ");";
 
             return DataAccess.Ejecutar(sql);
+            */
+            return true;
         }
 
         public static List<Score> RecuperarTopTen()
         {
+            /*
             string sql = "SELECT TOP 10 * FROM score ORDER BY attemps, ID";
 
             List<Score> topTen = ProcesarRecuperar(sql);
+            */
+            List<Score> topTen = new List<Score>();
+            topTen.Add(new Score("juan", 1));
+            topTen.Add(new Score("Fede", 2));
+            topTen.Add(new Score("Mile", 3));
+            topTen.Add(new Score("Matias", 4 ));
+            topTen.Add(new Score("Nacho", 5));
+            topTen.Add(new Score("jose", 6));
+            topTen.Add(new Score("pedro", 7));
+            topTen.Add(new Score("peter", 8));
+            topTen.Add(new Score("jorge", 9));
+            topTen.Add(new Score("raul", 10));
+
 
             return topTen;
         }

@@ -33,20 +33,23 @@ namespace EG.MisNumeritos
         private void LoadTopTen()
         {
             // Get top ten from database
-            // List<Score> topTenList = ScoreDAO.RecuperarTopTen();
+            List<Score> topTenList = ScoreDAO.RecuperarTopTen();
 
             string showText = string.Empty;
             int i = 0;
-
+            
+            /*
             List<Score> topTenList = new List<Score>();
             topTenList.Add(new Score { Attemps = 12, User = "Usuario anonimo" });
             topTenList.Add(new Score { Attemps = 10, User = "Usuario anonimo" });
             topTenList.Add(new Score { Attemps = 8, User = "Usuario anonimo" });
+            */
 
             foreach (var item in topTenList.OrderBy(x => x.Attemps))
             {
                 i++;
-                showText = showText + i + ". " + item.User + " Attempts: " + item.Attemps + "\n";
+                //showText = showText + i + ". " + item.User + " Attempts: " + item.Attemps + "\n";
+                showText = showText + item.ToString() + "\n";
             }
 
             // TODO put the top ten in the activity

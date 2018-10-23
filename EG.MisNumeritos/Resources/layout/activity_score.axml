@@ -13,10 +13,10 @@
         android:textAlignment="center"
         android:textSize="30sp"
         android:textStyle="bold" />
-    <TextView
-        android:text="Text"
-        android:layout_width="384.0dp"
-        android:layout_height="138.0dp"
-        android:layout_below="@id/textView2"
-        android:id="@+id/textView3" />
+	<TextView
+		android:text="Text"
+		android:layout_width="384.0dp"
+		android:layout_height="444.5dp"
+		android:layout_below="@id/textView2"
+		android:id="@+id/textView3" />
     </RelativeLayout>
