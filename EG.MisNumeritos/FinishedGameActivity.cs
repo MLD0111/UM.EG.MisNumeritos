@@ -2,14 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
 using Android.App;
 using Android.Content;
 using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-using EG.MisNumeritos.DAO;
+using CapaDatos;
 using EG.MisNumeritos.Source;
 
 namespace EG.MisNumeritos
@@ -33,24 +32,13 @@ namespace EG.MisNumeritos
             if (extras != null)
             {
                 numberToGuess = extras.GetString("NumberToGuess");
-                username = extras.GetString("Username");
                 attempts = extras.GetInt("Attempts");
                 isGameWon = extras.GetBoolean("IsGameWon");
-            }
-
-            if (isGameWon)
-            {
-                // TODO Replace this section for the checking and adding to TopTen
-                //string key = "ToDo";
-                //ScoreNode scoreNode = new ScoreNode(key, new Score(username, attempts));
-
-                //Toast.MakeText(this, scoreNode.GetScore().User + "-" + scoreNode.GetScore().Attemps, ToastLength.Short).Show();
             }
         }
 
         List<Score> topTenList = new List<Score>();
         private string numberToGuess;
-        private string username;
         private int attempts;
         private bool isGameWon;
         private TextView tvTitle;
@@ -70,23 +58,18 @@ namespace EG.MisNumeritos
         private void LoadTopTen()
         {
             // Get top ten from database
-            topTenList = ScoreDAO.RecuperarTopTen();
+            topTenList = SQLiteDataAccess.GetTopTen();
+
             string showText = string.Empty;
-            int i = 0;
-            /*
-            topTenList = new List<Score>();
-            topTenList.Add(new Score { Attemps = 12, User = "Usuario anonimo" });
-            topTenList.Add(new Score { Attemps = 10, User = "Usuario anonimo" });
-            topTenList.Add(new Score { Attemps = 8, User = "Usuario anonimo" });
-            */
-            foreach (var item in topTenList.OrderBy(x => x.Attemps))
+            int i = 1;
+
+            foreach (var item in topTenList)
             {
+                showText = showText + i + ". " + item.ToString() + "\n";
                 i++;
-                //showText = showText + i + ". " + item.User + " Attempts: " + item.Attemps + "\n";
-                showText = showText + item.ToString() + "\n";
             }
 
-            // TODO put the top ten in the activity
+            // Put the top ten in the activity
             tvTopTen.Text = showText;
         }
 

@@ -2,14 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
 using Android.App;
 using Android.Content;
 using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-using EG.MisNumeritos.DAO;
+using CapaDatos;
 using EG.MisNumeritos.Source;
 
 namespace EG.MisNumeritos
@@ -33,26 +32,18 @@ namespace EG.MisNumeritos
         private void LoadTopTen()
         {
             // Get top ten from database
-            List<Score> topTenList = ScoreDAO.RecuperarTopTen();
+            var topTenList = SQLiteDataAccess.GetTopTen();
 
             string showText = string.Empty;
-            int i = 0;
-            
-            /*
-            List<Score> topTenList = new List<Score>();
-            topTenList.Add(new Score { Attemps = 12, User = "Usuario anonimo" });
-            topTenList.Add(new Score { Attemps = 10, User = "Usuario anonimo" });
-            topTenList.Add(new Score { Attemps = 8, User = "Usuario anonimo" });
-            */
+            int i = 1;
 
-            foreach (var item in topTenList.OrderBy(x => x.Attemps))
+            foreach (var item in topTenList)
             {
+                showText = showText + i + ". " + item.ToString() + "\n";
                 i++;
-                //showText = showText + i + ". " + item.User + " Attempts: " + item.Attemps + "\n";
-                showText = showText + item.ToString() + "\n";
             }
 
-            // TODO put the top ten in the activity
+            // Put the top ten in the activity
             textView.Text = showText;
         }
     }

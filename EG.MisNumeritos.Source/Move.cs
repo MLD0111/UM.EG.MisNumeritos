@@ -4,7 +4,8 @@ using System.Linq;
 
 namespace EG.MisNumeritos.Source
 {
-    public class Move {
+    public class Move
+    {
         private string playedNumber;
         private int assertedNumberAndIndex = 0;
         private int assertedNumber = 0;

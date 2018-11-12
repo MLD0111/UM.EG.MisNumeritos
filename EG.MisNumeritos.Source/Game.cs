@@ -72,7 +72,6 @@ namespace EG.MisNumeritos.Source
             if (state != PLAYING)
             {
                 throw new Exception("PARTIDA FINALIZADA");
-                // TODO: delete the throws and go to the finished activity
             }
 
             Move output = new Move(this.numberToGuess, playedNumber);
@@ -113,7 +112,6 @@ namespace EG.MisNumeritos.Source
 
         public bool IsGameFinished()
         {
-            //return (state != Game.ABORTED && state != Game.FINISHED);
             return (state == Game.ABORTED || state == Game.FINISHED);
         }
 

@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
 using Android.App;
 using Android.Content;
 using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using CapaDatos;
 using EG.MisNumeritos.Source;
 
 namespace EG.MisNumeritos
@@ -17,7 +17,6 @@ namespace EG.MisNumeritos
     public class GameActivity : Activity
     {
         private Game game;
-        private string username;
 
         // From view
         private TextView numberView;
@@ -32,11 +31,6 @@ namespace EG.MisNumeritos
             SetContentView(Resource.Layout.activity_game);
 
             Bundle extras = this.Intent.Extras;
-            
-            if (extras != null)
-            {
-                username = extras.GetString("Username");
-            }
 
             // Layout references
             executeButton = (Button) FindViewById(Resource.Id.executeButton);
@@ -85,8 +79,9 @@ namespace EG.MisNumeritos
                             {
                                 if (game.IsGameWon())
                                 {
-                                    List<Score> topTen = DAO.ScoreDAO.RecuperarTopTen();
-                                    if (topTen.Count < 10 || game.GetNumberOfMoves() < topTen[9].Attemps)
+                                    List<Score> topTen = SQLiteDataAccess.GetTopTen();
+                                    // Scores are already sorted by attempts and date when retrieving with GetTopTen
+                                    if (topTen.Count < 10 || game.GetNumberOfMoves() < topTen.Last().Attempts)
                                     {
                                         GoToAddScoreActivity();
                                     }
@@ -124,7 +119,6 @@ namespace EG.MisNumeritos
         {
             Intent intent = new Intent(this, new AddScoreActivity().Class);
             intent.PutExtra("NumberToGuess", game.GetNumberToGuess());
-            intent.PutExtra("Username", username);
             intent.PutExtra("Attempts", game.GetNumberOfMoves());
             intent.PutExtra("IsGameWon", game.IsGameWon());
 
@@ -136,7 +130,6 @@ namespace EG.MisNumeritos
         {
             Intent finishedGameActivity = new Intent(this, new FinishedGameActivity().Class);
             finishedGameActivity.PutExtra("NumberToGuess", game.GetNumberToGuess());
-            finishedGameActivity.PutExtra("Username", username);
             finishedGameActivity.PutExtra("Attempts", game.GetNumberOfMoves());
             finishedGameActivity.PutExtra("IsGameWon", game.IsGameWon());
 

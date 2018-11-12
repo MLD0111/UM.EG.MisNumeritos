@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
 using Android.App;
 using Android.Content;
 using Android.OS;
@@ -10,6 +9,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using EG.MisNumeritos.Source;
+using CapaDatos;
 
 namespace EG.MisNumeritos
 {
@@ -18,7 +18,6 @@ namespace EG.MisNumeritos
     {
 
         private string numberToGuess;
-        private string username;
         private int attempts;
         private bool isGameWon;
 
@@ -32,11 +31,9 @@ namespace EG.MisNumeritos
 
             Bundle extras = this.Intent.Extras;
 
-
             if (extras != null)
             {
                 numberToGuess = extras.GetString("NumberToGuess");
-                username = extras.GetString("Username");
                 attempts = extras.GetInt("Attempts");
                 isGameWon = extras.GetBoolean("IsGameWon");
             }
@@ -63,33 +60,23 @@ namespace EG.MisNumeritos
                 else
                 {
                     Score score = new Score(user, attempts);
-                    DAO.ScoreDAO.GuardarScore(score);
+
+                    SQLiteDataAccess.AddScoreToTopTen(score);
 
                     GoToFinishedGameActivity();
                 }
             };
         }
 
-
-
-
-
-
-
-
-
-
         private void GoToFinishedGameActivity()
         {
             Intent finishedGameActivity = new Intent(this, new FinishedGameActivity().Class);
             finishedGameActivity.PutExtra("NumberToGuess", numberToGuess);
-            finishedGameActivity.PutExtra("Username", username);
             finishedGameActivity.PutExtra("Attempts", attempts);
             finishedGameActivity.PutExtra("IsGameWon", isGameWon);
 
             StartActivity(finishedGameActivity);
             this.Finish();
         }
-
     }
 }

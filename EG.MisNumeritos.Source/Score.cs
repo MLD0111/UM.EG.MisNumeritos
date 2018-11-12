@@ -1,56 +1,35 @@
 ﻿using System;
 using System.Collections;
-using EG.MisNumeritos.Interfaces;
+using SQLite;
 
 namespace EG.MisNumeritos.Source
 {
-    public class Score : IGuardable
+    public class Score
     {
-        private string user;
-        private int attempts;
-
-        public Score() { }
+        public Score ()
+        {
+            // Parameterless constructor to allow simple querying with SQLite
+        }
 
         public Score(string user, int attempts)
         { 
-            this.user = user;
-            this.attempts = attempts;
+            this.User = user;
+            this.Attempts = attempts;
+            Date = DateTime.Today;
         }
 
-        public void armar(ArrayList atributos)
-        {
-            // atributos[0] = id
-            user = atributos[1].ToString();
-            attempts = int.Parse(atributos[2].ToString());
-        }
+        [PrimaryKey, AutoIncrement, Column("_id")]
+        public int Id { get; set; }
 
-        public string User
-        {
-            get
-            {
-                return user;
-            }
-            set
-            {
-                user = value;
-            }
-        }
+        public string User { get; set; }
 
-        public int Attemps
-        {
-            get
-            {
-                return attempts;
-            }
-            set
-            {
-                attempts = value;
-            }
-        }
+        public int Attempts { get; set; }
+
+        public DateTime Date { get; set; }
 
         public override string ToString()
         {
-            return string.Format("Intentos: {0} - {1}", Attemps.ToString("D2"), User);
+            return string.Format("Intentos: {0} - {1}", Attempts.ToString("D2"), User);
         }
     }
 }

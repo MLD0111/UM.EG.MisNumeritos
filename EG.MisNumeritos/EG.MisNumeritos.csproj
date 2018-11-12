@@ -60,7 +60,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AddScoreActivity.cs" />
-    <Compile Include="DAO\ScoreDAO.cs" />
     <Compile Include="FinishedGameActivity.cs" />
     <Compile Include="GameActivity.cs" />
     <Compile Include="MainActivity.cs" />
@@ -100,15 +99,18 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_launcher_round.png" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="sqlite-net-pcl">
+      <Version>1.5.231</Version>
+    </PackageReference>
     <PackageReference Include="Xamarin.Android.Support.Design" Version="27.0.2.1" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CapaDatos\CapaDatos.csproj">
-      <Project>{C726175E-112C-4A94-9820-4C4C1A531E5C}</Project>
+      <Project>{c726175e-112c-4a94-9820-4c4c1a531e5c}</Project>
       <Name>CapaDatos</Name>
     </ProjectReference>
     <ProjectReference Include="..\EG.MisNumeritos.Source\EG.MisNumeritos.Source.csproj">
-      <Project>{3BB4CFC9-0FD3-4853-B757-BA9E00764A9B}</Project>
+      <Project>{D636C6B7-173D-4E04-8D51-D5AC9593EE6E}</Project>
       <Name>EG.MisNumeritos.Source</Name>
     </ProjectReference>
   </ItemGroup>
