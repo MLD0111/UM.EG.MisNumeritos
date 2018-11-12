@@ -4,6 +4,8 @@ using Android.Support.V7.App;
 using Android.Runtime;
 using Android.Widget;
 using Android.Content;
+using EG.MisNumeritos.DAO;
+using EG.MisNumeritos.Source;
 
 namespace EG.MisNumeritos
 {
@@ -25,7 +27,7 @@ namespace EG.MisNumeritos
             //aboutButton = FindViewById(Resource.Id.aboutButton);
             //logOutButton = FindViewById(Resource.Id.logOutButton);
             //revokeButton = FindViewById(Resource.Id.revokeButton);
-
+            CrearBaseMockeada();
             AddListeners();
         }
 
@@ -56,7 +58,20 @@ namespace EG.MisNumeritos
                 StartActivity(scoreActivity);
             };
         }
-    
+
+        private void CrearBaseMockeada()
+        {
+            ScoreDAO bd = new ScoreDAO(this);
+            //bd.crearTabla();
+            bd.registrarPuntaje(new Score("Juan", 3));
+            bd.registrarPuntaje(new Score("Pablo", 5));
+            bd.registrarPuntaje(new Score("Pedro", 7));
+            bd.registrarPuntaje(new Score("Julian", 9));
+            bd.registrarPuntaje(new Score("Rocky", 11));
+            bd.registrarPuntaje(new Score("Datolo", 13));
+        }
+
+
         protected override void OnStart()
         {
             base.OnStart();

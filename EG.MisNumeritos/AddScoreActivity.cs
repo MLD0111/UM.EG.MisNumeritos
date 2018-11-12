@@ -9,6 +9,7 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using EG.MisNumeritos.DAO;
 using EG.MisNumeritos.Source;
 
 namespace EG.MisNumeritos
@@ -25,13 +26,14 @@ namespace EG.MisNumeritos
         private Button executeButton;
         private EditText input;
 
+        private ScoreDAO bd;
+
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.activity_add_score);
 
             Bundle extras = this.Intent.Extras;
-
 
             if (extras != null)
             {
@@ -46,6 +48,7 @@ namespace EG.MisNumeritos
             input = (EditText)FindViewById(Resource.Id.txtUserName);
 
             // events
+            bd = new ScoreDAO(this);
             AddListeners();
 
         }
@@ -63,21 +66,13 @@ namespace EG.MisNumeritos
                 else
                 {
                     Score score = new Score(user, attempts);
-                    DAO.ScoreDAO.GuardarScore(score);
+                    //DAO.ScoreDAO.GuardarScore(score);
+                    bd.registrarPuntaje(score); 
 
                     GoToFinishedGameActivity();
                 }
             };
         }
-
-
-
-
-
-
-
-
-
 
         private void GoToFinishedGameActivity()
         {

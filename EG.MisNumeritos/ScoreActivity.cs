@@ -17,6 +17,8 @@ namespace EG.MisNumeritos
     [Activity(Label = "ScoreActivity")]
     public class ScoreActivity : Activity
     {
+        private ScoreDAO bd;
+
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -33,7 +35,10 @@ namespace EG.MisNumeritos
         private void LoadTopTen()
         {
             // Get top ten from database
-            List<Score> topTenList = ScoreDAO.RecuperarTopTen();
+            bd = new ScoreDAO(this);
+            List<Score> topTenList =  bd.devolverScore();
+            //List<Score> topTenList = ScoreDAO.RecuperarTopTen();
+
 
             string showText = string.Empty;
             int i = 0;

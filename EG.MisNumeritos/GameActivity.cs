@@ -9,6 +9,7 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using EG.MisNumeritos.DAO;
 using EG.MisNumeritos.Source;
 
 namespace EG.MisNumeritos
@@ -26,6 +27,8 @@ namespace EG.MisNumeritos
         private TextView statusView;
         private EditText movesET;
 
+        private ScoreDAO bd;
+
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -37,6 +40,8 @@ namespace EG.MisNumeritos
             {
                 username = extras.GetString("Username");
             }
+
+            bd = new ScoreDAO(this);
 
             // Layout references
             executeButton = (Button) FindViewById(Resource.Id.executeButton);
@@ -85,7 +90,8 @@ namespace EG.MisNumeritos
                             {
                                 if (game.IsGameWon())
                                 {
-                                    List<Score> topTen = DAO.ScoreDAO.RecuperarTopTen();
+                                    List<Score> topTen = bd.devolverScore();
+                                    //List<Score> topTen = DAO.ScoreDAO.RecuperarTopTen();
                                     if (topTen.Count < 10 || game.GetNumberOfMoves() < topTen[9].Attemps)
                                     {
                                         GoToAddScoreActivity();

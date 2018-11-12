@@ -17,12 +17,16 @@ namespace EG.MisNumeritos
     [Activity(Label = "FinishedGameActivity")]
     public class FinishedGameActivity : Activity
     {
+        private ScoreDAO bd;
+
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.activity_finished_game);
 
             Bundle extras = this.Intent.Extras;
+
+            bd = new ScoreDAO(this);
 
             tvTitle = (TextView)FindViewById(Resource.Id.tvAFG_title);
             tvMessage = (TextView)FindViewById(Resource.Id.tvAFG_message);
@@ -70,7 +74,8 @@ namespace EG.MisNumeritos
         private void LoadTopTen()
         {
             // Get top ten from database
-            topTenList = ScoreDAO.RecuperarTopTen();
+            topTenList = bd.devolverScore();
+            //topTenList = ScoreDAO.RecuperarTopTen();
             string showText = string.Empty;
             int i = 0;
             /*
