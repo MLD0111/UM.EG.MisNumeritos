@@ -85,6 +85,8 @@ namespace EG.MisNumeritos
                                     {
                                         GoToAddScoreActivity();
                                     }
+                                    else
+                                        GoToFinishedGameActivity();
                                 }
                                 else
                                     GoToFinishedGameActivity();

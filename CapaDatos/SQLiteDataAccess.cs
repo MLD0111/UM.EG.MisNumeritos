@@ -64,7 +64,7 @@ namespace CapaDatos
             }
             catch (Exception ex)
             {
-                throw new Exception("Error al recuperar datos.");
+                throw new Exception("Error al recuperar datos.\n"+ex.Message);
             }
         }
 
