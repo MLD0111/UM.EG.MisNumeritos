@@ -44,8 +44,7 @@ namespace EG.MisNumeritos.Source
 
         public override string ToString()
         {
-            return "Resultado: " + playedNumber + " - Bien=" + assertedNumberAndIndex +
-                    ", Regular=" + assertedNumber;
+            return string.Format("Nº:{0} - Bien={1}, Regular={2}", playedNumber, assertedNumberAndIndex, assertedNumber);
         }
     }
 }

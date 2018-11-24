@@ -72,7 +72,7 @@ namespace EG.MisNumeritos
                         {
                             lastMove = game.DoNewMove(playerNumber);
 
-                            moves = lastMove.ToString() + "\n" + movesET.Text;
+                            moves = string.Format("Intento:{0} - {1}\n{2}", game.GetNumberOfMoves(), lastMove.ToString(), movesET.Text);
 
                             // IF THE PLAYER WON OR LEFT (FINISHED IS ABORTED OR WON), OPEN FINISHED GAME ACTIVITY
                             if (game.IsGameFinished())
