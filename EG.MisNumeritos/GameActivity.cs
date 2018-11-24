@@ -95,7 +95,7 @@ namespace EG.MisNumeritos
                         else
                         {
                             moves = movesET.Text;
-                            Toast.MakeText(this, "El número ingresado no puede contener dígitos repetidos.", ToastLength.Short).Show();
+                            Toast.MakeText(this, "El número ingresado debe estar en el rango entre 1023 y 9876, y no puede contener dígitos repetidos.", ToastLength.Short).Show();
                         }
 
                     }

@@ -12,8 +12,8 @@ namespace EG.MisNumeritos.Source
         private static byte FINISHED = 3;
 
         // Business rules
-        private static int MAXIMUM_NUMBER = 1023;
-        private static int MINIMUM_NUMBER = 9876;
+        private static int MINIMUM_NUMBER = 1023;
+        private static int MAXIMUM_NUMBER = 9876;
         private static int NUMBERS_LENGTH = 4;
 
         private List<Move> moves;
@@ -38,13 +38,13 @@ namespace EG.MisNumeritos.Source
             Random randomizer = new Random();
             double belowOneRandom = randomizer.NextDouble();
 
-            int randomNumber = MINIMUM_NUMBER + (int)(belowOneRandom * ((MAXIMUM_NUMBER - MINIMUM_NUMBER) + 1));
+            int randomNumber = MAXIMUM_NUMBER + (int)(belowOneRandom * ((MINIMUM_NUMBER - MAXIMUM_NUMBER) + 1));
 
             while (!this.IsAValidRandomNumber(randomNumber))
             {
                 randomizer = new Random();
                 belowOneRandom = randomizer.NextDouble();
-                randomNumber = MINIMUM_NUMBER + (int)(belowOneRandom * ((MAXIMUM_NUMBER - MINIMUM_NUMBER) + 1));
+                randomNumber = MAXIMUM_NUMBER + (int)(belowOneRandom * ((MINIMUM_NUMBER - MAXIMUM_NUMBER) + 1));
             }
 
             return randomNumber.ToString();
@@ -52,6 +52,11 @@ namespace EG.MisNumeritos.Source
 
         public bool IsAValidRandomNumber(int randomNumber)
         {
+            if (randomNumber < MINIMUM_NUMBER || randomNumber > MAXIMUM_NUMBER)
+            {
+                return false;
+            }
+
             string checkNumber = randomNumber.ToString();
 
             for (int i = 0; i < NUMBERS_LENGTH; i++)
