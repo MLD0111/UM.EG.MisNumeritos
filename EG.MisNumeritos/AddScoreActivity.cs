@@ -1,15 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Android.App;
+﻿using Android.App;
 using Android.Content;
 using Android.OS;
-using Android.Runtime;
-using Android.Views;
 using Android.Widget;
+using CapaDatos.Implementations;
+using CapaDatos.Interfaces;
 using EG.MisNumeritos.Source;
-using CapaDatos;
 
 namespace EG.MisNumeritos
 {
@@ -52,6 +47,8 @@ namespace EG.MisNumeritos
             executeButton.Click += (sender, e) =>
             {
                 string user = input.Text;
+                Score score;
+                IDataAccess dataAccessObject = DataAccessFactory.GetDataAccessObject();
 
                 if (string.IsNullOrWhiteSpace(user))
                 {
@@ -59,9 +56,9 @@ namespace EG.MisNumeritos
                 }
                 else
                 {
-                    Score score = new Score(user, attempts);
+                    score = new Score(user, attempts);
 
-                    SQLiteDataAccess.AddScoreToTopTen(score);
+                    dataAccessObject.AddScoreToTopTen(score);
 
                     GoToFinishedGameActivity();
                 }

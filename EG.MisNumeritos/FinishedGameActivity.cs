@@ -1,14 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Collections.Generic;
 using Android.App;
-using Android.Content;
 using Android.OS;
-using Android.Runtime;
-using Android.Views;
 using Android.Widget;
-using CapaDatos;
+using CapaDatos.Implementations;
+using CapaDatos.Interfaces;
 using EG.MisNumeritos.Source;
 
 namespace EG.MisNumeritos
@@ -57,8 +52,9 @@ namespace EG.MisNumeritos
 
         private void LoadTopTen()
         {
+            IDataAccess dataAccessObject = DataAccessFactory.GetDataAccessObject();
             // Get top ten from database
-            topTenList = SQLiteDataAccess.GetTopTen();
+            topTenList = dataAccessObject.GetTopTen();
 
             string showText = string.Empty;
             int i = 1;

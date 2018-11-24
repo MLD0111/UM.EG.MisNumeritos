@@ -1,14 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using Android.App;
 using Android.Content;
 using Android.OS;
-using Android.Runtime;
-using Android.Views;
 using Android.Widget;
-using CapaDatos;
+using CapaDatos.Implementations;
+using CapaDatos.Interfaces;
 using EG.MisNumeritos.Source;
 
 namespace EG.MisNumeritos
@@ -79,7 +77,8 @@ namespace EG.MisNumeritos
                             {
                                 if (game.IsGameWon())
                                 {
-                                    List<Score> topTen = SQLiteDataAccess.GetTopTen();
+                                    IDataAccess dataAccessObject = DataAccessFactory.GetDataAccessObject();
+                                    List<Score> topTen = dataAccessObject.GetTopTen();
                                     // Scores are already sorted by attempts and date when retrieving with GetTopTen
                                     if (topTen.Count < 10 || game.GetNumberOfMoves() < topTen.Last().Attempts)
                                     {

@@ -2,18 +2,17 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using CapaDatos.Interfaces;
 using EG.MisNumeritos.Source;
 using SQLite;
 
-namespace CapaDatos
+namespace CapaDatos.Implementations
 {
-    public class SQLiteDataAccess
+    public class SQLiteDataAccess : IDataAccess
     {
         private static readonly string DbPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Personal), "database.db3");
 
-        public static string AddScoreToTopTen(Score record)
+        public bool AddScoreToTopTen(Score record)
         {
             try
             {
@@ -32,15 +31,15 @@ namespace CapaDatos
                 // Add new record (in no particular order; sorting is performed when retrieving data)
                 InsertRecord(record);
 
-                return "OK";
+                return true;
             }
             catch (Exception ex)
             {
-                return "Error al persistir datos: " + ex.Message;
+                throw new Exception("Error al persistir datos: " + ex.Message);
             }
         }
 
-        public static List<Score> GetTopTen()
+        public List<Score> GetTopTen()
         {
             List<Score> records = new List<Score>();
             try
@@ -68,7 +67,7 @@ namespace CapaDatos
             }
         }
 
-        private static void DeleteRecord<T>(int id)
+        private void DeleteRecord<T>(int id)
         {
             using (var db = new SQLiteConnection(DbPath))
             {
@@ -89,7 +88,7 @@ namespace CapaDatos
             }
         }
 
-        private static void InsertRecord<T>(T record)
+        private void InsertRecord<T>(T record)
         {
             using (var db = new SQLiteConnection(DbPath))
             {
