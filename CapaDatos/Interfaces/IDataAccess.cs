@@ -5,7 +5,7 @@ namespace CapaDatos.Interfaces
 {
     public interface IDataAccess
     {
-        bool AddScoreToTopTen(Score record);
+        void AddScoreToTopTen(Score record);
         List<Score> GetTopTen();
     }
 }

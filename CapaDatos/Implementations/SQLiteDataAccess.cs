@@ -12,7 +12,7 @@ namespace CapaDatos.Implementations
     {
         private static readonly string DbPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Personal), "database.db3");
 
-        public bool AddScoreToTopTen(Score record)
+        public void AddScoreToTopTen(Score record)
         {
             try
             {
@@ -30,8 +30,6 @@ namespace CapaDatos.Implementations
 
                 // Add new record (in no particular order; sorting is performed when retrieving data)
                 InsertRecord(record);
-
-                return true;
             }
             catch (Exception ex)
             {
