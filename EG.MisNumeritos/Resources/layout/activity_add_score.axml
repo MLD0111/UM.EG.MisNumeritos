@@ -2,29 +2,37 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
 	<TextView
 		android:text="Ingresá tu nombre:"
+        android:textColor="@android:color/black"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:minWidth="25px"
 		android:minHeight="25px"
-		android:id="@+id/textView1" />
+		android:id="@+id/textView1"
+        android:padding="10sp"
+        android:textSize="18sp" />
 
 	<android.support.design.widget.TextInputEditText
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:paddingLeft="10sp"
 		android:id="@+id/txtUserName" />
+
 	<Button
 		android:text="HECHO!"
 		style="@android:style/Widget.Holo.Light.Button"
-		android:layout_width="match_parent"
+		android:layout_width="200sp"
 		android:layout_height="wrap_content"
-		android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
         android:background="@drawable/my_button_bg"
 		android:textAppearance="@style/TextAppearance.AppCompat"
 		android:textColor="@android:color/white"
 		android:textStyle="bold|italic"
-		android:id="@+id/btnUserConfirmed" />
+		android:id="@+id/btnUserConfirmed"
+         />
 
 </LinearLayout>

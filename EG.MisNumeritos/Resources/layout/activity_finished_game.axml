@@ -3,40 +3,42 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
     <TextView
         android:id="@+id/textView3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/tvAFG_number"
-        android:background="@android:color/holo_orange_dark"
-        android:fontFamily="serif"
+        android:background="@android:color/holo_blue_light"
         android:text="TOP TEN"
         android:textAlignment="center"
         android:textColor="@android:color/black"
         android:textSize="22sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-black" />
     <TextView
         android:id="@+id/tvAFG_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:fontFamily="serif"
         android:text="Titulo"
         android:textAlignment="center"
         android:textColor="@android:color/black"
         android:textSize="24sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-black" />
     <TextView
         android:id="@+id/tvAFG_message"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/tvAFG_title"
         android:layout_centerHorizontal="true"
-        android:fontFamily="casual"
+        android:fontFamily="sans-serif-light"
         android:text="mensaje"
+        android:textColor="@android:color/black"
         android:textAlignment="center"
         android:textSize="20sp"
         android:textStyle="italic" />
@@ -48,8 +50,9 @@
         android:layout_below="@+id/tvAFG_message"
         android:layout_centerHorizontal="true"
         android:text="intentos"
+        android:textColor="@android:color/black"
         android:textSize="20sp"
-        android:textStyle="bold" />
+        android:fontFamily="sans-serif-light" />
 
     <TextView
         android:id="@+id/tvAFG_number"
@@ -58,19 +61,25 @@
         android:layout_below="@+id/tvAFG_attempts"
         android:layout_centerHorizontal="true"
         android:text="Numero"
+        android:textColor="@android:color/black"
         android:textSize="20sp"
-        android:textStyle="bold" />
+        android:fontFamily="sans-serif-light"
+        android:layout_marginBottom="5sp"/>
     <TextView
         android:text="Text"
-        android:layout_width="383.0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_below="@id/textView3"
         android:id="@+id/tvAFG_topten"
-        android:fontFamily="sans-serif-light"
+        android:fontFamily="sans-serif"
         android:textSize="18sp"
         android:padding="10dp"
         android:scrollbars="vertical"
         android:isScrollContainer="true"
-        android:fadeScrollbars="true" />
+        android:fadeScrollbars="true"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#7f424242"
+        android:background="#ff222222"
+        android:lineSpacingMultiplier="1.8" />
 
 </RelativeLayout>

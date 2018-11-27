@@ -61,7 +61,7 @@ namespace EG.MisNumeritos
 
             foreach (var item in topTenList)
             {
-                showText = showText + i + ". " + item.ToString() + "\n\n";
+                showText = showText + i + ". " + item.ToString() + "\n";
                 i++;
             }
 

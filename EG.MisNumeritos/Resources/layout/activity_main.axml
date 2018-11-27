@@ -9,13 +9,15 @@
     tools:context=".MainActivity">
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="192dp"
-        android:layout_height="139dp"
+        android:layout_width="192sp"
+        android:layout_height="139sp"
+        android:layout_marginTop="15sp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         app:srcCompat="@drawable/logo_mis_numeritos" />
     <TextView
-        android:layout_width="230dp"
+        android:id="@+id/nameTextView2"
+        android:layout_width="230sp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/nameTextView"
         android:layout_centerHorizontal="true"
@@ -24,31 +26,33 @@
         android:textSize="20sp" />
     <TextView
         android:id="@+id/nameTextView"
-        android:layout_width="322dp"
+        android:layout_width="322sp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="145dp"
+        android:layout_marginTop="158sp"
         android:text="Bienvenid@!"
         android:textAlignment="center"
         android:textSize="26sp" />
     <Button
         android:id="@+id/playButton"
         style="@android:style/Widget.Holo.Light.Button"
-        android:layout_width="236dp"
+        android:layout_width="236sp"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
+        android:layout_below="@+id/nameTextView2"
         android:background="@drawable/my_button_bg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50sp"
         android:text="Jugar"
         android:textAppearance="@style/TextAppearance.AppCompat"
         android:textColor="@android:color/white"
         android:textStyle="bold|italic"
-        tools:layout_editor_absoluteX="146dp"
-        tools:layout_editor_absoluteY="147dp" />
+        tools:layout_editor_absoluteX="146sp"
+        tools:layout_editor_absoluteY="147sp" />
     <Button
         android:id="@+id/scoresButton"
         style="@android:style/Widget.Holo.Light.Button"
-        android:layout_width="236dp"
+        android:layout_width="236sp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/playButton"
         android:layout_centerHorizontal="true"
@@ -57,12 +61,12 @@
         android:textAppearance="@style/TextAppearance.AppCompat"
         android:textColor="@android:color/white"
         android:textStyle="bold|italic"
-        tools:layout_editor_absoluteX="146dp"
-        tools:layout_editor_absoluteY="147dp" />
+        tools:layout_editor_absoluteX="146sp"
+        tools:layout_editor_absoluteY="147sp" />
     <Button
         android:id="@+id/instructionsButton"
         style="@android:style/Widget.Holo.Light.Button"
-        android:layout_width="236dp"
+        android:layout_width="236sp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/scoresButton"
         android:layout_centerHorizontal="true"
@@ -72,11 +76,11 @@
         android:textColor="@android:color/white"
         android:textStyle="bold|italic"
         android:visibility="visible"
-        tools:layout_editor_absoluteX="146dp"
-        tools:layout_editor_absoluteY="147dp" />
+        tools:layout_editor_absoluteX="146sp"
+        tools:layout_editor_absoluteY="147sp" />
     <Button
         android:id="@+id/aboutButton"
-        android:layout_width="236dp"
+        android:layout_width="236sp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/instructionsButton"
         android:layout_centerHorizontal="true"
@@ -86,8 +90,8 @@
         android:textColor="@android:color/white"
         android:textStyle="bold|italic"
         android:visibility="visible"
-        tools:layout_editor_absoluteX="146dp"
-        tools:layout_editor_absoluteY="147dp" />
+        tools:layout_editor_absoluteX="146sp"
+        tools:layout_editor_absoluteY="147sp" />
 
 
 </RelativeLayout>

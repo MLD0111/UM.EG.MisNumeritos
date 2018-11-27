@@ -3,29 +3,34 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
     <TextView
         android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:background="@android:color/holo_orange_dark"
-        android:fontFamily="serif"
+        android:background="@android:color/holo_blue_light"
+        android:fontFamily="sans-serif-black"
         android:text="TOP TEN"
         android:textAlignment="center"
         android:textColor="@android:color/black"
         android:textSize="30sp"
         android:textStyle="bold" />
-	<TextView
-		android:text="Text"
-		android:layout_width="match_parent"
-		android:layout_height="wrap_content"
-		android:layout_below="@id/textView2"
-		android:id="@+id/textView3"
-        android:fontFamily="sans-serif-light"
+    <TextView
+        android:text="Text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/textView2"
+        android:id="@+id/textView3"
+        android:fontFamily="sans-serif"
         android:textSize="18sp"
-        android:padding="10dp" 
+        android:padding="10dp"
         android:scrollbars="vertical"
         android:isScrollContainer="true"
-        android:fadeScrollbars="true" />
+        android:fadeScrollbars="true"
+        android:textColor="@android:color/white"
+        android:lineSpacingMultiplier="2"
+        android:backgroundTint="#7f424242"
+        android:background="#ff222222" />
     </RelativeLayout>

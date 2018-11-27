@@ -33,7 +33,7 @@ namespace EG.MisNumeritos
 
             foreach (var item in topTenList)
             {
-                showText = showText + i.ToString("D2") + ". " + item.ToString() + "\n\n";
+                showText = showText + i.ToString("D2") + ". " + item.ToString() + "\n";
                 i++;
             }
 
