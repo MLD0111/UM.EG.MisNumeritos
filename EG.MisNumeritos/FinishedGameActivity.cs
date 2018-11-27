@@ -23,6 +23,8 @@ namespace EG.MisNumeritos
             tvNumber = (TextView)FindViewById(Resource.Id.tvAFG_number);
             tvAttempts = (TextView)FindViewById(Resource.Id.tvAFG_attempts);
             tvTopTen = (TextView)FindViewById(Resource.Id.tvAFG_topten);
+            tvTopTen.VerticalScrollBarEnabled = true;
+            tvTopTen.NestedScrollingEnabled = true;
 
             if (extras != null)
             {

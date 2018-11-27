@@ -38,6 +38,10 @@ namespace EG.MisNumeritos
             movesET = (EditText) FindViewById(Resource.Id.movesET);
             movesET.Text = string.Empty;
 
+            movesET.VerticalScrollBarEnabled = true;
+            movesET.NestedScrollingEnabled = true;
+
+
             // Create new Game
             game = new Game();
 

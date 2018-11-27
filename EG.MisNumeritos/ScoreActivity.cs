@@ -1,5 +1,6 @@
 ﻿using Android.App;
 using Android.OS;
+using Android.Text.Method;
 using Android.Widget;
 using CapaDatos.Implementations;
 using CapaDatos.Interfaces;
@@ -16,6 +17,8 @@ namespace EG.MisNumeritos
             SetContentView(Resource.Layout.activity_score);
 
             textView = FindViewById<TextView>(Resource.Id.textView3);
+            textView.VerticalScrollBarEnabled = true;
+            textView.NestedScrollingEnabled = true;
 
             LoadTopTen();
         }
