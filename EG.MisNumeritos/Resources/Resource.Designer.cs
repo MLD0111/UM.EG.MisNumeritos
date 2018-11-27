@@ -2230,26 +2230,26 @@ namespace EG.MisNumeritos
 			// aapt resource value: 0x7f020053
 			public const int avd_hide_password = 2130837587;
 			
-			// aapt resource value: 0x7f02006c
-			public const int avd_hide_password_1 = 2130837612;
-			
 			// aapt resource value: 0x7f02006d
-			public const int avd_hide_password_2 = 2130837613;
+			public const int avd_hide_password_1 = 2130837613;
 			
 			// aapt resource value: 0x7f02006e
-			public const int avd_hide_password_3 = 2130837614;
+			public const int avd_hide_password_2 = 2130837614;
+			
+			// aapt resource value: 0x7f02006f
+			public const int avd_hide_password_3 = 2130837615;
 			
 			// aapt resource value: 0x7f020054
 			public const int avd_show_password = 2130837588;
 			
-			// aapt resource value: 0x7f02006f
-			public const int avd_show_password_1 = 2130837615;
-			
 			// aapt resource value: 0x7f020070
-			public const int avd_show_password_2 = 2130837616;
+			public const int avd_show_password_1 = 2130837616;
 			
 			// aapt resource value: 0x7f020071
-			public const int avd_show_password_3 = 2130837617;
+			public const int avd_show_password_2 = 2130837617;
+			
+			// aapt resource value: 0x7f020072
+			public const int avd_show_password_3 = 2130837618;
 			
 			// aapt resource value: 0x7f020055
 			public const int design_bottom_navigation_item_background = 2130837589;
@@ -2276,49 +2276,52 @@ namespace EG.MisNumeritos
 			public const int logo_mis_numeritos = 2130837596;
 			
 			// aapt resource value: 0x7f02005d
-			public const int navigation_empty_icon = 2130837597;
+			public const int my_button_bg = 2130837597;
 			
 			// aapt resource value: 0x7f02005e
-			public const int notification_action_background = 2130837598;
+			public const int navigation_empty_icon = 2130837598;
 			
 			// aapt resource value: 0x7f02005f
-			public const int notification_bg = 2130837599;
+			public const int notification_action_background = 2130837599;
 			
 			// aapt resource value: 0x7f020060
-			public const int notification_bg_low = 2130837600;
+			public const int notification_bg = 2130837600;
 			
 			// aapt resource value: 0x7f020061
-			public const int notification_bg_low_normal = 2130837601;
+			public const int notification_bg_low = 2130837601;
 			
 			// aapt resource value: 0x7f020062
-			public const int notification_bg_low_pressed = 2130837602;
+			public const int notification_bg_low_normal = 2130837602;
 			
 			// aapt resource value: 0x7f020063
-			public const int notification_bg_normal = 2130837603;
+			public const int notification_bg_low_pressed = 2130837603;
 			
 			// aapt resource value: 0x7f020064
-			public const int notification_bg_normal_pressed = 2130837604;
+			public const int notification_bg_normal = 2130837604;
 			
 			// aapt resource value: 0x7f020065
-			public const int notification_icon_background = 2130837605;
-			
-			// aapt resource value: 0x7f02006a
-			public const int notification_template_icon_bg = 2130837610;
-			
-			// aapt resource value: 0x7f02006b
-			public const int notification_template_icon_low_bg = 2130837611;
+			public const int notification_bg_normal_pressed = 2130837605;
 			
 			// aapt resource value: 0x7f020066
-			public const int notification_tile_bg = 2130837606;
+			public const int notification_icon_background = 2130837606;
+			
+			// aapt resource value: 0x7f02006b
+			public const int notification_template_icon_bg = 2130837611;
+			
+			// aapt resource value: 0x7f02006c
+			public const int notification_template_icon_low_bg = 2130837612;
 			
 			// aapt resource value: 0x7f020067
-			public const int notify_panel_notification_icon_bg = 2130837607;
+			public const int notification_tile_bg = 2130837607;
 			
 			// aapt resource value: 0x7f020068
-			public const int tooltip_frame_dark = 2130837608;
+			public const int notify_panel_notification_icon_bg = 2130837608;
 			
 			// aapt resource value: 0x7f020069
-			public const int tooltip_frame_light = 2130837609;
+			public const int tooltip_frame_dark = 2130837609;
+			
+			// aapt resource value: 0x7f02006a
+			public const int tooltip_frame_light = 2130837610;
 			
 			static Drawable()
 			{
@@ -2351,8 +2354,11 @@ namespace EG.MisNumeritos
 			// aapt resource value: 0x7f080037
 			public const int SYM = 2131230775;
 			
-			// aapt resource value: 0x7f0800b0
-			public const int action0 = 2131230896;
+			// aapt resource value: 0x7f08009f
+			public const int aboutButton = 2131230879;
+			
+			// aapt resource value: 0x7f0800b2
+			public const int action0 = 2131230898;
 			
 			// aapt resource value: 0x7f08007c
 			public const int action_bar = 2131230844;
@@ -2375,17 +2381,17 @@ namespace EG.MisNumeritos
 			// aapt resource value: 0x7f08005a
 			public const int action_bar_title = 2131230810;
 			
-			// aapt resource value: 0x7f0800ad
-			public const int action_container = 2131230893;
+			// aapt resource value: 0x7f0800af
+			public const int action_container = 2131230895;
 			
 			// aapt resource value: 0x7f08007d
 			public const int action_context_bar = 2131230845;
 			
-			// aapt resource value: 0x7f0800b4
-			public const int action_divider = 2131230900;
+			// aapt resource value: 0x7f0800b6
+			public const int action_divider = 2131230902;
 			
-			// aapt resource value: 0x7f0800ae
-			public const int action_image = 2131230894;
+			// aapt resource value: 0x7f0800b0
+			public const int action_image = 2131230896;
 			
 			// aapt resource value: 0x7f080003
 			public const int action_menu_divider = 2131230723;
@@ -2402,11 +2408,11 @@ namespace EG.MisNumeritos
 			// aapt resource value: 0x7f08005c
 			public const int action_mode_close_button = 2131230812;
 			
-			// aapt resource value: 0x7f0800af
-			public const int action_text = 2131230895;
+			// aapt resource value: 0x7f0800b1
+			public const int action_text = 2131230897;
 			
-			// aapt resource value: 0x7f0800bd
-			public const int actions = 2131230909;
+			// aapt resource value: 0x7f0800bf
+			public const int actions = 2131230911;
 			
 			// aapt resource value: 0x7f08005d
 			public const int activity_chooser_view_content = 2131230813;
@@ -2444,8 +2450,8 @@ namespace EG.MisNumeritos
 			// aapt resource value: 0x7f080063
 			public const int buttonPanel = 2131230819;
 			
-			// aapt resource value: 0x7f0800b1
-			public const int cancel_action = 2131230897;
+			// aapt resource value: 0x7f0800b3
+			public const int cancel_action = 2131230899;
 			
 			// aapt resource value: 0x7f080045
 			public const int center = 2131230789;
@@ -2459,8 +2465,8 @@ namespace EG.MisNumeritos
 			// aapt resource value: 0x7f080073
 			public const int checkbox = 2131230835;
 			
-			// aapt resource value: 0x7f0800b9
-			public const int chronometer = 2131230905;
+			// aapt resource value: 0x7f0800bb
+			public const int chronometer = 2131230907;
 			
 			// aapt resource value: 0x7f08004e
 			public const int clip_horizontal = 2131230798;
@@ -2471,14 +2477,14 @@ namespace EG.MisNumeritos
 			// aapt resource value: 0x7f080039
 			public const int collapseActionView = 2131230777;
 			
-			// aapt resource value: 0x7f0800a1
-			public const int container = 2131230881;
+			// aapt resource value: 0x7f0800a3
+			public const int container = 2131230883;
 			
 			// aapt resource value: 0x7f080066
 			public const int contentPanel = 2131230822;
 			
-			// aapt resource value: 0x7f0800a2
-			public const int coordinator = 2131230882;
+			// aapt resource value: 0x7f0800a4
+			public const int coordinator = 2131230884;
 			
 			// aapt resource value: 0x7f08006d
 			public const int custom = 2131230829;
@@ -2492,20 +2498,20 @@ namespace EG.MisNumeritos
 			// aapt resource value: 0x7f080060
 			public const int default_activity_button = 2131230816;
 			
-			// aapt resource value: 0x7f0800a4
-			public const int design_bottom_sheet = 2131230884;
+			// aapt resource value: 0x7f0800a6
+			public const int design_bottom_sheet = 2131230886;
+			
+			// aapt resource value: 0x7f0800ad
+			public const int design_menu_item_action_area = 2131230893;
+			
+			// aapt resource value: 0x7f0800ac
+			public const int design_menu_item_action_area_stub = 2131230892;
 			
 			// aapt resource value: 0x7f0800ab
-			public const int design_menu_item_action_area = 2131230891;
+			public const int design_menu_item_text = 2131230891;
 			
 			// aapt resource value: 0x7f0800aa
-			public const int design_menu_item_action_area_stub = 2131230890;
-			
-			// aapt resource value: 0x7f0800a9
-			public const int design_menu_item_text = 2131230889;
-			
-			// aapt resource value: 0x7f0800a8
-			public const int design_navigation_view = 2131230888;
+			public const int design_navigation_view = 2131230890;
 			
 			// aapt resource value: 0x7f080020
 			public const int disableHome = 2131230752;
@@ -2516,8 +2522,8 @@ namespace EG.MisNumeritos
 			// aapt resource value: 0x7f080030
 			public const int end = 2131230768;
 			
-			// aapt resource value: 0x7f0800bf
-			public const int end_padder = 2131230911;
+			// aapt resource value: 0x7f0800c1
+			public const int end_padder = 2131230913;
 			
 			// aapt resource value: 0x7f08003f
 			public const int enterAlways = 2131230783;
@@ -2567,8 +2573,8 @@ namespace EG.MisNumeritos
 			// aapt resource value: 0x7f080062
 			public const int icon = 2131230818;
 			
-			// aapt resource value: 0x7f0800be
-			public const int icon_group = 2131230910;
+			// aapt resource value: 0x7f0800c0
+			public const int icon_group = 2131230912;
 			
 			// aapt resource value: 0x7f08003a
 			public const int ifRoom = 2131230778;
@@ -2579,8 +2585,11 @@ namespace EG.MisNumeritos
 			// aapt resource value: 0x7f08009a
 			public const int imageView = 2131230874;
 			
-			// aapt resource value: 0x7f0800ba
-			public const int info = 2131230906;
+			// aapt resource value: 0x7f0800bc
+			public const int info = 2131230908;
+			
+			// aapt resource value: 0x7f08009e
+			public const int instructionsButton = 2131230878;
 			
 			// aapt resource value: 0x7f080059
 			public const int italic = 2131230809;
@@ -2588,8 +2597,8 @@ namespace EG.MisNumeritos
 			// aapt resource value: 0x7f080000
 			public const int item_touch_helper_previous_elevation = 2131230720;
 			
-			// aapt resource value: 0x7f0800a0
-			public const int largeLabel = 2131230880;
+			// aapt resource value: 0x7f0800a2
+			public const int largeLabel = 2131230882;
 			
 			// aapt resource value: 0x7f080098
 			public const int leaveButton = 2131230872;
@@ -2609,14 +2618,14 @@ namespace EG.MisNumeritos
 			// aapt resource value: 0x7f080061
 			public const int list_item = 2131230817;
 			
+			// aapt resource value: 0x7f0800c4
+			public const int masked = 2131230916;
+			
+			// aapt resource value: 0x7f0800b5
+			public const int media_actions = 2131230901;
+			
 			// aapt resource value: 0x7f0800c2
-			public const int masked = 2131230914;
-			
-			// aapt resource value: 0x7f0800b3
-			public const int media_actions = 2131230899;
-			
-			// aapt resource value: 0x7f0800c0
-			public const int message = 2131230912;
+			public const int message = 2131230914;
 			
 			// aapt resource value: 0x7f080031
 			public const int middle = 2131230769;
@@ -2633,8 +2642,8 @@ namespace EG.MisNumeritos
 			// aapt resource value: 0x7f08009b
 			public const int nameTextView = 2131230875;
 			
-			// aapt resource value: 0x7f0800a7
-			public const int navigation_header_container = 2131230887;
+			// aapt resource value: 0x7f0800a9
+			public const int navigation_header_container = 2131230889;
 			
 			// aapt resource value: 0x7f08003b
 			public const int never = 2131230779;
@@ -2645,14 +2654,14 @@ namespace EG.MisNumeritos
 			// aapt resource value: 0x7f08001e
 			public const int normal = 2131230750;
 			
-			// aapt resource value: 0x7f0800bc
-			public const int notification_background = 2131230908;
+			// aapt resource value: 0x7f0800be
+			public const int notification_background = 2131230910;
 			
-			// aapt resource value: 0x7f0800b6
-			public const int notification_main_column = 2131230902;
+			// aapt resource value: 0x7f0800b8
+			public const int notification_main_column = 2131230904;
 			
-			// aapt resource value: 0x7f0800b5
-			public const int notification_main_column_container = 2131230901;
+			// aapt resource value: 0x7f0800b7
+			public const int notification_main_column_container = 2131230903;
 			
 			// aapt resource value: 0x7f080095
 			public const int numberInputText = 2131230869;
@@ -2684,11 +2693,11 @@ namespace EG.MisNumeritos
 			// aapt resource value: 0x7f08004a
 			public const int right = 2131230794;
 			
-			// aapt resource value: 0x7f0800bb
-			public const int right_icon = 2131230907;
+			// aapt resource value: 0x7f0800bd
+			public const int right_icon = 2131230909;
 			
-			// aapt resource value: 0x7f0800b7
-			public const int right_side = 2131230903;
+			// aapt resource value: 0x7f0800b9
+			public const int right_side = 2131230905;
 			
 			// aapt resource value: 0x7f08000c
 			public const int save_image_matrix = 2131230732;
@@ -2765,14 +2774,14 @@ namespace EG.MisNumeritos
 			// aapt resource value: 0x7f080025
 			public const int showTitle = 2131230757;
 			
-			// aapt resource value: 0x7f08009f
-			public const int smallLabel = 2131230879;
+			// aapt resource value: 0x7f0800a1
+			public const int smallLabel = 2131230881;
 			
-			// aapt resource value: 0x7f0800a6
-			public const int snackbar_action = 2131230886;
+			// aapt resource value: 0x7f0800a8
+			public const int snackbar_action = 2131230888;
 			
-			// aapt resource value: 0x7f0800a5
-			public const int snackbar_text = 2131230885;
+			// aapt resource value: 0x7f0800a7
+			public const int snackbar_text = 2131230887;
 			
 			// aapt resource value: 0x7f080043
 			public const int snap = 2131230787;
@@ -2798,8 +2807,8 @@ namespace EG.MisNumeritos
 			// aapt resource value: 0x7f080097
 			public const int statusText = 2131230871;
 			
-			// aapt resource value: 0x7f0800b2
-			public const int status_bar_latest_event_content = 2131230898;
+			// aapt resource value: 0x7f0800b4
+			public const int status_bar_latest_event_content = 2131230900;
 			
 			// aapt resource value: 0x7f080076
 			public const int submenuarrow = 2131230838;
@@ -2828,14 +2837,14 @@ namespace EG.MisNumeritos
 			// aapt resource value: 0x7f08008b
 			public const int textView1 = 2131230859;
 			
-			// aapt resource value: 0x7f08009e
-			public const int textView2 = 2131230878;
+			// aapt resource value: 0x7f0800a0
+			public const int textView2 = 2131230880;
 			
 			// aapt resource value: 0x7f08008e
 			public const int textView3 = 2131230862;
 			
-			// aapt resource value: 0x7f0800ac
-			public const int text_input_password_toggle = 2131230892;
+			// aapt resource value: 0x7f0800ae
+			public const int text_input_password_toggle = 2131230894;
 			
 			// aapt resource value: 0x7f080014
 			public const int textinput_counter = 2131230740;
@@ -2843,8 +2852,8 @@ namespace EG.MisNumeritos
 			// aapt resource value: 0x7f080015
 			public const int textinput_error = 2131230741;
 			
-			// aapt resource value: 0x7f0800b8
-			public const int time = 2131230904;
+			// aapt resource value: 0x7f0800ba
+			public const int time = 2131230906;
 			
 			// aapt resource value: 0x7f08001c
 			public const int title = 2131230748;
@@ -2861,8 +2870,8 @@ namespace EG.MisNumeritos
 			// aapt resource value: 0x7f08006e
 			public const int topPanel = 2131230830;
 			
-			// aapt resource value: 0x7f0800a3
-			public const int touch_outside = 2131230883;
+			// aapt resource value: 0x7f0800a5
+			public const int touch_outside = 2131230885;
 			
 			// aapt resource value: 0x7f08000f
 			public const int transition_current_scene = 2131230735;
@@ -2909,8 +2918,8 @@ namespace EG.MisNumeritos
 			// aapt resource value: 0x7f080016
 			public const int view_offset_helper = 2131230742;
 			
-			// aapt resource value: 0x7f0800c1
-			public const int visible = 2131230913;
+			// aapt resource value: 0x7f0800c3
+			public const int visible = 2131230915;
 			
 			// aapt resource value: 0x7f08003c
 			public const int withText = 2131230780;

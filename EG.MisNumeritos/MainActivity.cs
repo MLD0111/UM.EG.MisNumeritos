@@ -27,6 +27,8 @@ namespace EG.MisNumeritos
         // UI
         private Button playButton;
         private Button scoresButton;
+        private Button instructionsButton;
+        private Button aboutButton;
         private TextView userNameTextView;
 
         private void AddListeners()
@@ -42,6 +44,19 @@ namespace EG.MisNumeritos
                 Intent scoreActivity = new Intent(this, new ScoreActivity().Class);
                 StartActivity(scoreActivity);
             };
+
+            instructionsButton.Click += (sender, e) =>
+            {
+                Intent intent = new Intent(this, new InstructionsActivity().Class);
+                StartActivity(intent);
+            };
+
+            aboutButton.Click += (sender, e) =>
+            {
+                Intent intent = new Intent(this, new AboutActivity().Class);
+                StartActivity(intent);
+            };
+
         }
     
         protected override void OnStart()

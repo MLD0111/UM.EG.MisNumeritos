@@ -10,9 +10,12 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/tvAFG_number"
-        android:text="TOP TEN:"
-        android:textAlignment="viewStart"
-        android:textSize="18sp"
+        android:background="@android:color/holo_orange_dark"
+        android:fontFamily="serif"
+        android:text="TOP TEN"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="22sp"
         android:textStyle="bold" />
     <TextView
         android:id="@+id/tvAFG_title"
@@ -20,8 +23,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
+        android:fontFamily="serif"
         android:text="Titulo"
         android:textAlignment="center"
+        android:textColor="@android:color/black"
         android:textSize="24sp"
         android:textStyle="bold" />
     <TextView
@@ -30,10 +35,12 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/tvAFG_title"
         android:layout_centerHorizontal="true"
+        android:fontFamily="casual"
         android:text="mensaje"
         android:textAlignment="center"
-        android:textSize="18sp"
+        android:textSize="20sp"
         android:textStyle="italic" />
+
     <TextView
         android:id="@+id/tvAFG_attempts"
         android:layout_width="wrap_content"
@@ -41,7 +48,9 @@
         android:layout_below="@+id/tvAFG_message"
         android:layout_centerHorizontal="true"
         android:text="intentos"
-        android:textSize="18sp" />
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
     <TextView
         android:id="@+id/tvAFG_number"
         android:layout_width="wrap_content"
@@ -49,7 +58,9 @@
         android:layout_below="@+id/tvAFG_attempts"
         android:layout_centerHorizontal="true"
         android:text="Numero"
-        android:textSize="18sp" />
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
     <TextView
         android:text="Text"
         android:layout_width="383.0dp"

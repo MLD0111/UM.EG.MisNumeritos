@@ -6,7 +6,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@@color/backgroud"
-    
     tools:context=".GameActivity">
 
     <ImageView
@@ -35,12 +34,12 @@
     <Button
         android:id="@+id/executeButton"
         style="@android:style/Widget.Holo.Light.Button"
-        android:layout_width="118dp"
+        android:layout_width="236dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="180dp"
-        android:background="@android:color/holo_red_dark"
+        android:background="@drawable/my_button_bg"
         android:text="Verificar"
         android:textAppearance="@style/TextAppearance.AppCompat"
         android:textColor="@android:color/white"
@@ -52,21 +51,25 @@
         android:id="@+id/statusText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/executeButton"
-        android:layout_alignParentEnd="true"
-        android:layout_marginEnd="21dp"
+        android:layout_below="@+id/numberInputText"
+        android:layout_centerHorizontal="true"
         android:text="Adivinando..."
         android:textAllCaps="true"
-        android:textStyle="bold|italic" />
+        android:textStyle="bold|italic"
+        android:layout_constraintBottom_toBottomOf="parent"
+        android:layout_constraintLeft_toLeftOf="parent"
+        android:layout_constraintRight_toRightOf="parent"
+        android:layout_constraintTop_toTopOf="parent"
+        android:layout_constraintVertical_bias="0.886" />
 
     <Button
         android:id="@+id/leaveButton"
         style="@android:style/Widget.Holo.Light.Button"
-        android:layout_width="118dp"
+        android:layout_width="236dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:background="@android:color/holo_red_dark"
+        android:background="@drawable/my_button_bg"
         android:text="Me Doy"
         android:textAppearance="@style/TextAppearance.AppCompat"
         android:textColor="@android:color/white"
@@ -82,7 +85,7 @@
         android:ems="10"
         android:gravity="top|left"
         android:inputType="textMultiLine"
-        android:maxHeight="250dp"
+        android:maxHeight="200dp"
         android:scrollbars="vertical"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat" />

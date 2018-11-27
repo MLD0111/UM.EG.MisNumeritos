@@ -21,7 +21,7 @@
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:layout_centerHorizontal="true"
-		android:background="@android:color/holo_red_dark"
+        android:background="@drawable/my_button_bg"
 		android:textAppearance="@style/TextAppearance.AppCompat"
 		android:textColor="@android:color/white"
 		android:textStyle="bold|italic"

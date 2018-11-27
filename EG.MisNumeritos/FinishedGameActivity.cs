@@ -73,6 +73,8 @@ namespace EG.MisNumeritos
         {
             string title;
             string message;
+            string attemptsQty = "Intentos: " + attempts;
+            
 
             if (isGameWon)
             {
@@ -103,7 +105,7 @@ namespace EG.MisNumeritos
 
             tvTitle.Text = title;
             tvMessage.Text = message;
-            tvAttempts.Text = attempts + " intentos";
+            tvAttempts.Text = attemptsQty;
             tvNumber.Text = "Número jugado: " + numberToGuess;
         }
     }

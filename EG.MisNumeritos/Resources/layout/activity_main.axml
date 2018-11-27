@@ -32,30 +32,68 @@
 		android:text="Usuario Anónimo"
 		android:textAlignment="center"
 		android:textSize="26sp" />
-	<Button
-		android:id="@+id/playButton"
-		style="@android:style/Widget.Holo.Light.Button"
-		android:layout_width="118dp"
-		android:layout_height="wrap_content"
-		android:layout_centerHorizontal="true"
-		android:layout_marginTop="260dp"
-		android:background="@android:color/holo_red_dark"
-		android:text="Jugar"
-		android:textAppearance="@style/TextAppearance.AppCompat"
-		android:textColor="@android:color/white"
-		android:textStyle="bold|italic"/>
-	<Button
-		android:id="@+id/scoresButton"
-		style="@android:style/Widget.Holo.Light.Button"
-		android:layout_width="118dp"
-		android:layout_height="wrap_content"
-		android:layout_centerHorizontal="true"
-		android:layout_marginTop="320dp"
-		android:background="@android:color/holo_red_dark"
-		android:text="Ver Scores"
-		android:textAppearance="@style/TextAppearance.AppCompat"
-		android:textColor="@android:color/white"
-		android:textStyle="bold|italic"/>
+	<!-- Play -->
+    <Button
+        android:id="@+id/playButton"
+        style="@android:style/Widget.Holo.Light.Button"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/my_button_bg"
+        android:text="Jugar"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColor="@android:color/white"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="147dp" />
+
+    <!-- Scores -->
+    <Button
+        android:id="@+id/scoresButton"
+        style="@android:style/Widget.Holo.Light.Button"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/playButton"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/my_button_bg"
+        android:text="Ver Scores"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColor="@android:color/white"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="147dp" />
+	<!-- Instructions -->
+    <Button
+        android:id="@+id/instructionsButton"
+        style="@android:style/Widget.Holo.Light.Button"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scoresButton"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/my_button_bg"
+        android:text="Instrucciones"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColor="@android:color/white"
+        android:textStyle="bold|italic"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="147dp" />
+
+    <!-- TODO: About, remove invisible -->
+    <Button
+        android:id="@+id/aboutButton"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/instructionsButton"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/my_button_bg"
+        android:text="Acerca de..."
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColor="@android:color/white"
+        android:textStyle="bold|italic"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="147dp" />
 
 
 </RelativeLayout>
