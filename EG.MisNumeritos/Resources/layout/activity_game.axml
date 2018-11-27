@@ -40,7 +40,6 @@
         android:inputType="number"
         android:maxLength="4"
         android:textAlignment="center"
-        android:textColor="@android:color/white"
         tools:layout_editor_absoluteX="85sp"
         tools:layout_editor_absoluteY="59sp" />
 
@@ -68,7 +67,7 @@
         android:layout_centerHorizontal="true"
         android:text="Adivinando..."
         android:textAllCaps="true"
-        android:textStyle="bold|italic"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
