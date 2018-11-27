@@ -60,12 +60,17 @@
         android:text="Numero"
         android:textSize="20sp"
         android:textStyle="bold" />
-
     <TextView
         android:text="Text"
         android:layout_width="383.0dp"
-        android:layout_height="368.0dp"
+        android:layout_height="wrap_content"
         android:layout_below="@id/textView3"
-        android:id="@+id/tvAFG_topten" />
+        android:id="@+id/tvAFG_topten"
+        android:fontFamily="sans-serif-light"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:scrollbars="vertical"
+        android:isScrollContainer="true"
+        android:fadeScrollbars="true" />
 
 </RelativeLayout>

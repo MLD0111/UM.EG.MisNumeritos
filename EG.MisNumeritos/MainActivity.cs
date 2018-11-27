@@ -20,6 +20,8 @@ namespace EG.MisNumeritos
 
             playButton = (Button) FindViewById(Resource.Id.playButton);
             scoresButton = (Button) FindViewById(Resource.Id.scoresButton);
+            instructionsButton = (Button) FindViewById(Resource.Id.instructionsButton);
+            aboutButton = (Button)FindViewById(Resource.Id.aboutButton);
 
             AddListeners();
         }
